@@ -91,7 +91,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: var(--second-font);
+ 
   font-weight: 400;
   line-height: normal;
   color: var(--dark-color);
@@ -280,15 +280,14 @@ margin: 0 0 0 30px;
 
 .title{
   font-size: var(--fs-3x1);
+  text-align: center;
 }
 
 .about-img img{
- max-width: 400px;
+ max-width: 500px;
 margin: auto;
 padding: 15px;
-border-radius: 50%;
- background-color: var(--primary-color);
- box-shadow: var(--shadow);
+border-radius: 30%;
  position: relative;
 
 }
@@ -344,7 +343,7 @@ border-radius: 50%;
 .card{
   width: 20em;
   height: 90%;
-  background-color: var(--gray-color);
+  background-color: var(--dark-color);
   border-radius: 2em;
   box-shadow: 0 0 2em rgba(0, 0, 0, .2);
   padding: 2em 1em;
@@ -352,6 +351,7 @@ border-radius: 50%;
   align-items: center;
   flex-direction: column;
   margin: 0 2em;
+  color: white;
 }
 
 .card-img{
