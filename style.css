@@ -430,7 +430,7 @@ border-radius: 30%;
   margin-bottom: .75rem;
 }
 
-.products-price{
+.product-price{
   color: var(--dark-color);
   font-weight: var(--fs-2x1);
 }
