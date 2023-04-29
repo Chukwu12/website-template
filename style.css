@@ -222,6 +222,14 @@ align-items: center;
   margin: auto;
   padding: 0 15px;
 }
+
+
+.scroll-header{
+background-color: var(--primary-color);
+  box-shadow: 0 1px 4px hsla(220, 4%, 15%, .1);
+}
+
+
 .header{
  position: fixed;
  left: 0;
