@@ -424,8 +424,8 @@ border-radius: 30%;
 .swiper-button-next{
   top: initial;
   bottom: 0;
-  witdth: initial;
-  heigth: initial;
+  width: initial;
+  height: initial;
   font-size: 1.5rem;
   color: var(--dark-color);
 }
