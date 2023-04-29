@@ -414,7 +414,21 @@ border-radius: 30%;
   font-weight: var(--fs-2x1);
 }
 
+/* Product Swiper  */
+.swiper-button-prev::after,
+.swiper-button-next::next{
+  content:'';
+}
 
+.swiper-button-prev,
+.swiper-button-next{
+  top: initial;
+  bottom: 0;
+  witdth: initial;
+  heigth: initial;
+  font-size: 1.5rem;
+  color: var(--dark-color);
+}
 
 
 
