@@ -416,7 +416,7 @@ border-radius: 30%;
 
 /* Product Swiper  */
 .swiper-button-prev::after,
-.swiper-button-next::next{
+.swiper-button-next::after{
   content:'';
 }
 
