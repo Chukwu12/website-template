@@ -1,14 +1,20 @@
-// Header bg reveal //
-const headerBg = () =>{
-    const header = document.querySelector(".js-header");
-
-    window.addEventListener("scroll", function() {
-        if(this.scrollY > 0){
-            header.classList.add("bg-reveal");
-        }else {
-            header.classList.remove("bg-reveal");
-        }
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
     });
-}
-headerBg();
 
+
+    let swiperProducts = new Swiper(".products-container", {
+      spaceBetween: 32,
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      loop: true;
+      
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
