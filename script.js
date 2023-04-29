@@ -4,7 +4,7 @@
       grabCursor: true,
       centeredSlides: true,
       slidesPerView: 'auto',
-      loop: true;
+      loop: true,
       
       navigation: {
         nextEl: ".swiper-button-next",
