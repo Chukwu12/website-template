@@ -248,6 +248,11 @@ align-items: center;
   overflow: hidden;
 }
 
+.home-container{
+padding: 4rem 0 1rem;
+  row-gap: 8.5rem;
+}
+
 .home-text, .home-img{
  grid-column: span 1;
  align-self: center;
@@ -266,14 +271,6 @@ margin: 0 0 0 30px;
 
 .home-imgage{
   position: relative;
-}
-
-.home-img .circle-wrap{
-  
-}
-
-.home-img .circle{
-  
 }
 
 .home-img img{
