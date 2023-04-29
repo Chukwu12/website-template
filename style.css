@@ -244,6 +244,8 @@ align-items: center;
 .home{
   padding: 100px 0 60px;
   height:100vh;
+  background-color:var(--primary-color)
+  overflow: hidden;
 }
 
 .home-text, .home-img{
