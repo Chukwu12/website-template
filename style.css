@@ -190,9 +190,9 @@ align-items: center;
 .nav-link{
   color: var(--dark-color);
   font-weight: 400 ;
-  display: grid;
+  display: flex;
   justify-content: center;
-  row-gap: .25rem;
+  gap: .25rem;
 }
 
 .nav-link i{
