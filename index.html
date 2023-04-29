@@ -16,6 +16,8 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/bb1892d46f.js" crossorigin="anonymous"></script>
+<!--js    -->
+  <script src="ks.js"></script>
 </head>
 
 <body>
@@ -197,9 +199,9 @@
 <section class="products section" id="products">
   <h2 class="section-title">Merch</h2>
 
-<div class="products-container container">
-  <div>
-    <article class="product-card">
+<div class="products-container container "swiper">
+  <div class="swiper-wrapper">
+    <article class="product-card swiper-slide">
       <img src="images/image1.png" alt="product image" class="product-img">
       <h2 class="products-title">Social-work-ish T-shirt</h2>
        
@@ -208,7 +210,7 @@
       </span>
     </article>
 
-    <article class="product-card">
+    <article class="product-card swiper-slide">
       <img src="images/image2.png" alt="product image" class="product-img">
       <h2 class="products-title">An Affirmation Journal for Unapologetically Dope Women of Color</h2>
 
@@ -216,6 +218,12 @@
         $25
       </span>
     </article>
+     
+    <div class="swiper-button-next">
+     <i class="ri-arrow-right-line"></i></div>
+    <div class="swiper-button-prev">
+    <i class="ri-arrow-left-line"></i></div>
+                                 
   </div>
 </div>
 </section>
@@ -244,8 +252,22 @@
     },
   });
 </script>
-
-
+                              
+                              
+<!-Product swiper  -->
+                              
+    let swiperProducts = new Swiper(".products-container", {
+      spaceBetween: 32,
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      loop: true;
+      
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
 
     </body>
 </html>
