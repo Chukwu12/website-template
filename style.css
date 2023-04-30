@@ -230,6 +230,16 @@ background-color: var(--white-color);
   box-shadow: 0 1px 4px hsla(220, 4%, 15%, .1);
 }
 
+/* Active Link */
+.active-link{
+  color: var(--primary-color);
+}
+
+
+
+
+
+
 
 .header{
  position: fixed;
