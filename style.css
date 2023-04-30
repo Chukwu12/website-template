@@ -424,11 +424,11 @@ border-radius: 30%;
   padding-bottom: 5rem;
 }
 
-.product-card{
+.products-card{
   width: 270px;
 }
 
-.product-img{
+.products-img{
   margin-bottom: 1rem;
 }
 
@@ -437,7 +437,7 @@ border-radius: 30%;
   margin-bottom: .75rem;
 }
 
-.product-price{
+.products-price{
   color: var(--dark-color);
   font-weight: var(--fs-2x1);
 }
