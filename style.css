@@ -235,7 +235,7 @@ background-color: var(--primary-color);
  left: 0;
  top: 0;
  width: 100%;
- background-color: transparent;
+ background-color: var(--light-color);
  z-index: var(--z-fixed);
  padding: 10px 0;
  transition: .4s;
