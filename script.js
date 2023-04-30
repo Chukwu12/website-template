@@ -1,5 +1,5 @@
 
-    let swiperProducts = new Swiper(.products-container, {
+    let swiperProducts = new Swiper(".products-container", {
       spaceBetween: 32,
       grabCursor: true,
       centeredSlides: true,
