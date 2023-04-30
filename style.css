@@ -435,6 +435,8 @@ border-radius: 30%;
 .products-title{
   font-size: var(--h3-font-size);
   margin-bottom: .75rem;
+  margin-top: 0.75rem;
+  text-align: center;
 }
 
 .products-price{
