@@ -155,3 +155,24 @@ body{
     margin-top: 50px
   }
 }
+
+.container .grid {
+  }
+
+  .home-text{
+  font-size: .8rem
+  }
+
+  .home-text p{
+
+  }
+
+  .home-img{
+  
+  }
+
+  .btn-wrap a{
+    margin-right: 30px;
+  }
+  
+}
