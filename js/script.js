@@ -70,7 +70,7 @@ themeButton.addEventListener('click', () => {
 })
 
 
-        <!-- Initialize Swiper -->
+        // Initialize Swiper
 
   var swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
@@ -125,10 +125,5 @@ themeButton.addEventListener('click', () => {
 		
 		
 		
-			1024: {
-     
-          spaceBetween: 72,
-        },
-      },
-    });
+
    
