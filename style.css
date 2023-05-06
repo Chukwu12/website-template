@@ -791,6 +791,12 @@ border-radius: 30%;
   .nav__logo img{
     margin-left: 40px;
   }
+
+  .grid{
+    display: grid;
+    row-gap: 30px;
+  }
+  
   
   .hero{
    margin: 0;
@@ -824,11 +830,10 @@ border-radius: 30%;
     margin-top: 50px;
   }
 
-  .container .grid {
-  }
-
   .home-text{
-  font-size: .8rem
+  font-size: .8rem;
+    text-align: center;
+    font-weight:400;
   }
 
   .home-text p{
@@ -841,6 +846,24 @@ border-radius: 30%;
 
   .btn-wrap a{
     margin-right: 30px;
+  }
+
+  .about-container{
+    max-width: 1024px;
+    margin: auto;
+    padding: 0 15px;
+  }
+
+ .about-img img{
+   border-radius: inherit;
+   margin-left: 30px;
+  }
+
+  .about-text p {
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 400;
+    
   }
   
 }
