@@ -783,3 +783,64 @@ border-radius: 30%;
    min-height: 130vh;
    grid-gap: 1rem;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px){
+  .nav__logo img{
+    margin-left: 40px;
+  }
+  
+  .hero{
+   margin: 0;
+    padding: 0;
+    grid-gap: 1rem;
+    
+    
+  }
+
+  .hero img{
+    
+  }
+
+  .hero-text h1 {
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-left: 2rem;
+    line-height: 1.5;
+    
+  }
+
+    .hero-text h2{
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-left: 3.5rem;
+      white-space:nowrap;
+    }
+
+  .btn{
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .container .grid {
+  }
+
+  .home-text{
+  font-size: .8rem
+  }
+
+  .home-text p{
+
+  }
+
+  .home-img{
+  
+  }
+
+  .btn-wrap a{
+    margin-right: 30px;
+  }
+  
+}
