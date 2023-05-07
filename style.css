@@ -425,22 +425,22 @@ transition: 0.25s all ease-in;
   max-width: 500px;
   display: block;
   margin: auto;
-  opacity: 0;
   transform: translate3d(-50px, 0, 0);
   cursor: pointer;
   transition: 0.25s all ease-in;
-  animation: slide-up 2s;
+  animation-duration: 2s;
+  animation-name: slidein;
 }
 
-@keyframes slide-up{
-  from {
-    opacity: 0;
+@keyframes slidein{
+  from{
+    margin-left: 100%;
   }
-
   to{
-    opacity: 1;
+    margin-right: 50%;
   }
 }
+
 
 
 
