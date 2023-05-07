@@ -411,6 +411,15 @@ text-align: center;
 
 .home-text p{
 margin: 0 0 0 30px;
+opacity: 0;
+transform: translate3d(0,20px,0);
+cursor: pointer;
+transition: 0.25s all ease-in-out;
+}
+
+.home-text p:hover{
+  opacity: 1;
+  transform: translate3d(0,0,0);
 }
 
 .home-imgage{
@@ -421,16 +430,15 @@ margin: 0 0 0 30px;
   max-width: 500px;
   display: block;
   margin: auto;
-}
-
-.home-img img{
   opacity: 0;
   transform: translate3d(-50px, 0, 0);
   cursor: pointer;
   transition: 0.25s all ease-in-out;
 }
 
-.home-img img{
+
+
+.home-img img:hover{
 opacity: 1;
 transform: translate3d(0,0,0);
 }
