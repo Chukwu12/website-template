@@ -417,11 +417,6 @@ cursor: pointer;
 transition: 0.25s all ease-in;
 }
 
-.home-text p:hover{
-  opacity: 1;
-  transform: translate3d(0,0,0);
-}
-
 .home-imgage{
   position: relative;
 }
@@ -434,14 +429,19 @@ transition: 0.25s all ease-in;
   transform: translate3d(-50px, 0, 0);
   cursor: pointer;
   transition: 0.25s all ease-in;
+  animation: slide-up 2s;
 }
 
+@keyframes slide-up{
+  from {
+    opacity: 0;
+  }
 
-
-.home-img img:hover{
-opacity: 1;
-transform: translate3d(0,0,0);
+  to{
+    opacity: 1;
+  }
 }
+
 
 
 
