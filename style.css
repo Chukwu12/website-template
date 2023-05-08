@@ -30,6 +30,7 @@
   /* Fonts */
   --primary-font: "Monstserrat", sans-serif;
   --second-font: "Prata", serif;
+  --home-font:"Holid"
   --fs14: 14px;
   --fw600: 600;
   --fs-4x1: 50px;
@@ -425,7 +426,7 @@ margin: 0 0 0 30px;
 }
 
 
-}
+
 
 
 
@@ -513,7 +514,7 @@ border-radius: 30%;
   width: 100%;
 }
 
-.swiper-wrapper{
+.wrapper{
   width: 100%;
   height: 35em;
   display: flex;
