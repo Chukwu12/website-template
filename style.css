@@ -1092,7 +1092,7 @@ border-radius: 30%;
   width: 11px !important;
   text-align: center;
   left: auto !important;
-  top: 50%;
+  top: 50% !important;
   bottom: auto !important;
   transform: translateY(-50%);
 }
