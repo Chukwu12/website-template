@@ -508,6 +508,9 @@ margin: 0 0 0 30px;
 
 .section-padding{
   height: 70vh;
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 
@@ -517,7 +520,7 @@ margin: 0 0 0 30px;
     max-width: 1170px;
     margin: auto;
     padding: 0 15px;
-    background-image: url(images/background.jpg);
+   
 }
 
 .about-container .grid{
