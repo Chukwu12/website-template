@@ -428,6 +428,11 @@ margin: 0 0 0 30px;
 /* Home Ends */
 
 /* Tabs */
+
+.section .tabs{
+  height: 11vh;
+}
+
 .tabs{
   position: absolute;
   top: 100%;
@@ -439,12 +444,14 @@ margin: 0 0 0 30px;
   padding: 20px 30px;
   border-radius: 50px;
   box-shadow: 5px 10px 5px #ccc;
+  color: whitesmoke;
 }
 
 .tabs .tabs-header{
   height: 60px;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .tabs .tabs-header > div {
@@ -469,13 +476,13 @@ margin: 0 0 0 30px;
 
 .tabs .tab-indicator{
   position: relative;
-  width: calc(1005 / 4);
+  width: calc(100% / 4);
   height: 5px;
   left: 0px;
   border-radius: 5px;
 }
 
-.tabs tab-body{
+.tabs .tab-body{
   position: relative;
   height: calc(100% - 60px);
   padding: 10px 5px;
