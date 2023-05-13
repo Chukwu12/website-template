@@ -433,9 +433,6 @@ margin: 0 0 0 30px;
 
 .tabs{
   position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 100%;
   height: 250px;
   background-color: var(--dark-color);
