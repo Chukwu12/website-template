@@ -507,14 +507,17 @@ margin: 0 0 0 30px;
 /* About Page */
 
 .section-padding{
-  height: 100vh;
+  height: 70vh;
 }
+
+
 
 .about-container{
 
     max-width: 1170px;
     margin: auto;
     padding: 0 15px;
+    background-image: url(images/background.jpg);
 }
 
 .about-container .grid{
@@ -1206,5 +1209,5 @@ border-radius: 30%;
 }
 
 .fun-facts{
-  min-height: 100vh;
+  min-height: 10vh;
 }
