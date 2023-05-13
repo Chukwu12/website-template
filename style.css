@@ -455,7 +455,7 @@ margin: 0 0 0 30px;
 .tabs .tabs-header > div {
   width: calc(100% / 4);
   text-align: center;
-  color: #888;
+  color: var(--white);
   font-weight: 600;
   cursor: pointer;
   font-size: 14px;

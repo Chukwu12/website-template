@@ -87,6 +87,7 @@ var swiper = new Swiper('.blog-slider', {
 
 //   Tabs //
 let tabHeader = document.getElementsByClassName("tab-header")[0];
+let tabIndicator = document.getElementsByClassName("tab-indicator")[0];
 let tabBody = document.getElementsByClassName("tab-body")[0];
 
 let tabsPane = tabHeader.getElementsByTagName("div");
