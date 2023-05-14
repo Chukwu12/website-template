@@ -424,7 +424,7 @@ text-align: left;
 
 }
 
-@keyframes home-text  {
+@keyframes slide-in {
   0%   { 
   transform: translateX(200%); 		
   }
