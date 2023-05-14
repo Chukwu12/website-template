@@ -567,7 +567,7 @@ text-align: center;
 
 .about-container .grid{
   align-items: center;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
 .about-section-tilte{
