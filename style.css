@@ -427,6 +427,16 @@ margin: 0 0 0 30px;
 
 /* Home Ends */
 
+/* Layers */
+.layers{
+  height: 10px;
+  width: 50%;
+  background-color: black;
+}
+
+
+/* Layers End */
+
 /* Tabs */
 
 
