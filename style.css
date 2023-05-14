@@ -304,6 +304,7 @@ background: var(--light-color);
   grid-template-columns: repeat(2,1fr);
   align-items: center;
   grid-gap: 4rem;
+  justify-items: center;
 }
 
 .hero-text h1{
@@ -903,12 +904,7 @@ border-radius: 30%;
   }
   
   
-  .hero{
-   margin: 0;
-   padding: 0;
-   grid-gap: 1rem;
-   height: 100vh;
-  }
+
 
   .hero img{
     
