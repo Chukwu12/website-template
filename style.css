@@ -634,9 +634,8 @@ padding: 15px;
   margin-top: 200px;
 }
 
-.swiper-wrapper{
+.swiper-wrapper-facts{
   width: 100%;
-  height: 35em;
   display: flex;
   align-items: center;
 }
