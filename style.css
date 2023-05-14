@@ -404,7 +404,7 @@ animation: slide-in 2s ease-out;
 }
 
 
-home-img{
+.home-img{
   overflow: hidden;
   width: 100%;
  height: 100%;
