@@ -479,6 +479,9 @@ text-align: center;
 
 /* Tabs */
 
+#tabs{
+  height: 10vh;
+}
 
 
 .tabs{
