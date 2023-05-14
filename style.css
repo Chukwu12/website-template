@@ -397,6 +397,13 @@ margin-bottom: 20px;
   overflow: hidden;
 }
 
+.home-text{
+width: 100%;
+height: 100%;
+animation: example2 10s ease-out;
+position: absolute;
+
+}
 
 
 .home-text, .home-img{
@@ -413,10 +420,8 @@ text-align: center;
 
 .home-text p{
 margin: 0 0 0 30px;
-width: 100%;
-height: 100%;
-animation: example2 10s ease-out;
 text-align: left;
+
 }
 
 @keyframes home-text  {
