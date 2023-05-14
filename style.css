@@ -769,6 +769,9 @@ padding: 15px;
   background-color: var(--light-color);
 }
 
+.swiper-wrapper{
+  height: 35rem;
+}
 
 
 /* Footer */
