@@ -464,15 +464,7 @@ text-align: center;
 /* Home Ends */
 
 /* Layers */
-.layers{
-  height: 10px;
-  width: 50%;
-  background-color: black;
-}
 
-.layers img {
-  height: 40px;
-}
 
 
 /* Layers End */
@@ -480,7 +472,7 @@ text-align: center;
 /* Tabs */
 
 #tabs{
-  height: 10vh;
+  height: 30vh;
 }
 
 
@@ -567,7 +559,7 @@ text-align: center;
 
 .about-container{
 
-    max-width: 1170px;
+    max-width: 1024px;
     margin: auto;
     padding: 0 15px;
    
@@ -595,7 +587,6 @@ text-align: center;
  max-width: 500px;
 margin: auto;
 padding: 15px;
-border-radius: 30%;
  position: relative;
 
 }
