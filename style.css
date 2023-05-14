@@ -434,6 +434,10 @@ margin: 0 0 0 30px;
   background-color: black;
 }
 
+.layers img {
+  height: 40px;
+}
+
 
 /* Layers End */
 
@@ -518,9 +522,6 @@ margin: 0 0 0 30px;
 
 .section-padding{
   height: 70vh;
-  background-image: url(images/background.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 
