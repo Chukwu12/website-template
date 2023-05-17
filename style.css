@@ -664,6 +664,33 @@ padding: 15px;
 /* About End */
 
 /* Statement */
+#work {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url("../images/work-pic.jpg") center/cover no-repeat fixed;
+  color: var(--light-color);
+}
+
+.work-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+#work .title h2,
+#work h3 {
+  color: var(--light-color);
+}
+#work .title h2::after {
+  background: var(--light-color);
+}
+.work-bottom {
+  margin-top: 4rem;
+  text-align: center;
+}
+.work-bottom > div .icon img {
+  width: 50px;
+  margin: 0 auto 1.7rem auto;
+}
 
 
 /* Statement End */
@@ -813,7 +840,7 @@ padding: 15px;
   background-color: var(--light-color);
 }
 
-.swiper-wrapper{
+.swiper mySwiper .swiper-wrapper{
   height: 35rem;
 }
 
