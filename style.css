@@ -1627,7 +1627,7 @@ $desktop-breakpoint: 1200px;
   }
 }
 
-.container {
+.ab-container {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -1758,7 +1758,7 @@ $desktop-breakpoint: 1200px;
    * {
     animation-name: none !important;
   }
-  .container {
+  .ab-container {
     width: 90%;
     height: 700px;
     @include horizontal-center;
@@ -1837,7 +1837,7 @@ $desktop-breakpoint: 1200px;
   * {
     animation-name: none !important;
   }
-  .container {
+  .ab-container {
     width: 90%;
     height: 900px;
     @include horizontal-center;
@@ -1905,10 +1905,10 @@ $desktop-breakpoint: 1200px;
   }
 }
 
-/*
+
 
 @include tablet {
-  .container {
+  .ab-container {
     width: 100%;
     height: auto;
     font-size: 7px;
@@ -1927,7 +1927,7 @@ $desktop-breakpoint: 1200px;
 //Media query for desktop devices 
 
 @include desktop {
-  .container {
+  .ab-container {
     width: 100%;
     height: auto;
     font-size: 9px;
