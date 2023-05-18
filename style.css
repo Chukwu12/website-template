@@ -8,6 +8,7 @@
 --header-height: 3.5rem;
 
 
+
   /* Colors */
   --primary-color: #fa4eab;
   --light-color: #fff2f9;
@@ -17,6 +18,11 @@
   --white-color: #ffffff;
   --gray-color: #687080;
   --main-color: hsl(var(--hue), var(--saturation), var(--lightness));
+  --purple: rgb(123, 31, 162);
+  --violet: rgb(103, 58, 183);
+  --pink: rgb(244, 143, 177);
+
+  
 
   /*Color mode HSL(hue, saturation, lightness)*/
   --bg-color: hsl(220, 18%, 78%);
@@ -1050,8 +1056,35 @@ padding: 15px;
     font-weight: 100;
     margin-left: 2rem;
     line-height: 1.5;
-    
+    font-family: var(--primary-font);  
   }
+
+  .h1 .magic{
+    background-color: ;
+  }
+
+  h1 > .magic {
+    animation: background-pan 3s linear infinite;
+   background: linear-gradient(to right,
+   var(--purple),
+   var(--violet),
+   var(--pink),
+   var(--purple)
+   );
+   background-size: 200%; 
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   white-space: nowrap;
+  }
+
+  @keyframes background-pan {
+    from{
+    background-position: 0% center;
+  }
+  to {
+    background-position: -200% center;
+  }
+}
 
     .hero-text h2{
       font-size: 1.2rem;
