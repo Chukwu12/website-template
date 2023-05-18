@@ -1388,8 +1388,13 @@ padding: 15px;
   border: 0.2rem solid var(--primary);
   background: var(--box-shadow);
 }
+.main-container{
+  margin: auto;
+  padding: 0 15px;
+}
+
 .tab-container {
-  width: 70%;
+  width: 100%;
   margin: 0 auto 3rem auto;
   box-shadow: 0 0.8rem 1rem var(--box-shadow);
 }
