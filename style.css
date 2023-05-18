@@ -1627,8 +1627,8 @@ $desktop-breakpoint: 1200px;
   }
 }
 .ab-section{
-  margin-top: 100px;
-  margin-bottom: 200px;
+  margin-top: 200px;
+  margin-bottom: 50px;
 }
 .ab-container {
   margin-top: 50px;
@@ -1676,12 +1676,13 @@ $desktop-breakpoint: 1200px;
 
 
         .heading {
-          align-self: flex-end;
            margin-top: 20px;
            margin-left: 80px;
+           margin-bottom: 50px;
           #heading1, #heading2, #heading3 {
             margin: 0;
             margin-top: -20px;
+            
           }
 
           #heading1, #heading2 {
