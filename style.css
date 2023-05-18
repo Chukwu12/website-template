@@ -1578,7 +1578,7 @@ $desktop-breakpoint: 1200px;
   }
 }
 
-//Animations
+
 @keyframes fade-in {
   0% {
     opacity: 0;
@@ -1633,9 +1633,10 @@ $desktop-breakpoint: 1200px;
   margin-right: auto;
   width: 1200px;
   height: 700px;
-  background-color:#D7CCC8 ;
+  background-color:var(--light-color) ;
   font-size: 14px;
   font-family: "Montserrat", sans;
+
   .container-inner { 
    width: 100%;
    height: 100%;
@@ -1651,6 +1652,7 @@ $desktop-breakpoint: 1200px;
       align-self: center;
       display: flex;
       flex-direction: column;
+      
       .main-headings { 
         width: 100%;
         align-self: center;
@@ -1658,7 +1660,8 @@ $desktop-breakpoint: 1200px;
         flex-direction: column;
         animation: scaleDown 6s ease 2s;
        -webkit-animation: scaleDown 6s ease 2s;
-        #by-line {
+        
+       #by-line {
           width: 60%;
           padding-bottom: 1px;     
           padding-left: 3px;
@@ -1667,25 +1670,31 @@ $desktop-breakpoint: 1200px;
           border-bottom: 1px solid #757575;             
           font-style: italic;
         }
+
+
         .heading {
-         // align-self: flex-end;
+          align-self: flex-end;
            margin-top: 20px;
            margin-left: 80px;
           #heading1, #heading2, #heading3 {
             margin: 0;
             margin-top: -20px;
           }
+
           #heading1, #heading2 {
             font-size: 500%;
             font-weight:normal;
             letter-spacing: -2px;
           }
+
           #heading1 {
             margin-left: 50px;
             }
+
           #heading2 {
             margin-left: 150px;
           }
+
           #heading3 {
             margin-top: -52px;
             font-size: 1100%;
@@ -1700,10 +1709,11 @@ $desktop-breakpoint: 1200px;
           font-style: italic;
           font-size: 105%;
         }
-        a {
-         // width: 72%;
+
+        a{
+          width: 72%;
           margin-left: 92px;
-         // margin-right: auto;
+          margin-right: auto;
           align-self: flex-start;
           font-weight: bold;
           font-size: 120%;
@@ -1714,7 +1724,7 @@ $desktop-breakpoint: 1200px;
             text-decoration: underline;
           }
         }  
-      }  
+      }
        .more-info {
           margin-top: -70px;
           width: 50%;
@@ -1730,7 +1740,9 @@ $desktop-breakpoint: 1200px;
     .image-wrapper {
       flex-basis: 50%; 
       order: 2;
-      //background-color was #8D6E63
+      background-color: var(--light-color)
+    }
+
       .image-container {
         width: 100%;
         height: 100%;
@@ -1741,7 +1753,7 @@ $desktop-breakpoint: 1200px;
         align-items: center;
         animation: scaleDown 6s ease 2s ;
        -webkit-animation: scaleDown 6s ease 2s;
-        img {
+       img {
           width: 100%;
           height: auto;
           position: relative;
