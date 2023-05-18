@@ -1059,11 +1059,9 @@ padding: 15px;
     font-family: var(--primary-font);  
   }
 
-  .h1 .magic{
-    background-color: ;
-  }
 
-  h1 > .magic {
+
+  h1 >  .magic {
     animation: background-pan 3s linear infinite;
    background: linear-gradient(to right,
    var(--purple),
