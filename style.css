@@ -1566,15 +1566,17 @@ header {
 
 
 
+/* About-grid */
 
-
-
+/* //Variables */
 $mobile-breakpoint: 350px;
 $large-mobile-breakpoint: 530px;
 $tablet-breakpoint: 700px;
 $desktop-breakpoint: 1200px;
 
 
+/* //Mixins// */
+/* //Centering Mixins// */
 @mixin horizontal-center {
   margin-left: auto;
   margin-right: auto;
@@ -1691,18 +1693,7 @@ Media Query mixins
         flex-direction: column;
         animation: scaleDown 6s ease 2s;
        -webkit-animation: scaleDown 6s ease 2s;
-        
-       #by-line {
-          width: 60%;
-          padding-bottom: 1px;     
-          padding-left: 3px;
-          margin-left: 15px;
-          font-size: 85%;
-          border-bottom: 1px solid #757575;             
-          font-style: italic;
-        }
-
-
+    
         .heading {
            margin-top: 20px;
            margin-left: 80px;
@@ -1742,7 +1733,7 @@ Media Query mixins
           font-size: 105%;
         }
 
-        a{
+        .link a{
           width: 72%;
           margin-left: 92px;
           margin-right: auto;
@@ -1968,7 +1959,7 @@ Media Query mixins
   }
 }
 */
-//Media query for desktop devices 
+Media query for desktop devices 
 
 @include desktop {
   .ab-container {
@@ -2014,6 +2005,9 @@ Media Query mixins
   position: relative;
   font-family: 'Mainfonts' , var(--primary-font);
   transition: all .8s ease;
+  max-width: 1024px;
+  margin: auto;
+  padding: 0 15px;
 }
 
 .container_content {
