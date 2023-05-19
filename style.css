@@ -715,13 +715,18 @@ padding: 15px;
 
 
 
-/* About End */
+
 
 /* Statement */
 #work {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
     url("images/4P5A9705.jpg") center/cover no-repeat fixed;
   color: var(--light-color);
+  margin-bottom: 200px;
+}
+
+.lead{
+  font-family: 'Mainfonts', var(--primary-font);
 }
 
 .work-container {
@@ -749,6 +754,7 @@ padding: 15px;
 
 /* Statement End */
 
+/* About End */
 
 /* Services */
 
@@ -1986,7 +1992,7 @@ Media Query mixins
 
 /* home container */
 
-.overlay {
+.home-container .overlay {
   position: absolute;
   top: 0;
   left: 0;
