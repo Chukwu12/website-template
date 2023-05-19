@@ -1,6 +1,9 @@
 /* Fonts: - Monsterrat: 400, 500, 600 -Prata: 400 */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Prata&display=swap");
-
+@font-face {
+  font-family: 'MainFonts';
+  src: url(fonts/CelineSans.otf);
+}
 :root {
 --hue: 200;
 --saturation: 70%;
@@ -2049,6 +2052,7 @@ p{
 }
 
 h1 {
+  font-family: 'Mainfont', var(--primary-font) ;
     font-size: 40px;
     color: var(--contrast-color);
     margin-bottom: 20px;
