@@ -1660,7 +1660,7 @@ Media Query mixins
   height: 700px;
   background-color:var(--light-color) ;
   font-size: 14px;
-  font-family: "Montserrat", sans;
+  font-family: 'Mainfonts', var(--primary-font);
 
   .container-inner { 
    width: 100%;
@@ -1777,9 +1777,9 @@ Media Query mixins
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        animation: scaleDown 6s ease 2s ;
+        animation: scaleDown 6s ease 2s;
        -webkit-animation: scaleDown 6s ease 2s;
-       img {
+       .img {
           width: 100%;
           height: auto;
           position: relative;
@@ -1787,7 +1787,7 @@ Media Query mixins
         }
       }     
    }
-}
+  
 
 
 
@@ -2002,9 +2002,9 @@ Media Query mixins
   height: 100vh;
   justify-content: space-around;
   align-items: center;
-  color: #fff;
-  animation: expand .8s ease forwards;
-  background-color: var(--gray-color);
+  color: var(--dark-color);
+  animation: expand .10s ease forwards;
+  background-color: var(--white-color);
   position: relative;
   font-family: 'Mainfonts' , var(--primary-font);
   transition: all .8s ease;
