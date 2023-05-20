@@ -2009,7 +2009,7 @@ Media query for desktop devices
   justify-content: space-around;
   align-items: center;
   color: var(--dark-color);
-  animation: expand .10s ease forwards;
+  animation: expand 5s ease forwards;
   background-color: var(--white-color);
   position: relative;
   font-family: 'Mainfonts' , var(--primary-font);
@@ -2036,7 +2036,7 @@ Media query for desktop devices
     
 .container_img {
   width: 100%;
-  animation: slideIn 1.5s ease-in-out forwards;
+  animation: slideIn 2.5s ease-in-out forwards;
 }
 
 .par {
