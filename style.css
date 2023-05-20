@@ -2013,7 +2013,7 @@ Media query for desktop devices
   background-color: var(--white-color);
   position: relative;
   font-family: 'Mainfonts' , var(--primary-font);
-  transition: all 5s ease;
+  transition: all 1s ease;
   max-width: 1024px;
   margin: auto;
   padding: 0 15px;
@@ -2036,7 +2036,7 @@ Media query for desktop devices
     
 .container_img {
   width: 100%;
-  animation: slideIn 2.5s ease-in-out forwards;
+  animation: slideIn 5s ease-in-out forwards;
 }
 
 .par {
