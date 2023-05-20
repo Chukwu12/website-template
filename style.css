@@ -521,8 +521,10 @@ text-align: center;
   margin:1em;
   max-width:20em;
   overflow:hidden;
-  .blockquote {
-    background-color:#fff;
+}
+
+  blockquote {
+    background-color:var(--white-color);
     border: solid 2px #757575;
     display: inline-block;
     margin: 0;
@@ -530,7 +532,7 @@ text-align: center;
     position: relative;
     &:before {
       animation:clockwise 30s infinite linear;
-      background-color: #fff;
+      background-color: var(--hot-pink);
       bottom:10%;
       content: "";
       left: 0;
