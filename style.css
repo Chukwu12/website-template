@@ -786,9 +786,7 @@ padding: 15px;
   margin: 0 2em;
 }
 
-/* .swiper-slide:not(.swiper-slide-active){
-  filter: blur(1px);
-} */
+
 
 .card__image{
   width: 10em;
@@ -1715,6 +1713,8 @@ Media Query mixins
 
           #heading1 {
             margin-left: 50px;
+            font-family: 'Secondfont' var(--primary-font
+            );
             }
 
           #heading2 {
