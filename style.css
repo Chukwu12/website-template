@@ -1713,8 +1713,7 @@ Media Query mixins
 
           #heading1 {
             margin-left: 50px;
-            font-family: 'Secondfont' var(--primary-font
-            );
+            font-family: 'Secondfont' 
             }
 
           #heading2 {
