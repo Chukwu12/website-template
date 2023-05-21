@@ -1160,6 +1160,7 @@ color: var(());
 }
 
 .footer-logo img{
+  height: 50px;
   margin-right: 1.25rem;
   margin-bottom: 2em;
 }
