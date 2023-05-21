@@ -318,7 +318,7 @@ background: var(--light-color);
 
 
 .hero{
-  min-height: 100vh;
+  min-height: 70vh;
   height: 100%;
   width: 100%;
   background: url(images/background.jpg);
@@ -920,7 +920,7 @@ padding: 15px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
     url("images/4P5A9705.jpg") center/cover no-repeat fixed;
   color: var(--light-color);
-  margin-bottom: 200px;
+  margin-top: 20px;
 }
 
 .lead{
@@ -1159,7 +1159,10 @@ color: var(());
   columns: #aaa;
 }
 
-
+.footer-logo img{
+  margin-right: 1.25rem;
+  margin-bottom: 2em;
+}
 
 
 
