@@ -511,6 +511,82 @@ text-align: center;
 
 }
 
+.sides {
+	border-image: linear-gradient(to left, turquoise, greenyellow) 1 0;
+}
+
+/* Quotes */
+.animated-border-quote {
+  display:inline-block;
+  margin:1em;
+  max-width:20em;
+  overflow:hidden;
+}
+
+  blockquote {
+    background-color:var(--white-color);
+    border: solid 2px #757575;
+    display: inline-block;
+    margin: 0;
+    padding: 1em;
+    position: relative;
+    &:before {
+      animation:clockwise 30s infinite linear;
+      background-color: var(--hot-pink);
+      bottom:10%;
+      content: "";
+      left: 0;
+      opacity:.5;
+      position: absolute;
+      right: 0;
+      top:10%;
+    }
+    &:after {
+      animation:counter 30s infinite linear;
+      background-color: #fff;
+      bottom:10%;
+      content: "";
+      left: 0;
+      opacity:.5;
+      position: absolute;
+      right: 0;
+      top:10%;
+    }
+    .cite {
+      display: block;
+      font-style: italic;
+      text-align: right;
+      &:before {
+        content: "- ";
+      }
+    }
+    > * {
+      position: relative;
+      z-index: 1;
+    }
+  }
+}
+
+@keyframes clockwise {
+  0% {
+    transform:rotate(0);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
+}
+
+@keyframes counter {
+  0% {
+    transform:rotate(0);
+  }
+  100% {
+    transform:rotate(-360deg);
+  }
+}
+/* Quotes End */
+
+
 /* Home Ends */
 
 /* Layers */
@@ -715,13 +791,18 @@ padding: 15px;
 
 
 
-/* About End */
+
 
 /* Statement */
 #work {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
     url("images/4P5A9705.jpg") center/cover no-repeat fixed;
   color: var(--light-color);
+  margin-bottom: 200px;
+}
+
+.lead{
+  font-family: 'Mainfonts', var(--primary-font);
 }
 
 .work-container {
@@ -749,6 +830,7 @@ padding: 15px;
 
 /* Statement End */
 
+/* About End */
 
 /* Services */
 
@@ -773,7 +855,6 @@ padding: 15px;
   border-radius: 2em;
   box-shadow: 0 0 2em rgba(0, 0, 0, .2);
   padding: 2em 1em;
-
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -781,9 +862,7 @@ padding: 15px;
   margin: 0 2em;
 }
 
-.swiper-slide:not(.swiper-slide-active){
-  filter: blur(1px);
-}
+
 
 .card__image{
   width: 10em;
@@ -812,16 +891,20 @@ padding: 15px;
   font-weight: 500;
   position: relative;
   top: .2em;
+  font-family: 'MainFonts';
 }
 
 .card__name{
   color: var(--color);
+  font-family: 'Mainfonts';
+  font-weight: 500;
 }
 
 .card__text{
   text-align: center;
   font-size: 13px;
   margin: 1em 0;
+  font-family: 'Mainfonts';
 }
 
 .card__btn{
@@ -1560,15 +1643,17 @@ header {
 
 
 
+/* About-grid */
 
-
-
+/* //Variables */
 $mobile-breakpoint: 350px;
 $large-mobile-breakpoint: 530px;
 $tablet-breakpoint: 700px;
 $desktop-breakpoint: 1200px;
 
 
+/* //Mixins// */
+/* //Centering Mixins// */
 @mixin horizontal-center {
   margin-left: auto;
   margin-right: auto;
@@ -1660,7 +1745,7 @@ Media Query mixins
   height: 700px;
   background-color:var(--light-color) ;
   font-size: 14px;
-  font-family: "Montserrat", sans;
+  font-family: 'Mainfonts', var(--primary-font);
 
   .container-inner { 
    width: 100%;
@@ -1674,9 +1759,10 @@ Media Query mixins
     .main-content {
       flex-basis: 50%;
       order: 1;
-      align-self: center;
+      align-self: flex-start;
       display: flex;
       flex-direction: column;
+      margin-top: 50px;
       
       .main-headings { 
         width: 100%;
@@ -1685,18 +1771,7 @@ Media Query mixins
         flex-direction: column;
         animation: scaleDown 6s ease 2s;
        -webkit-animation: scaleDown 6s ease 2s;
-        
-       #by-line {
-          width: 60%;
-          padding-bottom: 1px;     
-          padding-left: 3px;
-          margin-left: 15px;
-          font-size: 85%;
-          border-bottom: 1px solid #757575;             
-          font-style: italic;
-        }
-
-
+    
         .heading {
            margin-top: 20px;
            margin-left: 80px;
@@ -1715,6 +1790,7 @@ Media Query mixins
 
           #heading1 {
             margin-left: 50px;
+            font-family: 'Secondfont' 
             }
 
           #heading2 {
@@ -1729,14 +1805,15 @@ Media Query mixins
             }
         }
         .short-bio {
-          width: 60%;
+          width: 70%;
           margin-top: -30px;
           margin-left: 90px;
           font-style: italic;
-          font-size: 105%;
+          font-size: 150%;
+          line-height: 1.3;
         }
 
-        a{
+        .link a{
           width: 72%;
           margin-left: 92px;
           margin-right: auto;
@@ -1777,9 +1854,9 @@ Media Query mixins
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        animation: scaleDown 6s ease 2s ;
+        animation: scaleDown 6s ease 2s;
        -webkit-animation: scaleDown 6s ease 2s;
-       img {
+       .img {
           width: 100%;
           height: auto;
           position: relative;
@@ -1787,7 +1864,7 @@ Media Query mixins
         }
       }     
    }
-}
+  
 
 
 
@@ -1962,7 +2039,7 @@ Media Query mixins
   }
 }
 */
-//Media query for desktop devices 
+Media query for desktop devices 
 
 @include desktop {
   .ab-container {
@@ -1986,7 +2063,7 @@ Media Query mixins
 
 /* home container */
 
-.overlay {
+.home-container .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -1994,7 +2071,7 @@ Media Query mixins
   bottom: 0;
   height: 100%;
   z-index: -10;
-  background-color: var(--contrast-color);
+  background-color: var(--bg-color);
 }
 
 .home-container {
@@ -2002,12 +2079,15 @@ Media Query mixins
   height: 100vh;
   justify-content: space-around;
   align-items: center;
-  color: #fff;
-  animation: expand .8s ease forwards;
-  background-color: var(--secondary-color);
+  color: var(--dark-color);
+  animation: expand 5s ease forwards;
+  background-color: var(--white-color);
   position: relative;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  transition: all .8s ease;
+  font-family: 'Mainfonts' , var(--primary-font);
+  transition: all 1s ease;
+  max-width: 1024px;
+  margin: auto;
+  padding: 0 15px;
 }
 
 .container_content {
@@ -2027,7 +2107,7 @@ Media Query mixins
     
 .container_img {
   width: 100%;
-  animation: slideIn 1.5s ease-in-out forwards;
+  animation: slideIn 5s ease-in-out forwards;
 }
 
 .par {
@@ -2035,7 +2115,7 @@ Media Query mixins
   overflow: hidden;
 }
 
-p{
+.par p{
   line-height: 28px;
   transform: translateY(300px);
   animation: slideUp .8s ease-in-out forwards .8s;
@@ -2050,7 +2130,7 @@ p{
 
 .btns_more {
   background: transparent;
-  border: 1px solid var(--contrast-color);
+  border: 1px solid var(--hot-pink);
   border-radius: 50px;
   padding: 8px 12px;
   color: #BF307F;
