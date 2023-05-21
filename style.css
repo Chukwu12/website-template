@@ -966,9 +966,11 @@ padding: 15px;
   margin-top: 200px;
 }
 
-#swiper-wrapper-d2f862a7f174a9fa{
+.swiper .swiper-wrapper {
   height: 35rem;
 }
+
+
 .blog-slider__wrp .swiper-wrapper{
   width: 100%;
   display: flex;
