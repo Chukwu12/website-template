@@ -874,6 +874,7 @@ small {
 .title{
   font-size: var(--fs-3x1);
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .about-img img{
@@ -919,10 +920,14 @@ padding: 15px;
 
 /* Statement */
 #work {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
-    url("images/4P5A9705.jpg") center/cover no-repeat fixed;
+  background:url("images/4P5A9705.jpg") center/cover no-repeat fixed;
   color: var(--light-color);
   margin-top: 20px;
+  height: 60vh;
+}
+
+.work-content{
+  padding-top: 60px;
 }
 
 .lead{
