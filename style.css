@@ -2707,7 +2707,7 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
   }
 }
 
-.hero {
+.hero2 {
   grid-row: 1 / 2;
   grid-column: 3 / -1;
   color: #FFF;
