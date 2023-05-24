@@ -2450,6 +2450,9 @@ Media query for desktop devices
   }
 }
 
+
+
+
 .detbox
 {
 	display: flex;
@@ -2470,6 +2473,14 @@ Media query for desktop devices
 	background: #18202D;
 	grid-column: 2/4;
     grid-row: 2/3;
+}
+
+.eachdiv
+{
+	padding: 1rem 2rem;
+    border-radius: 0.8rem;
+    box-shadow: 5px 5px 20px #6d6b6b6b;
+    color: white;
 }
 
 .userdetails
