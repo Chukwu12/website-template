@@ -806,7 +806,7 @@ small {
   position: relative;
   width: calc(100% / 3);
   height: 5px;
-  background: var(--hot-pink);
+  background: var(--hot-pink);w
   left: 0px;
   border-radius: 5px;
   transition: all 500ms ease-in-out;
@@ -838,6 +838,53 @@ small {
 
 
 /* Tabs End */
+
+/* System section */
+.system{
+	padding: 80px;
+	min-height: 100vh;
+	background:url();
+	background-size: cover;
+	
+	.container{
+		
+		.timeline-title{
+			h2{
+				color: black;
+				font-weight: 400;
+				
+			span{
+				color: black;
+				}
+			}
+			
+			p{
+				color:black;
+				font-weight:500;
+		}
+	}
+		.row{
+			padding: 40px 0 0;
+			
+			.timeline{
+				flex: 0 0 100%;
+				max-width: 100%
+					position:relative;
+				
+				&::before{
+					content:'';
+					width: 1px;
+					height: 100%;
+					left: 50:
+					top: 0; 
+					background-color: green;
+					position: abosolute;
+}
+			}
+		}
+	}
+
+/* Home End */
 
 /* About Page */
 
