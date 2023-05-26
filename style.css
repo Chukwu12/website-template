@@ -845,9 +845,11 @@ small {
 	min-height: 100vh;
 	background:url();
 	background-size: cover;
-	
-	.container{
-		
+}
+	.system-container{
+		max-width: 1140px;
+		margin:auto;
+}
 		.timeline-title{
 			h2{
 				color: black;
@@ -863,8 +865,10 @@ small {
 				font-weight:500;
 		}
 	}
-		.row{
+		.system .row{
 			padding: 40px 0 0;
+			display:flex;
+			flex-wrap:wrap;
 			
 			.timeline{
 				flex: 0 0 100%;
