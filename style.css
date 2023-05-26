@@ -973,7 +973,7 @@ padding: 15px;
 
 .service-package-content{
   display:grid;
-  grid-template-columns:repeat(auto-fit, minmix(400px, auto));
+  grid-template-columns:repeat(auto-fit, (minmix(400px, auto));
   grid-gap: 2rem;
   align-items: center;
   margin-top: 5rem;
