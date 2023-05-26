@@ -859,7 +859,7 @@ small {
   margin-left: -1px;
 }
 
-.timeline .container {
+.timeline-container {
   padding: 15px 30px;
   position: relative;
   background: inherit;
