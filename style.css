@@ -981,6 +981,7 @@ grid-template-columns: repeat(auto-fill, minmax(450px, auto));
   grid-gap: 2rem;
   align-items: center;
   margin-top: 5rem;
+margin-right: 10px;
   
 }
 
@@ -1061,6 +1062,7 @@ line-height: 28px;
 
 .swiper .swiper-wrapper {
   height: 35rem;
+transform: translate3d(-573px, 0px, 0px);
 }
 
 
@@ -1110,7 +1112,7 @@ line-height: 28px;
 
 .card__title{
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   position: relative;
   top: .2em;
   font-family: 'MainFonts';
@@ -1119,7 +1121,7 @@ line-height: 28px;
 .card__name{
   color: var(--color);
   font-family: 'Mainfonts';
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .card__text{
@@ -1127,6 +1129,7 @@ line-height: 28px;
   font-size: 13px;
   margin: 1em 0;
   font-family: 'Mainfonts';
+font-weight: bold;
 }
 
 .card__btn{
