@@ -442,7 +442,7 @@ margin-bottom: 20px;
 /* Sub-service section */
 .items{
   display: grid;
-  grid-template-column: repeat(auto-fit, minmax(220px,auto));
+  grid-template-columns: repeat(auto-fit, minmax(220px,auto));
   grid-gap: 2rem;
   align-items: center;
   text-align: center;
