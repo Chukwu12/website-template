@@ -1062,7 +1062,10 @@ line-height: 28px;
 
 .swiper .swiper-wrapper {
   height: 35rem;
-transform: translate3d(-573px, 0px, 0px);
+width: 100%;
+display:flex;
+align-items:center;
+justify-content:center;
 }
 
 
