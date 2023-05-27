@@ -971,13 +971,40 @@ padding: 15px;
 
 /* Services */
 
+.service-packag{
+margin-top: 200px;
+}
+
 .service-package-content{
   display:grid;
-grid-template-columns: repeat(auto-fill, minmax(400px, auto));
+grid-template-columns: repeat(auto-fill, minmax(450px, auto));
   grid-gap: 2rem;
   align-items: center;
   margin-top: 5rem;
   
+}
+
+.heading {
+text-align:center;	
+}
+
+.heading h2{
+font-size: 3rem;
+font-weight: 500;
+margin: 7px 0px 20px;
+line-height: 1.1;
+}
+
+.heading h3{
+color: var(--hot-pink);
+font-size: 20px;
+font-weight: 500;
+}
+
+.heading p {
+font-size: 14px;
+color: #a09dab;
+line-height: 28px;
 }
 
 .row{
