@@ -997,7 +997,7 @@ line-height: 1.1;
 
 .heading h3{
 color: var(--hot-pink);
-font-size: 20px;
+font-size: 1.1rem;
 font-weight: 500;
 }
 
@@ -1039,13 +1039,13 @@ line-height: 28px;
 }
 
 .row h3{
-  font-size: 24px;
+  font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 2px;
 }
 
 .row h5{
-  font-size: 17px;
+  font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 19px;
 }
