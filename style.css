@@ -476,7 +476,7 @@ margin-top: 100px;
   font-size: var(--fs-4x1);
   font-family: 'Secondfont';
 }
-}
+
 
 .sub-box p {
   font-size: var(--fs-xl);
@@ -2548,7 +2548,6 @@ Media Query mixins
     
         .heading {
            margin-top: 20px;
-           margin-left: 80px;
            margin-bottom: 50px;
           #heading1, #heading2, #heading3 {
             margin: 0;
@@ -2563,7 +2562,7 @@ Media Query mixins
           }
 
           #heading1 {
-            margin-left: 50px;
+            
             font-family: 'Secondfont' 
             }
 

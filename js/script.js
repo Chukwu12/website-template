@@ -110,3 +110,13 @@ function readMore() {
 
 
 
+// About button hide / show //
+const targetClass = document.getElementsByClassName("btn-link");
+const btn = document.getElementsByClassName("more-info");
+btn.onclick = function () {
+  if (targetClass.style.display !== "none") {
+    targetClass.style.display = "none";
+  } else {
+    targetClass.style.display = "block";
+  }
+};
