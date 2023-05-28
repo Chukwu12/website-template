@@ -457,6 +457,8 @@ margin-top: 100px;
   padding: 45px 45px 45px 45px;
   transition: ease .50s;
   cursor: pointer;
+  border-radius: 25px;
+  background: var(--light-color);
 }
 
 
@@ -674,6 +676,8 @@ h1 {
   line-height: 28px;
   transform: translateY(300px);
   animation: slideUp .8s ease-in-out forwards .8s;
+  font-size: var(--fs-md);
+  font-weight: 600;
 }
 
 .btns {
@@ -1046,10 +1050,12 @@ small {
   grid-column: span 1;
 }
 
-.title{
-  font-size: var(--fs-3x1);
+.work-content .title{
+  font-size: var(--fs-4x1);
   text-align: center;
+  font-family: 'Secondfont';
   margin-bottom: 20px;
+  font-weight: 600;
 }
 
 .about-img img{
@@ -1089,6 +1095,79 @@ padding: 15px;
   font-size: var(--fs-sm);
 }
 
+/* About-Mission Statement */
+.about-statement{
+  height: 100vh;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-main img{
+  width: 580px;
+  max-width: 100%;
+  height: auto;
+  padding: 0 10px;
+}
+
+.all-text{
+  width: 600px;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+.about-main{
+  width: 1290px;
+  max-width: 95%;
+  margin:  0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.all-text h2{
+  font-size: 65px;
+  color: #111111;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.all-text p {
+  font-family: 'Mainfont';
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 35px;
+  color: var(--dark-color);
+}
+
+@media screen and (max-width: 1250px){
+  .about-main{
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+  }
+  .all-text{
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  @media screen and (max-width: 650px){
+    .about-main .about-main img{
+      margin-bottom: 35px;
+    }
+    .all-text h2{
+      font-size: 45px;
+      margin-bottom: 20px;
+    }
+  } 
+  }
+
+
+/* About-Mission Statement End*/
+
 
 
 
@@ -1096,7 +1175,7 @@ padding: 15px;
 /* Statement */
 #work {
   background:url("images/4P5A9705.jpg") center/cover no-repeat fixed;
-  color: var(--light-color);
+  color: var(--white-color);
   height: 60vh;
 }
 
@@ -1106,6 +1185,8 @@ padding: 15px;
 
 .lead{
   font-family: 'Mainfonts', var(--primary-font);
+  font-weight: 600;
+  font-size: var(--fs-lg);
 }
 
 .work-container {
