@@ -473,12 +473,16 @@ margin-top: 100px;
  margin-bottom: 20px;
   font-size: 24px;
   font-weight: 500;
+  font-size: var(--fs-4x1);
+  font-family: 'Secondfont';
+}
 }
 
 .sub-box p {
-  font-size: 12px;
+  font-size: var(--fs-xl);
   color: black;
   line-height: 29px;
+  font-family: 'MainFonts';
 }
 
 .sub-box:hover{
@@ -540,7 +544,7 @@ margin-top: 100px;
   overflow: hidden;
 }
 
-p{
+.par p{
   line-height: 28px;
   transform: translateY(300px);
   animation: slideUp .8s ease-in-out forwards .8s;
@@ -653,6 +657,8 @@ h1 {
   color: var(--hot-pink);
   font-weight: 700;
   margin-bottom: 50px;
+  font-size: var(--fs-3x1);
+  margin-left: 30px;
 }
 
 
@@ -1103,6 +1109,36 @@ padding: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+hr {
+  margin: 1.5em auto;
+  position: relative;
+  height: 9px;
+  width: 9px;
+  border: transparent;
+  overflow: visible;
+  background-image: url('data:image/svg+xml;utf8,<svg width="9" height="9" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg"><rect x="0.75" y="0.5" width="8" height="8" rx="4" fill="%231CB0A8" /></svg>');
+  
+  &:before {
+    position: absolute;
+    height: 9px;
+    width: 10px;
+    content: '';
+    background-image: url('data:image/svg+xml;utf8,<svg width="10" height="9" viewBox="0 0 10 9" xmlns="http://www.w3.org/2000/svg"><path d="M3.91043 1.29752C4.30449 0.688518 5.19551 0.688519 5.58957 1.29752L9.25143 6.95675C9.68196 7.62211 9.20436 8.5 8.41186 8.5H1.08814C0.29564 8.5 -0.181954 7.62211 0.248574 6.95675L3.91043 1.29752Z" fill="%23FCB643" /></svg>');
+    left: -18px;
+  }
+  
+  &:after {
+    position: absolute;
+    height: 9px;
+    width: 9px;
+    content: '';
+    background-image: url('data:image/svg+xml;utf8,<svg width="9" height="9" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg"><rect x="0.75" y="0.5" width="8" height="8" rx="1" fill="%23EF4056" /></svg>');
+    right: -18px;    
+  }
 }
 
 .about-main img{
@@ -1130,15 +1166,16 @@ padding: 15px;
 
 .all-text h2{
   font-size: 65px;
-  color: #111111;
-  font-weight: 700;
+  color: var(--hot-pink);
+  font-weight: 500;
   margin-bottom: 20px;
+  font-family: 'Secondfont';
 }
 
 .all-text p {
-  font-family: 'Mainfont';
-  font-size: 16px;
-  line-height: 20px;
+  font-family: 'MainFonts';
+  font-size: var(--fs-xl);
+  line-height: 1.5;
   margin-bottom: 35px;
   color: var(--dark-color);
 }
@@ -2162,6 +2199,8 @@ color: var(());
   margin-bottom: 15px;
   display: block;
   font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
 }
 .blog-slider__title {
   font-size: 24px;
