@@ -111,12 +111,12 @@ function readMore() {
 
 
 // About button hide / show //
-const targetClass = document.getElementsByClassName("btn-link");
-const btn = document.getElementsByClassName("more-info");
+const targetdiv = document.getElementById("more-info-js");
+const btn = document.getElementsByClassName("toggle");
 btn.onclick = function () {
-  if (targetClass.style.display !== "none") {
-    targetClass.style.display = "none";
+  if (targetdiv.style.display !== "none") {
+    targetdiv.style.display = "none";
   } else {
-    targetClass.style.display = "block";
+    targetdiv.style.display = "block";
   }
 };
