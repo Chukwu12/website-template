@@ -99,23 +99,18 @@ for (let th = 0; th < tab_items.length; th++) {
 
 
 
-
+// About button hide / show //
 function readMore() {
   var expandInfo = document.getElementById("more-info-js");
   var mainHeadings = document.getElementById("main-headings-js");
   
   mainHeadings.style.transform = "scale(0.7)";
   expandInfo.style.height = "350px";
+
+  if (expandInfo.style.display === "none") {
+    expandInfo.display = "block";
+  } else {
+    expandInfo.style.display = "none";
+  }
 } 
 
-
-
-// About button hide / show //
-function readMore() {
-  var x = document.getElementById("more-info-js");
-    if (x.style.display === 'none') {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
