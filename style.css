@@ -2379,6 +2379,7 @@ color: var(());
   text-align: center;
   text-transform: uppercase;
   font-family: 'MainFonts';
+  font-weight: 600;
 }
 .blog-slider__title {
   font-size: var(--fs-3x1);
@@ -2393,6 +2394,7 @@ color: var(());
   color: #4e4a67;
   margin-bottom: 30px;
   line-height: 1.5em;
+  font-family: 'MainFonts';
 }
 .blog-slider__button {
   display: inline-flex;
