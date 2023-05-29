@@ -1226,9 +1226,15 @@ hr {
   padding-top: 60px;
 }
 
-.work-top grid{
+.work-top{
   display: grid;
-  grid-template-columns: repeat(1,fr);
+  grid-template-columns: repeat(1, 1fr);
+  width: 100%;
+    text-align: center;
+    line-height: 2;
+    font-family: 'MainFonts';
+    font-size: var(--fs-xl);
+    font-weight: 600;
 }
 
 
