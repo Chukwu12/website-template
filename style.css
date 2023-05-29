@@ -1387,6 +1387,10 @@ right: 20%;
   align-items: center;
 }
 
+.special{
+  font-family: 'Secondfont';
+}
+
 .card{
   width: 20em;
   height: 90%;
