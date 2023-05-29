@@ -1969,19 +1969,7 @@ figure.snip1157 .author h5 span {
 }
 
 
-/* Demo purposes only */
-html {
-  height: 100%;
-}
-body {
-  background-color: #212121;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: wrap;
-  margin: 0;
-  height: 100%;
-}
+
 /* Testimonial End */
 
 /* Service End  */
