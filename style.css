@@ -459,6 +459,7 @@ margin-top: 100px;
   cursor: pointer;
   border-radius: 25px;
   background: var(--light-color);
+  height: 400px;
 }
 
 
