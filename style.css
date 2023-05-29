@@ -1214,7 +1214,7 @@ hr {
 #work {
   background:url("images/4P5A9705.jpg") center/cover no-repeat fixed;
   color: var(--white-color);
-  height: 60vh;
+  height: 80vh;
 }
 
 .work-content{
@@ -1342,6 +1342,7 @@ line-height: 28px;
   
   font-family: 'MainFonts';
   font-size: var(--fs-lg);
+  font-weight: 700;
 
 }
 
@@ -2224,6 +2225,7 @@ color: var(());
   border-radius: 25px;
   height: 400px;
   transition: all 0.3s;
+  margin-bottom: 100px;
 }
 @media screen and (max-width: 992px) {
   .blog-slider {
@@ -2376,12 +2378,16 @@ color: var(());
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
+  font-family: 'MainFonts';
 }
 .blog-slider__title {
-  font-size: 24px;
+  font-size: var(--fs-3x1);
   font-weight: 700;
   color: #0d0925;
   margin-bottom: 20px;
+  margin-left: 100px;
+  font-family: 'Secondfont';
+  ;
 }
 .blog-slider__text {
   color: #4e4a67;
