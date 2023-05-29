@@ -116,6 +116,9 @@ p{
   margin-bottom: 15px;
 }
 
+span {
+  color: var(--hot-pink);
+}
 h1 {
   font-family: 'Mainfont', var(--primary-font) ;
     font-size: 40px;
@@ -1200,7 +1203,7 @@ hr {
 /* Services */
 
 .service-package{
-margin-top: 200px;
+margin-top: 50px;
 }
 
 .service-package-content{
