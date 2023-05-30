@@ -1203,7 +1203,7 @@ hr {
 /* Services */
 
 .service-package{
-margin-top: 50px;
+margin-top: 200px;
 }
 
 .service-package-content{
@@ -1686,7 +1686,7 @@ font-weight: bold;
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
-	height: 100vh;
+	height: 60vh;
 
 }
 
