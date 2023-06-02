@@ -836,6 +836,7 @@ text-align: center;
     font-family: 'MainFonts';
     font-size: var(--fs-xl);
     font-weight: 800;
+    color: white;
 }
 
 
@@ -848,7 +849,7 @@ text-align: center;
 
 #work .title h2,
 #work h3 {
-  color: var(--dark-color);
+  color: var(--hot-pink);
 }
 #work .title h2::after {
   background: var(--light-color);
