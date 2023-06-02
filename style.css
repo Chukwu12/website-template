@@ -2534,6 +2534,10 @@ color: var(--title-color);
 .blog-slider__text li {
   margin: 5px 5px 5px 5px;
 }
+.blog-slider__text ul
+{
+  list-style: disc;
+}
 .blog-slider__button {
   display: inline-flex;
   background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
