@@ -2203,99 +2203,100 @@ color: var(--title-color);
   .container_content{
     width: 60vh;
 }
-  }
 
-  .container_content_inner{
-    width: 100%;
-    margin-left: 80px;
-  }
-
-  .container_content_inner .title{
-    overflow: hidden;
-    height: auto;
-    font-family: Secondfont;
-    color: var(--hot-pink);
-    font-weight: 700;
-    margin-bottom: 50px;
-    font-size: 4.5rem;
-    margin-left: 30px;
-  }
-
-  .par p {
-    font-size: 2.3rem;
-    line-height: 1.2;
-    transform: translateY(300px);
-    animation: slideUp .8s ease-in-out forwards .8s;
-    font-weight: 600;
-  }
-
-  .container_outer_img{
-    position: relative;
-    top: 100%;
-    left: 80px;
-    margin: 0;
-    width: 100%;
-    margin-top: 150px;
-  }
-
-  #work{
-    width: 80vh;
-    margin-top: 1200px;
-    margin-bottom: 40px;
-    height: 100vh;
+.container_content_inner{
+  width: 100%;
+  margin-left: 80px;
 }
- 
+
+.container_content_inner .title{
+  overflow: hidden;
+  height: auto;
+  font-family: Secondfont;
+  color: var(--hot-pink);
+  font-weight: 700;
+  margin-bottom: 50px;
+  font-size: 4.5rem;
+  margin-left: 30px;
+}
+
+.par p {
+  font-size: 2.3rem;
+  line-height: 1.2;
+  transform: translateY(300px);
+  animation: slideUp .8s ease-in-out forwards .8s;
+  font-weight: 600;
+}
+
+.container_outer_img{
+  position: relative;
+  top: 100%;
+  left: 80px;
+  margin: 0;
+  width: 100%;
+  margin-top: 150px;
+}
+
+#work{
+  width: 80vh;
+  margin-top: 1200px;
+  margin-bottom: 40px;
+  height: 100vh;
+}
+
 .work-content{
-  padding-top: 100px;
+padding-top: 100px;
 }
 
-  .work-container{
-    padding: 0;
-  }
+.work-container{
+  padding: 0;
+}
 
-  .work-top{
-    font-size: 1.4rem;
-    line-height: 2.5;
-    font-weight: 900;
-    color: white;
-    margin: 0;
-    text-align: center;
-  }
+.work-top{
+  font-size: 1.4rem;
+  line-height: 2.5;
+  font-weight: 900;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
 
-  .footer  {
-    width: 80vh;
-  }
+.footer  {
+  width: 80vh;
+}
 
-  .footer__container img {
-    height: 60px;
-    position: relative;
-    left: 30%;
-    
-  }
+.footer__container img {
+  height: 60px;
+  position: relative;
+  left: 30%;
+  
+}
 
-  .footer__title{
-    font-size: var(--fs-4x1);
-    margin-bottom: 1.25rem;
-  }
+.footer__title{
+  font-size: var(--fs-4x1);
+  margin-bottom: 1.25rem;
+}
 
-  .footer__links ul {
-    font-size: var(--fs-2x1);
-  }
+.footer__links ul {
+  font-size: var(--fs-2x1);
+}
 
-  .footer__title ul {
-    font-size: var(--fs-2x1);
-  }
+.footer__title ul {
+  font-size: var(--fs-2x1);
+}
 
 .footer__description{
-  font-size: var(--fs-3x1);
-    margin-left: 40px;
+font-size: var(--fs-3x1);
+  margin-left: 40px;
 }
 
 .footer__content{
-  font-size: var(--fs-sm);
+font-size: var(--fs-sm);
 }
 
-}
+  }
+
+  
 
 
 
