@@ -1212,6 +1212,7 @@ line-height: 28px;
 .test-container{
   width: 1200px;
   margin: 0 auto;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 20px;
   box-sizing: border-box;
@@ -1220,7 +1221,7 @@ line-height: 28px;
 
 .test-container box{
   position: relative;
-  padding: 40px;
+  padding: 80px 40px 40px;
   transition: 0.5s;
   background: #fff;
 }
@@ -1253,6 +1254,22 @@ line-height: 28px;
   transition: 0.5s;
 }
 
+ .test-container .box p,
+ .test-container .box h4,
+ .test-container .box h4 span{
+  color: #fff;
+ }
+
+ .test-container .box .imgbox {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+ }
 
 
 
