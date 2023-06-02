@@ -33,12 +33,18 @@
 
   /*Color mode HSL(hue, saturation, lightness)*/
   --bg-color: hsl(220, 18%, 78%);
-  --bg-color-light: #ffffff;
+  --bg-color-lights: #ffffff;
   --title-color: hsl(220, 8%, 10%);
   --text-color: hsl(220, 4%, 32%);
-  --text-color-light: #ffffff;
-  --body-color: var(--light-color);
-  --container-color: var(--hot-pink);
+  --text-color-lights: #ffffff;
+  --body-colors: var(--light-color);
+  --container-colors: var(--hot-pink);
+  --bg-color: hsl(220, 18%, 78%);
+  --bg-color-light: hsl(220, 18%, 86%);
+  --text-color: hsl(220, 4%, 32%);
+  --text-color-light: hsl(220, 4%, 55%);
+  --body-color: hsl(220, 18%, 99%);
+  --container-color: hsl(220, 18%, 97%);
 
   /* Fonts */
   --primary-font: "Monstserrat", sans-serif;
@@ -279,6 +285,7 @@ background: var(--light-color);
   --text-color: hsl(220, 8%, 65%);
   --body-color: hsl(220, 18%, 18%);
   --container-color: hsl(220, 18%, 21%);
+  --card-color: var(--hot-pink);
 }
 
 /* button dark/light */
@@ -353,6 +360,7 @@ h1 >  .magic {
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
  white-space: nowrap;
+ font-family: 'MainFonts';
 }
 
 @keyframes background-pan {
