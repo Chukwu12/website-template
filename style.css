@@ -849,7 +849,7 @@ text-align: center;
 
 #work .title h2,
 #work h3 {
-  color: var(--hot-pink);
+  color: var(--light-color);
 }
 #work .title h2::after {
   background: var(--light-color);
