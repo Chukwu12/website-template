@@ -1116,6 +1116,7 @@ hr {
 
 /*------------------- Services -----------------------*/
 
+/* Service package  */
 .service-package{
 margin-top: 200px;
 }
@@ -1193,85 +1194,45 @@ line-height: 28px;
   font-weight: 700;
 
 }
+/* Service package  End */
 
-/* New card ex */
+/* Testimoinal  */
 
-
-.p-box{
-  font-family: 'Lato', sans-serif;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 40px 2fr 1fr;
-  width: 35vw;
-  min-width: 200px;
-  height: 45vw;
-  min-height: 300px;
-  background-color: #FFF;
-  box-shadow: 2px 2px 10px rgba(45, 45, 45, 0.2);
-  font-size: calc(14px + (32 - 14) * ((100vw - 300px) / (1600 - 320)));
+.test-col{
+  flex: 1 1 250px;
+  padding: 15px;
+  margin: 10px;
+  font-size: 32px;
+  color: #707070;
+  border-radius: 15px;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
 }
-  .p-top{
-    grid-row: 1 / 2;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 8px;
-    z-index: 55;
-  }
-    .p-heart{
-      justify-self: start;
-      align-self: center;
-      color: gray;
-    }
-    .p-price{
-      justify-self: end;
-      align-self: center;
-      font-size: .7em;
-      font-weight: 600;
-    }
-    .p-heart{
-       font-family: "Font Awesome 5 Free"; 
-    }
-  
 
-  .p-box img{
-    width: 80%;
-    grid-row: 2 / 3;
-    position: relative;
-    top: -10px;
-    margin: 0 auto;
-  }
+.test-col:hover{
+  background-color: #313131;
+  color: #fff;
+}
 
-  .p-desc{
-    grid-row: 3 / 4;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, minmax(1em, 1.5em));
-    align-items: center;
-    justify-items: center;
-    border-top: 1px solid rgba(45, 45, 45, 0.1);
-    padding-top: 5px;
-  }
-    .p-category{
-      color: gray;
-      font-size: .8em;
-    }
-    .p-product{
-      font-size: 1em;
-    }
-    .p-stars{
-      color: #fce56a;
-      font-size: 0.6em;
-    }
-  
+.Testimonials{
+  text-align: center;
+  background-color: #e8e8e8;
+  transition: 0.3s;
+}
+
+.Testimonials img {
+  border-radius: 50%;
+  border-style: solid;
+  margin-top: -75px;
+}
 
 
 
 
 
 
-
-/* new card end */
+/* Testimoinal End */
 
 
 /* fun facts Slider */
