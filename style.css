@@ -2201,7 +2201,8 @@ color: var(--title-color);
   }
 
   .container_content{
-    width: 100%;
+    width: 60vh;
+}
   }
 
   .container_content_inner{
@@ -2239,22 +2240,26 @@ color: var(--title-color);
 
   #work{
     width: 80vh;
-    margin-top: 1100px;
+    margin-top: 1200px;
     margin-bottom: 40px;
-    height: 200vh;
+    height: 100vh;
 }
  
+.work-content{
+  padding-top: 100px;
+}
 
   .work-container{
     padding: 0;
   }
 
   .work-top{
-    font-size: 1.2rem;
-    line-height: 2;
+    font-size: 1.4rem;
+    line-height: 2.5;
     font-weight: 900;
     color: white;
     margin: 0;
+    text-align: center;
   }
 
   .footer  {
