@@ -2639,8 +2639,8 @@ Media Query mixins
         align-self: center;
         display: flex;
         flex-direction: column;
-        animation: scaleDown 6s ease 2s;
-       -webkit-animation: scaleDown 6s ease 2s;
+        animation: scaleDown 3s ease 2s;
+       -webkit-animation: scaleDown 3s ease 2s;
     
         .heading {
           align-self: center;
