@@ -286,6 +286,7 @@ background: var(--light-color);
   --body-color: hsl(220, 18%, 18%);
   --container-color: hsl(220, 18%, 21%);
   --card-color: var(--hot-pink);
+  background: var(--bg-color);
 }
 
 /* button dark/light */
