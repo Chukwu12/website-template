@@ -290,9 +290,10 @@ background: var(--light-color);
 
 /* button dark/light */
 .change-theme{
-  color: var(--dark-color);
+  color: var(--bg-color-lights);
   font-size: 1.125rem;
   cursor: pointer;
+  background-color: var();
 }
 
 .d-flex {
