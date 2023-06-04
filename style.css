@@ -290,6 +290,55 @@ background: var(--light-color);
   background: var(--bg-color);
 }
 
+/*  dark theme colors  */
+body.dark-theme{
+  background: var(--bg-color);
+}
+
+.dark-theme .sub-box {
+  background-color: var(--card-color);
+}
+
+.dark-theme .sub-box h3{
+  color: var(--bg-color-lights);
+}
+
+.dark-theme .sub-box p{
+  color: var(--bg-color-lights);
+}
+
+.dark-theme .home-container  {
+  background: var(--bg-color);
+}
+
+.dark-theme .container_content_inner .title  {
+  color: var(--bg-color-lights);
+}
+
+.dark-theme .par  {
+  color: var(--bg-color-lights);
+}
+
+.dark-theme .footer{
+  background-color: var(--bg-color);
+  color: var(--bg-color-lights);
+}
+
+.footer__title h3 .dark-theme{
+  color: var(--bg-color-lights);
+}
+
+.footer__link .dark-theme{
+  color: var(--bg-color-lights);
+}
+
+.footer__title a .dark-theme{
+  color: var(--bg-color-lights);
+}
+
+
+/* Dark theme ends */
+
 
 
 
@@ -458,7 +507,7 @@ margin-bottom: 20px;
 /* Sub-service section */
 
 .sub-section{
-margin-top: 100px;
+  margin: 50px 10px 0px;
 }
 
 .items{
@@ -2721,8 +2770,8 @@ Media Query mixins
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        animation: scaleDown 6s ease 2s;
-       -webkit-animation: scaleDown 6s ease 2s;
+        animation: scaleDown 4s ease 2s;
+       -webkit-animation: scaleDown 4s ease 2s;
        .img {
           width: 100%;
           height: auto;
