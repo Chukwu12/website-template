@@ -292,11 +292,14 @@ background: var(--light-color);
 
 body.dark-theme{
   background: var(--bg-color);
+
+  .sub-box .dark-theme{
+    background-color: var(--card-color);
+  }
+  
 }
 
-sub-box .dark-theme{
-  background-color: var(--card-color);
-}
+
 
 sub-box .dark-theme h3{
   color: var(--bg-color-lights);
