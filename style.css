@@ -302,7 +302,7 @@ body.dark-theme{
   color: var(--bg-color-lights);
 }
 
-.dark-theme sub-box p{
+.dark-theme .sub-box p{
   color: var(--bg-color-lights);
 }
 
@@ -320,6 +320,18 @@ body.dark-theme{
 
 .dark-theme .footer{
   background-color: var(--bg-color);
+  color: var(--bg-color-lights);
+}
+
+.footer__title h3 .dark-theme{
+  color: var(--bg-color-lights);
+}
+
+.footer__link .dark-theme{
+  color: var(--bg-color-lights);
+}
+
+.footer__title a .dark-theme{
   color: var(--bg-color-lights);
 }
 
