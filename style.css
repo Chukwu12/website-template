@@ -290,7 +290,7 @@ background: var(--light-color);
   background: var(--bg-color);
 }
 
-/*  dark theme colors  */
+/*  dark theme colors for website  */
 body.dark-theme{
   background: var(--bg-color);
 }
@@ -338,6 +338,27 @@ body.dark-theme{
 
 .footer__title a .dark-theme{
   color: var(--bg-color-lights);
+}
+
+.dark-theme .scroll-header{
+  background-color: var(--bg-color);
+  box-shadow: 0 2px 8px hlsa(220, 18%, 8%, .3);
+}
+
+.dark-theme .nav__menu{
+  background-color: var(--bg-color);
+}
+
+.dark-theme ::-webkit-scrollbar{
+  background-color: hsl(220, 18%, 15%);
+}
+
+.dark-theme ::-webkit-scrollbar-thumb{
+  background-color: hsl(220, 18%, 25%);
+}
+
+.dark-theme ::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(220, 18%, 35%);
 }
 
 
