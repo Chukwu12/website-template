@@ -292,36 +292,33 @@ background: var(--light-color);
 
 body.dark-theme{
   background: var(--bg-color);
-
-  .sub-box .dark-theme{
-    background-color: var(--card-color);
-  }
-  
 }
 
+.dark-theme .sub-box {
+  background-color: var(--card-color);
+}
 
-
-sub-box .dark-theme h3{
+.dark-theme .sub-box h3{
   color: var(--bg-color-lights);
 }
 
-sub-box .dark-theme p{
+.dark-theme sub-box p{
   color: var(--bg-color-lights);
 }
 
-.home-container .dark-theme {
+.dark-theme .home-container  {
   background: var(--bg-color);
 }
 
-.container_content_inner .title .dark-theme {
+.dark-theme .container_content_inner .title  {
   color: var(--bg-color-lights);
 }
 
-.par .dark-theme {
+.dark-theme .par  {
   color: var(--bg-color-lights);
 }
 
-.footer .dark-theme{
+.dark-theme .footer{
   background-color: var(--bg-color);
   color: var(--bg-color-lights);
 }
