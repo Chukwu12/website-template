@@ -2704,8 +2704,7 @@ Media Query mixins
           margin-right: auto; 
           align-self: flex-start;
           overflow: hidden;
-          animation: reveal-info 4s ease 3s;
-         -webkit-animation: reveal-info 4s ease 3s;
+          
        }
     }
     .image-wrapper {
