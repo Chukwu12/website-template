@@ -290,6 +290,10 @@ background: var(--light-color);
   background: var(--bg-color);
 }
 
+body.dark-theme{
+  background: var(--bg-color);
+}
+
 /* button dark/light */
 .change-theme{
   color: var(--dark-color);
