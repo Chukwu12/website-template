@@ -294,6 +294,39 @@ body.dark-theme{
   background: var(--bg-color);
 }
 
+sub-box .dark-theme{
+  background-color: var(--card-color);
+}
+
+.sub-box .dark-theme h3{
+  color: var(--bg-color-lights);
+}
+
+sub-box .dark-theme p{
+  color: var(--bg-color-lights);
+}
+
+.home-container .dark-theme {
+  background: var(--bg-color);
+}
+
+.container_content_inner .title .dark-theme {
+  color: var(--bg-color-lights);
+}
+
+.par .dark-theme {
+  color: var(--bg-color-lights);
+}
+
+.footer .dark-theme{
+  background-color: var(--bg-color);
+  color: var(--bg-color-lights);
+}
+
+
+
+
+
 /* button dark/light */
 .change-theme{
   color: var(--dark-color);
