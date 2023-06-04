@@ -298,7 +298,7 @@ sub-box .dark-theme{
   background-color: var(--card-color);
 }
 
-.sub-box .dark-theme h3{
+sub-box .dark-theme h3{
   color: var(--bg-color-lights);
 }
 
