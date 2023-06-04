@@ -45,6 +45,7 @@
   --text-color-light: hsl(220, 4%, 55%);
   --body-color: hsl(220, 18%, 99%);
   --container-color: hsl(220, 18%, 97%);
+  --bg-colorss: hsl(220, 18%, 13%);
 
   /* Fonts */
   --primary-font: "Monstserrat", sans-serif;
@@ -638,8 +639,7 @@ h1 {
   bottom: 0;
   height: 100%;
   z-index: -10;
-  background-color: var(--bg-color);
-}
+  background-color: var( --bg-colorss);
 
 
 
