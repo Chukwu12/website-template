@@ -295,6 +295,11 @@ body.dark-theme{
   background: var(--bg-color);
 }
 
+.dark-theme #theme-button {
+  color: var(--card-color)
+ }
+ 
+
 .dark-theme .sub-box {
   background-color: var(--bg-color-light);
 }
