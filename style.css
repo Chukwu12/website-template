@@ -295,7 +295,7 @@ body.dark-theme{
   background: var(--bg-color);
 }
 
-.dark-theme #theme-button {
+.dark-theme .change-theme {
   color: var(--card-color)
  }
  
@@ -1930,7 +1930,7 @@ color: var(--title-color);
   }
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1024px){
   .nav__menu{
     position: fixed;
     bottom: 1.5rem;
@@ -1959,7 +1959,7 @@ color: var(--title-color);
 
 /* Extra small devices (phones, 600px and down) */
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 480px) and (max-width: 600px){
   .nav__logo img{
     margin-left: 40px;  
   }
