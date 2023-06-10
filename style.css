@@ -328,21 +328,96 @@ body.dark-theme{
   color: var(--bg-color-lights);
 }
 
+/* End */
+
+/* Dark-theme about page */
+
+.dark-theme .ab-container {
+  background-color: var(--bg-color-light);
+}
+
+.dark-theme .heading h3{
+  color: var(--bg-color-lights);
+}
+
+.dark-theme .short-bio{
+  color: var(--bg-color-lights);
+}
+
+.dark-theme .about-statement{
+  background: var(--bg-color-light);
+}
+
+.dark-theme .all-text h2 {
+  color: var(--bg-color-lights);
+}
+
+.dark-theme .all-text p {
+  color: var(--bg-color-lights);
+}
+
+.dark-theme .blog-slider{
+  background: var(--bg-color-light);
+}
+
+.dark-theme .blog-slider__text{
+  color: var(--bg-color-lights);
+}
+
+.dark-theme .blog-slider__title{
+  color: var(--bg-color-lights);
+}
+
+.dark-theme .blog-slider__code {
+  color: var(--bg-color-lights);
+}
+
+/* End */
+/* Dark theme service page */
+.dark-theme .card {
+  background: var(--bg-color-light);
+}
+
+.dark-theme .card__name {
+  color: var(--bg-color-lights);
+}
+
+.dark-theme .card__text {
+  color: var(--bg-color-lights);
+}
+
+.dark-theme .heading h2 {
+  color: var(--bg-color-lights);
+}
+
+.dark-theme .row {
+  background: var(--bg-color-light);
+}
+
+.dark-theme .row h3 {
+  color: var(--bg-color-lights);
+}
+
+.dark-theme .row p {
+  color: var(--bg-color-lights);
+}
+/* End */
+
 .dark-theme .footer{
   background-color: var(--bg-color);
   color: var(--bg-color-lights);
 }
 
-.footer__title h3 .dark-theme{
-  color: var(--bg-color-lights);
+.dark-theme .footer__title  {
+  color: var(--card-color);
 }
 
-.footer__link .dark-theme{
-  color: var(--bg-color-lights);
+.dark-theme .footer__link {
+  color: var(--card-color);
 }
 
-.footer__title a .dark-theme{
-  color: var(--bg-color-lights);
+.dark-theme li a {
+  color: var(--card-color);
 }
 
 .dark-theme .scroll-header{
