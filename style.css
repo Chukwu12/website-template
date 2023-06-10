@@ -2183,6 +2183,21 @@ padding-top: 100px;
   width: auto;
 }
 
+.all-text h2 {
+  font-size: 8em;
+}
+
+.all-text p {
+  font-size: 3rem;
+}
+
+.blog-slider {
+  margin-top: 3200px;
+}
+
+
+
+
 /* End */
 
 
