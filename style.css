@@ -2163,7 +2163,7 @@ padding-top: 100px;
 /* About page  */
 
 .about-statement{
-  height: 100vh;
+  height: auto;
   width: 1200px;
   margin-top: 0;
   margin-bottom: 0;
@@ -2193,10 +2193,24 @@ padding-top: 100px;
 
 .blog-slider {
   margin-top: 3200px;
+  width: 900px;
+    max-width: 1000px;
+    margin-left: 150px;
+    margin-top: 400px;
 }
 
+.blog-slider__img{
+  width: 95%;
+  height: 700px;
+}
 
+.blog-slider__title{
+  font-size: 70px;
+}
 
+.blog-slider__title{
+  font-size: 20px;
+}
 
 /* End */
 
