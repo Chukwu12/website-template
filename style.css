@@ -2462,6 +2462,7 @@ font-size: var(--fs-sm);
 @media screen and (max-width: 576px) {
   .blog-slider__img {
     width: 95%;
+    height: 700px;
  }
 }
 @media screen and (max-height: 500px) and (min-width: 992px) {
