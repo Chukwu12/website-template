@@ -1092,9 +1092,6 @@ padding: 15px;
   height: 100vh;
   width: 100%;
   background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -1975,6 +1972,7 @@ color: var(--title-color);
     grid-template-columns: repeat(1,1fr);
   }
   
+  /* Home page  */
   .hero{
     min-height: 90vh;
     min-width: 80vh;
@@ -2083,6 +2081,30 @@ padding-top: 100px;
   margin: 0;
   text-align: center;
 }
+
+/* End */
+
+
+/* About page  */
+
+.about-statement{
+  height: 100vh;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.about-main{
+  width: 100%;
+  display: grid;
+
+}
+
+/* End */
+
+
+
+
 
 .footer  {
   width: 80vh;
