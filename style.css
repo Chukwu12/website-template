@@ -696,6 +696,18 @@ margin-bottom: 20px;
   transform: perspective(1000px) rotate(4.80deg) rotateY(10.23deg) scale3d(1.05,1.05,1.05);
 }
 
+#hero .col {
+  justify-content: center; 
+  flex-direction: column;
+  display: flex;
+}
+
+#hero .sub-card{
+  border: 0;
+  text-align: center;
+}
+
+
 /* Home Page */
 	
 	.overlay {
