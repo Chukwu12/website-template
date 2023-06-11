@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 
-section #hero {
+section  {
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -35,6 +35,44 @@ section p {
   font-size: 16px;
   font-weight: 300;
 }
+
+/* End  */
+
+/* Navbar */
+.nav{
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .nav__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav__link{
+    color: var(--dark-color);
+    font-weight: 400 ;
+    display: flex;
+    justify-items: center;
+    gap: .25rem;
+    align-items: center;
+  }
+  
+  .nav__link i{
+    font-size: 1.25rem;
+  }
+  
+  .nav__link span{
+    font-size: .688rem;
+    margin: 15px;
+  }
+
+  /* End */
+
+  /* Hero */
 button {
   max-width: 50%;
   border-radius: 50px !important;
