@@ -15,140 +15,68 @@
 </head>
 <body>
 
-  <section class="swiper mySwiper">
-
-    <div class="swiper-wrapper">
-
-      <div class="card swiper-slide">
-        <div class="card__image">
-          <img src="/images/image1.png" alt="card image">
-        </div>
-
-        <div class="card__content">
-          <span class="card__title">Web Designer</span>
-          <span class="card__name">Vanessa Martinez</span>
-          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
-          <button class="card__btn">View More</button>
-        </div>
+   <!--------------------- header ------------------------->
+   <header class="header scroll-header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <img src="images/DESTINY LOGO FINAL copy.png" href="index.html" alt="logo"></a>
+      </a>
+    
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link"  href="index.html">
+            
+              <span>Home</span></a></li>
+    
+              <li class="nav__item">
+                <a href="about.html" class="nav__link ">
+                
+                  <span>About</span></a></li>
+    
+                  <li class="nav__item">
+                    <a href="services.html" class="nav__link">
+                    
+                      <span>Services</span></a></li>
+    
+                  <li class="nav__item">
+                    <a href="products.html" class="nav__link">
+                   
+                      <span>Product</span></a></li>
+    
+                      <li class="nav__item">
+                        <a href="contact.html" class="nav__link">
+                      
+                          <span>Contact</span></a></li>
+        </ul>
       </div>
+      <!-- Theme change btn -->
+      <i class="ri-moon-line change-theme" id="theme-button"></i>
+    </nav>
+      </header>
+      <!-- header end -->
 
-      <div class="card swiper-slide">
-        <div class="card__image">
-          <img src="/images/image1.png" alt="card image">
+ <section id="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="hero-text">
+          <h1><span class="magic">Thriving through anxiety</span></h1>
         </div>
-
-        <div class="card__content">
-          <span class="card__title">Ui Designer</span>
-          <span class="card__name">Sarah Bowen</span>
-          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
-          <button class="card__btn">View More</button>
-        </div>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+        <button type="button" class="btn btn-dark btn-large">Learn more</button>
       </div>
-
-      <div class="card swiper-slide">
-        <div class="card__image">
-          <img src="/images/image1.png" alt="card image">
-        </div>
-
-        <div class="card__content">
-          <span class="card__title">Web Developer</span>
-          <span class="card__name">David Murphy</span>
-          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
-          <button class="card__btn">View More</button>
-        </div>
+      <div class="col img-col">
+        <img src="./images/new banner photo-PhotoRoom.png-PhotoRoom.png" class="img-fluid" alt="hero image">
       </div>
-
-      <div class="card swiper-slide">
-        <div class="card__image">
-          <img src="/images/image1.png" alt="card image">
-        </div>
-
-        <div class="card__content">
-          <span class="card__title">Mobile Designer</span>
-          <span class="card__name">Kelsey West</span>
-          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
-          <button class="card__btn">View More</button>
-        </div>
-      </div>
-
     </div>
-  </section>
 
-<!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  </div>
+ </section>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      effect: "coverflow",
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        rotate: 0,
-        stretch: 0,
-        depth: 300,
-        modifier: 1,
-        slideShadows: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-      },
-    });
-  </script>
+
 
 </body>
 </html>
 
 
-<!-- Pricing Section -->
-<section class="pricing section-padding" id="pricing">
-  <div class="container">
-    <div class="section-title">
-      <div class="title">
-        <span class="title">Our Product</span>
-        <h2 class="sub-title">Pricing</h2>
-      </div>
-      <div class="grid">
-        <!-- Mech  starts -->
-        <div class="pricing-item">
-          <div class="pricing-header">
-            <h3>Merch</h3>
-            <div class="price"><span></span></div>
-          </div>
-          <div class="pricing-body">
-            <ul>
-              <li><i class="fas fa"></i>An Affirmation Journal for Unapologetically Dope Women of Color
-              </li>
-              <p>This journal is to help you affirm what you already have, give you clarity, and validate that you really are as dope as you think you are. 
-              </p>
-            </ul>
-          </div>
-          <div class="pricing-footer">
-            <a href="#" class="btn">Get started</a>
-          </div>
-        </div>
-          <!-- Pricing End -->
-      <!-- basic plan starts -->
- <div class="pricing-item">
-  <div class="pricing-header">
-    <h3>Merch</h3>
-    <div class="price"><span></span></div>
-  </div>
-  <div class="pricing-body">
-    <ul>
-      <li><i class="fas fa"></i>Social-work-ish T-shirt
-
-      </li>
-      <p>The license and style to back it up. 
-</p>
-    </ul>
-  </div>
-  <div class="pricing-footer">
-    <a href="#" class="btn">Get started</a>
-  </div>
-</div>
-
-<!-- Pricing End -->
-
-</section>
