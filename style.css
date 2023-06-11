@@ -2221,6 +2221,17 @@ padding-top: 100px;
   gap: 10px;
 }
 
+.aboutnew-container row{
+  width: 1290px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+}
+
 .about-statement{
   height: auto;
   width: 1200px;
