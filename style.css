@@ -455,10 +455,6 @@ body.dark-theme{
   cursor: pointer;
 }
 
-.d-flex {
-  display: flex;
-  align-items: center;
-}
 
 
 
@@ -1379,7 +1375,7 @@ line-height: 28px;
 
 
 .row h3{
-  font-size: 1.1rem;
+  font-size: 2.1rem;
   font-weight: 500;
   margin-bottom: 2px;
 }
