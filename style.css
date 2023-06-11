@@ -2203,34 +2203,7 @@ padding-top: 100px;
 
 
 /* About page  */
-#about-us{
-  height: 100vh;
-    width: 100%;
-    background: white;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
 
-.aboutnew-container{
-  width: 100%;
-  max-width: 95%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  gap: 10px;
-}
-
-.about-row{
-  width: 1290px;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 50px;
-}
-}
 
 .about-statement{
   height: auto;
