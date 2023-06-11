@@ -2203,6 +2203,13 @@ padding-top: 100px;
 
 
 /* About page  */
+#about-us{
+  height: 100vh;
+    width: 100%;
+    background: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 .about-statement{
   height: auto;
