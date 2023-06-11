@@ -164,3 +164,10 @@ h1 >  .magic {
  white-space: nowrap;
  font-family: 'MainFonts';
 }
+
+/* home service cards */
+ .card {
+  box-shadow: 11px 7px 16px #f9f9f9;
+  border: 0;
+  text-align: center;
+ }
