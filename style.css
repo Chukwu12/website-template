@@ -606,7 +606,7 @@ margin-bottom: 20px;
 /* Sub-service section */
 
 .sub-section{
-  margin: 50px 10px 0px;
+  /* margin: 50px 10px 0px; */
 }
 
 .items{
@@ -1052,6 +1052,7 @@ text-align: center;
 #work .title h2,
 #work h3 {
   color: var(--light-color);
+  font-size: var(--fs-4x1);
 }
 #work .title h2::after {
   background: var(--light-color);
@@ -1378,6 +1379,7 @@ line-height: 28px;
   font-size: 2.1rem;
   font-weight: 500;
   margin-bottom: 2px;
+  text-align: center;
 }
 
 .row h5{
@@ -2144,7 +2146,7 @@ color: var(--title-color);
 
 .container_content_inner{
   width: 100%;
-  margin-left: 80px;
+  margin-left: 50px;
 }
 
 .container_content_inner .title{
@@ -2179,7 +2181,7 @@ color: var(--title-color);
   width: 80vh;
   margin-top: 1200px;
   margin-bottom: 40px;
-  height: 100vh;
+  height: 70vh!important;
 }
 
 .work-content{
