@@ -261,11 +261,11 @@ align-items: center;
   margin-bottom: 3rem;
 }
 
-.container {
+/* .container {
   max-width: 1024px;
   margin: auto;
   padding: 0 15px;
-}
+} */
 
 /* change bg header */
 .scroll-header{
