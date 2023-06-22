@@ -2397,15 +2397,20 @@ font-size: var(--fs-sm);
 }
 @media screen and (max-width: 992px) {
   .blog-slider {
-    max-width: 680px;
-    height: 400px;
+   max-width: 700px;
+    height: 500px;
+    margin-left: 300px;
+}
  }
 }
 @media screen and (max-width: 768px) {
   .blog-slider {
-    min-height: 500px;
+   min-height: 500px;
     height: auto;
-    margin: 180px auto;
+    margin: 100px auto;
+    min-width: 900px;
+    margin-top: 400px;
+    margin-left: 100px;
  }
 }
 @media screen and (max-height: 500px) and (min-width: 992px) {
