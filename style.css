@@ -1945,11 +1945,9 @@ text-decoration: underline;
 color: var(--title-color);
 }
 
-.footer__info{
 
-}
 
-.footer_social{
+.footer__social{
   display: flex;
   column-gap: .5rem;
 }
@@ -1958,13 +1956,12 @@ color: var(--title-color);
   display: inline-flex;
   color: var(--title-color);
   padding: .4rem;
-  background-color: var(--container-color);
   font-size: 1.25rem;
   transition: background-color .3s;
 }
 
 .footer__social-link:hover{
-  background-color: var(--bg-color-light);
+  background-color: var(--primary-color);
 }
 
 .footer__description{
