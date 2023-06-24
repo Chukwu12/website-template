@@ -1497,14 +1497,13 @@ line-height: 28px;
 
 /* fun facts Slider */
 .container swiper{
-  max-width: 100%;
     padding: 40px 0;
     height: 90vh;
-    margin-top: 100px;
 }
 
 .swiper{
-  width: 100%;
+  max-width: 100%;
+  margin-top: 100px;
 }
 
 .swiper .swiper-wrapper {
