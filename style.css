@@ -2201,6 +2201,22 @@ color: var(--title-color);
    grid-gap: 1rem;
 }
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+  .hero-text h1 {
+    font-size: var(--fs-2x1);
+  }
+  .sub-card {
+    padding: 0;
+  }
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
 
 /* Extra small devices (phones, 600px and down) */
 
