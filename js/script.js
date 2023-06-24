@@ -128,3 +128,5 @@ if (navLinkEl.href.inculdes(windowPathname)) {
 
 
 
+// ===============================Contact page ===================================//
+feather.replace();
