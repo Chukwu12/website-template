@@ -1332,6 +1332,10 @@ hr {
 /*------------------- Services -----------------------*/
 
 /* Service package  */
+
+.service-section{
+  margin-top: 200px;
+}
 .service-package{
 margin-top: 200px;
 }
