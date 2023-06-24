@@ -82,52 +82,47 @@
   <!-- header end -->
 
   <!-- Contact form  -->
-  <div class="contact-container d-flex justify-content-center align-items-center">
-	
-    <!-- // SVG
-            from: https://www.freepik.com/free-vector/new-message-concept-landing-page_5777076.htm 
-    -------------------------------------------------------------
-    -- Note: need to use inline svg to manipulate its components
-    ------------------------------------------------------------>
-  
-   
-    
-    
-    <!-- // FORM
-    -------------------------------------------------------------
-    ------------------------------------------------------------>
-    
-    <form>
-      <h1 class="title text-center mb-4">Talk to Us</h1>
-  
-        <!-- Name -->
-        <div class="form-group position-relative">
-          <label for="formName" class="d-block">
-            <i class="icon" data-feather="user"></i>
-          </label>
-          <input type="text" id="formName" class="form-control form-control-lg thick" placeholder="Name">
-        </div>
-  
-        <!-- E-mail -->
-        <div class="form-group position-relative">
-          <label for="formEmail" class="d-block">
-            <i class="icon" data-feather="mail"></i>
-          </label>
-          <input type="email" id="formEmail" class="form-control form-control-lg thick" placeholder="E-mail">
-        </div>
-  
-        <!-- Message -->
-        <div class="form-group message">
-          <textarea id="formMessage" class="form-control form-control-lg" rows="7" placeholder="Mensagem"></textarea>
-        </div>
-      
-        <!-- Submit btn -->
-        <div class="text-center">
-          <button type="submit" class="btn btn-primary" tabIndex="-1">Send message</button>
-        </div>
-    </form>
-    
+ <!-----FORM ------->
+<div class="form-container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="mail">E-mail</label>
+      </div>
+      <div class="col-75">
+       <input type="text"  id="mail" name="mail" placeholder="Your e-mail..">
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
   </div>
+<!------------- END FORM ----------------->
 
 
  <!-- Contact form end -->
