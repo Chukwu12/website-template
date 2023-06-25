@@ -2381,6 +2381,9 @@ padding-top: 0px;
 
 .about-statement{
   margin-top: 2400px;
+  height: auto;
+  margin-bottom: 0;
+  width: 1200px;
 }
 
 .main-content{
@@ -2407,30 +2410,7 @@ padding-top: 0px;
 }
 
 /* About page  */
-.about-row{
-  width: 1290px;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
 
-.about-statement{
-  height: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  width: 1200px;
-  margin-top: 1500px;
-}
-
-.about-main{
-  width: 100%;
-}
-
-.about-main img {
-  width: auto;
-}
 
 .all-text{
   width: auto;
@@ -2573,9 +2553,10 @@ font-size: var(--fs-sm);
 }
 @media screen and (max-width: 992px) {
   .blog-slider {
-   max-width: 800px;
+   max-width: 900px;
     height: 600px;
-    margin-left: 300px;
+    margin-left: 200px;
+    width: 800px;
 }
  }
 }
