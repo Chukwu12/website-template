@@ -2374,21 +2374,14 @@ padding-top: 0px;
 
 /* Statement End */
 
-/* Footer */
+/* About Page */
+.ab-container{
+  background-color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-/* Footer End */
-
+.main-content{
+  margin-bottom: 100px;
+}
 
 
 /* max-width: 600px End */
@@ -2410,7 +2403,7 @@ padding-top: 0px;
   height: auto;
   margin-top: 0;
   margin-bottom: 0;
-  width: 100%;
+  width: 1200px;
   margin-top: 200px;
 }
 
