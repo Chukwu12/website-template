@@ -2381,6 +2381,7 @@ padding-top: 0px;
   text-align: center;
 }
 
+
 /* Statement End */
 
 /* Footer */
@@ -2402,7 +2403,6 @@ padding-top: 0px;
   font-size: var(--fs-sm);
     column-gap: 0.3rem;
 }
-}
 
 .footer__title{
   font-size: var(--fs-lg);
@@ -2422,6 +2422,13 @@ padding-top: 0px;
 }
 
 /* Footer End */
+
+
+
+/* max-width: 600px End */
+}
+
+
 
 /* About page  */
 .about-row{
