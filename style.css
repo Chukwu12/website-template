@@ -3115,7 +3115,7 @@ Media Query mixins
             }
         }
         .short-bio {
-          width: 1%;
+          width: 100%;
           font-size: var(--fs-lg);
           line-height: 2;
         }
