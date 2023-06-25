@@ -2078,10 +2078,6 @@ color: var(--title-color);
   background-color: var(--primary-color);
 }
 
-.footer__icons{
-  display: flex;
-}
-
 .footer__information{
   margin-top: -10px; 
 }
@@ -2480,34 +2476,18 @@ padding-top: 0px;
   width: 100%;
 }
 
-.footer__container img {
-  height: 60px;
-  position: relative;
-  left: 30%;
-  
-}
 
-.footer__title{
-  font-size: var(--fs-4x1);
-  margin-bottom: 1.25rem;
-}
 
-.footer__links ul {
-  font-size: var(--fs-2x1);
-}
+
+
 
 .footer__links{
   padding-left: 1rem;
 }
 
-.footer__title ul {
-  font-size: var(--fs-2x1);
-}
 
-.footer__description{
-font-size: var(--fs-3x1);
-  margin-left: 40px;
-}
+
+
 
 .footer__content{
 font-size: var(--fs-sm);
