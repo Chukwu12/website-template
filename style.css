@@ -751,7 +751,6 @@ margin-bottom: 20px;
   max-width: 1024px;
   margin: auto;
   padding: 0 15px;
-  margin-top: 100px;
 } 
 
 .container_content {
@@ -1037,7 +1036,7 @@ text-align: center;
 #work {
   background: linear-gradient(rgba(0,0,0, 0.5),rgba(0, 0, 0, 0.5)
   ), url("images/4P5A9685.jpg") center/cover no-repeat fixed;
-  height: 80vh;
+  height: 60vh;
 width: 100%;
 }
 
@@ -2029,6 +2028,7 @@ figure.snip1157 .author h5 span {
 .footer__title{
   font-size: var(--h3-font-size);
   margin-bottom: 1.25rem;
+  font-family: 'MainFonts';
 }
 
 
@@ -2054,6 +2054,7 @@ color: var(--title-color);
 .footer__social{
   display: flex;
   column-gap: .5rem;
+  justify-content: center;
 }
 
 .footer__social-link{
