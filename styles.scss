@@ -445,3 +445,119 @@ $desktop-breakpoint: 1200px;
       margin-top: -40px !important;
     }
   }
+
+
+  .section-padding{
+    height: 100vh;
+    margin-bottom: 100px;
+    margin-top: 200px;
+  }
+  
+  
+  
+  .about-container{
+  
+      max-width: 1024px;
+      margin: auto;
+      padding: 0 15px;
+     
+  }
+  
+  .about-container .grid{
+    align-items: center;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  
+  .about-section-tilte{
+    text-align: center;
+    margin: 0 0 15px;
+  }
+  .about-img,
+  .about-text{
+    grid-column: span 1;
+  }
+  
+  .work-content .title{
+    font-size: var(--fs-4x1);
+    text-align: center;
+    font-family: 'Secondfont';
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .about-img img{
+   max-width: 500px;
+  margin: auto;
+  padding: 15px;
+   position: relative;
+  
+  }
+  
+  .about-img .img-box {
+    border-radius: 50%;
+  }
+  
+  .about-img .box{
+    height: 125px;
+    width: 125px;
+    background-color: var(--dark-color);
+    position: absolute;
+  }
+  
+  .about-img .box-1{
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+  }
+  
+  .about-img .box span{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: var(--fs-3x1);
+    margin: 0 0 5px;
+    line-height: 1;
+  }
+  
+  .about-img .box p{
+    font-size: var(--fs-sm);
+  }
+  
+  /* About-Mission Statement */
+  
+  
+  
+  
+  .about-main img{
+    width: 580px;
+    max-width: 100%;
+    height: auto;
+    padding: 0 10px;
+  }
+  
+  
+  
+  .about-main{
+    width: 1290px;
+    margin:  0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .all-text h2{
+    font-size: 3rem;
+    color: var(--hot-pink);
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: 'Secondfont';
+    text-align: center;
+  }
+  
+  .all-text p {
+    font-family: 'MainFonts';
+    font-size: var(--fs-xl);
+    line-height: 1.5;
+    margin-bottom: 35px;
+    color: var(--dark-color);
+  }
