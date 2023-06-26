@@ -2029,6 +2029,12 @@ figure.snip1157 .author h5 span {
   font-size: var(--h3-font-size);
   margin-bottom: 1.25rem;
   font-family: 'MainFonts';
+  text-align: center;
+}
+
+.footer__links-container{
+  display: grid;
+    justify-items: center;
 }
 
 
