@@ -26,10 +26,15 @@
    <!-- card Swiper -->
    <link rel="style" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.4/swiper-bundle.css">
 
-
+   <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
  <!-- CSS -->
  <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="/css/styles.css">
+
+
+
     
         <!-- CDN JS -->
 
@@ -39,7 +44,7 @@
 </head>
 
 <body>
-
+  <div class="container-fluid">
   <!-- header -->
   <header class="header scroll-header" id="header">
 <nav class="nav container">
@@ -51,27 +56,27 @@
     <ul class="nav__list">
       <li class="nav__item">
         <a href="index.html" class="nav__link active-link">
-          <i class="ri-home-line"></i>
+       
           <span>Home</span></a></li>
 
           <li class="nav__item">
             <a href="about.html" class="nav__link ">
-              <i class="ri-service-line"></i>
+              
               <span>About</span></a></li>
 
               <li class="nav__item">
                 <a href="services.html" class="nav__link">
-                  <i class="ri-t-shirt-2-line"></i>
+                
                   <span>Services</span></a></li>
 
               <li class="nav__item">
                 <a href="product.html" class="nav__link">
-                  <i class="ri-t-shirt-2-line"></i>
+                
                   <span>Product</span></a></li>
 
                   <li class="nav__item">
-                    <a href="#Contact" class="nav__link">
-                      <i class="ri-contacts-book-line"></i>
+                    <a href="contact.html" class="nav__link">
+                    
                       <span>Contact</span></a></li>
     </ul>
   </div>
@@ -81,66 +86,72 @@
   </header>
   <!-- header end -->
 
+ 
 
-    <!-- About section -->
-    <section class="ab-section">
-      <div class="ab-container">
-        <div class="container-inner">
-          <div class="main-content">
-            <div class="main-headings" id="main-headings-js">
-           
-      
-            <div class="heading">
-              <h3 id="heading1">About Me</h3>
+
+  <!-- About Me  -->
+<section id="about-me">
+  <div class="about-container">
+    <div class="container-inner">
+      <div class="main-content">
+        <div class="main-headings" id="main-headings-js">
+          <div class="heading">
+            <h3 id="heading1">About Me</h3>
             </div>
-      
-            <div class="short-bio">
-              <p>I strategically consult and coach organizations and individuals on creating, promoting, and sustaining wellness and positive mental health practices with specific expertise in general anxiety disorder. As a result, my clients learn to implement realistic wellness practices that positively support, elevate, and empower their well-being leading to increased confidence for individuals and sustainability and profitability for businesses. </p>
-         
-            </div>
-      
-            <a href="#" class="link" onclick="readMore()">Read More</a>
-            </div>
-            
-            <div class="more-info " id="more-info-js">
-              
-              <p>
-                I am a bold believer. I am an anxiety annihilator. I am a rich auntie. I am a beautiful Black woman. A dedicated daughter. A justice seeker. A truth-teller. A sometimes know-it-all. I am Destiny McCoy. I share my own story about my struggles with anxiety with no shame, knowing that it will help someone else see hope in their own journey. 
-              </p>
-      
-              <p>
-                For the last 13 years, I have been a mental health leader dedicated to creating safe spaces for justice-involved individuals, youth, and urban communities. Most recently, I have intentionally curated healing-centered spaces for individuals struggling with anxiety, especially women who typically report anxiety at higher rates.
-              </p>
-      
-              <p>
-                I believe the only way to challenge and overcome anxiety is through resistance, vulnerability, and truth. When someone walks away from me, they will feel more knowledgeable and know the truth because I’m not watering anything down. I care about people, and that is my superpower. 
-      
-              </p>
-              
-              
-            </div>
-            
+  
+            <article>
+              <div class="short-bio">
+                <p>
+                  I am a bold believer. I am an anxiety annihilator. I am a rich auntie. I am a beautiful Black woman. A dedicated daughter. A justice seeker. A truth-teller. A sometimes know-it-all. I am Destiny McCoy. I share my own story about my struggles with anxiety with no shame, knowing that it will help someone else see hope in their own journey.
+                </p>
+                <p>
+                  For the last 13 years, I have been a mental health leader dedicated to creating safe spaces for justice-involved individuals, youth, and urban communities. Most recently, I have intentionally curated healing-centered spaces for individuals struggling with anxiety, especially women who typically report anxiety at higher rates. I believe the only way to challenge and overcome anxiety is through resistance, vulnerability, and truth. When someone walks away from me, they will feel more knowledgeable and know the truth because I’m not watering anything down. I care about people, and that is my superpower.
+                </p>
+              </div>
+            </article>
+
+            <div class="more-info" id="more-info-js"></div>
           </div>
-      
-          <div class="image-wrapper">
-          <div class="image-container">
-            <img class="image" src="images/4P5A9634.jpg" alt="image of a young woman.">
+        </div>
+
+            <div class="image-wrapper">
+              <div class="image-container">
+                <img class="image" src="images/4P5A9634.jpg" alt="image of a young woman.">
+              </div>
+            </div>
+  </div>
+  </div>
+</section>
+   <!-- About Me End -->
+
+
+    <!-- About Statement -->
+    <section class="about-statement">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <img src="images/4P5A9667.jpg" class="img-fluid" alt="About Image">
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="all-text">
+              <h2>Why I Chose Mental Health</h2>
+              <article>
+                <p>Mental health found me in prison. No, I have never been incarcerated, but I can relate to what it feels like to be locked up without a key to freedom. As a criminal justice major, I started my career in a private prison, eventually advancing to the federal level. Working in the federal prison system was a new world to me. As I walked the halls of the buildings, I began to see how much our experiences influence our paths. I remember meeting a Black Psychologist who helped me recognize the beauty of positively impacting lives, even in such a transactional space. Most impactful was the experience of working with those justice-involved individuals that led me to mental health.</p>
+              </article>
+              <article>
+                <p>Through them, I learned how sentencing disparities, policies, unjust laws, socio-economic problems, and at the most basic level, trauma affected their ability to engage in the world. I learned that people are more than just what you read in their case files; there is so much value in listening to their stories. I saw how prison affected people, even how self-imposed imprisonment influences mental health. The road to prison led me to this very moment of operating in my purpose, helping people get the key to their freedom.</p>
+              </article>
+            </div>
           </div>
         </div>
       </div>
-      </div>
     </section>
-   
-      <!-- About section End -->
-
-
-
-
+    
       
   
 
   
-   
+       <!-- About Statement End -->
   
   <!-- Layer -->
   
@@ -154,17 +165,22 @@
     
         <div class="blog-slider__item swiper-slide">
           <div class="blog-slider__img">
-            <img src="images/4P5A9702.jpg" alt="fun fact image1">
+            <img src="images/4P5A9626.jpg" alt="fun fact image1">
           </div>
+
           <div class="blog-slider__content">
-            <span class="blog-slider__code">Everyone has a story. I'll tell you mine if you're willing to listen</span>
-            <div class="blog-slider__title">Fun Facts</div>
-            <div class="blog-slider__text">. <ul>
-              <i class="fa-solid fa-people-pants"></i>
-              <li></li>Unique Fact: I'm a twin</li>
-              </li>
-            </ul> 
-          </div>
+            <span class="blog-slider__code"></span>
+            <div class="blog-slider__title">My Favorite...</div>
+            <div class="blog-slider__text"> 
+          <ul>
+            <li> Author: J.California Cooper</li>
+            <li> Vacation destination: Cabo and Chicago (so far)</li>
+            <li> TV Show:A Differnt World </li>
+            <li> Artist: Anita Baker</li>
+            <li> Quote:"If you don't know were you're going, any road will take you there"</li>
+        
+          </ul>
+            </div>
           </div>
         </div>
         
@@ -174,33 +190,40 @@
           </div>
           <div class="blog-slider__content">
             <span class="blog-slider__code"></span>
-            <div class="blog-slider__title">Fun Fact</div>
-            <div class="blog-slider__text"> 
-          <ul>
-            <li> Author: J.California Cooper</li>
-            <li> Desternation: Cabo and Chicago (so far)</li>
-            <li> Quote:"If you don't know were you're going, any road will take you there"</li>
-            <li> TV Show:A Differnt World </li>
-            <li> Artist: Anita Baker</li>
-          </ul>
+            <div class="blog-slider__title">Something I love..</div>
+            <div class="blog-slider__text">
+              <ul>
+                <li> My mama’s cooking </li>
+                <li> Something I love:  A challenge- Establishing Boundaries and being kind to myself</li>
+                <li>My mama’s cooking</li>
+                  <li> Texas Roadhouse Rolls</li>
+                  <li>  Podcasts </li>
+                  <li>  Home Decor</li>
+                  <li> Fun fact: I’m a twin</li>
+              </ul>
             </div>
           </div>
         </div>
         
         <div class="blog-slider__item swiper-slide">
           <div class="blog-slider__img">
-            <img src="images/4P5A9667.jpg" alt="fun fact image3">
+            <img src="images/4P5A9693.jpg" alt="fun fact image3">
           </div>
           <div class="blog-slider__content">
-            <span class="blog-slider__code"></span>
-            <div class="blog-slider__title">Random</div>
-            <div class="blog-slider__text">
+            <div class="blog-slider__title">Anxiety Disorder Stats</div>
+            <div class="blog-slider__text">. 
               <ul>
-                <li>Something You Love: My momma cooking</li>
-                <li> Something you're working on: a challenge- Establishing Boundaries and being kind to myself</li>
-                
-              </ul>
-            </div>
+           <li>An estimated 19.1% of U.S. adults had any anxiety disorder in the past year.
+          </li>
+           <li>(National Institute of Mental Health)
+          </li>
+           <li>Black women are "1.8 times more likely than Black men to report sadness most or all the time and are 2.4 times more likely than Black men to report feeling hopeless more or all the time.”
+          </li>
+           <li>Generalized Anxiety Disorder (GAD) often co-occurs with major depression  </li>
+           <li> 6.8 Million adults are affected by anxiety disorders </li>
+           <li style="list-style: none;"><span class="blog-slider__code">  Stats provided by American Psychological Association (www.apa.org) </span></li>
+            </ul> 
+          </div>
           </div>
         </div>
         
@@ -209,9 +232,74 @@
     </div>
     </section>
     <!-- Fun Facts -->
-  
+   
 
+  <!-- Footer  -->
+  <footer class="footer section">
+    <div class="footer__container container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <img src="images/DESTINY LOGO FINAL copy.png" class="footer__logo">
+          <p class="footer__description">
+            There is no health without mental health"
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h3 class="footer__title">Company</h3>
+          <div class="footer__links-container">
+            <ul class="footer__links">
+              <li>
+                <a href="" class="footer__link">Shop</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Contact</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">About</a>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h3 class="footer__title">Contact Us</h3>
+          <ul class="footer__social">
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100068659340371" target="_blank" class="footer__social-link">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/iamdestinymccoy/" target="_blank" class="footer__social-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h3 class="footer__title">Information</h3>
+          <ul>
+            <li>
+              <a href="http://www.destinymccoy.com"><i class="fas fa-globe"></i>www.destinymccoy.com</a>
+            </li>
+            <li>
+              <a href="mailto:contact@destinymccoy.com"><i class="fas fa-envelope"></i>contact: @destinymccoy.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__info container">
+      <span class="footer__copy">OE Coders Corporation @ 2023</span>
+      <a href="" class="footer__privacy">Terms and conditions</a>
+    </div>
+  </footer>
+
+  <!-- Footer End  -->
   
+  </div>
+
+
   
 
 <!-- Swiper JS -->
@@ -322,6 +410,11 @@
 
        <!-- Scroll Reveal  -->
        <script src=""></script>
+
+        <!-- Bootstrap JS -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
 
         <!-- Swiper JS  -->
  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
