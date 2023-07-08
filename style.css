@@ -2474,15 +2474,15 @@ padding-top: 0px;
 
 
 .all-text h2 {
-  font-size: 5rem;
+  font-size: 5rem!important;
   margin-top: 150px;
-  margin-bottom: 40px;
 }
 
 .all-text p {
   font-size: 3rem;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 3rem!important;
+  margin-left: 60px;
 }
 
 /* About page  */
@@ -2490,6 +2490,8 @@ padding-top: 0px;
 
 .all-text{
     max-width: 900px;
+    text-align: center;
+    margin-left: 50px;
 
 }
 
