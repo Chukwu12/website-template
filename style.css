@@ -99,7 +99,6 @@
 
 html {
   scroll-behavior: smooth;
-
 }
 
 
@@ -112,6 +111,7 @@ body {
   color: var(--dark-color);
   background-color: var(--white-color);
   transition: .4s; /*For animation dark mode*/
+ 
   
 }
 
@@ -709,6 +709,7 @@ margin-bottom: 20px;
   max-width: 1024px;
   margin: auto;
   padding: 0 15px;
+  margin-top: 100px;
 } 
 
 .container_content {
@@ -1132,7 +1133,6 @@ small {
 }
 
 .about-container{
-margin-top: 50px;
 margin-left: auto;
 margin-right: auto;
 width: 1200px;
@@ -2316,7 +2316,7 @@ color: var(--title-color);
 
   /* Sub-Cards */
   .sub-section{
-    margin-top: 10px;
+    margin-top: 50px;
   }
 
   .sub-card {
@@ -2326,7 +2326,7 @@ color: var(--title-color);
     border-radius: 25px;
     background: var(--light-color);
     height: 300px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
   }
 
     .sub-card h3 {
@@ -2378,6 +2378,7 @@ color: var(--title-color);
   margin-bottom: 20px;
   font-size: 2rem;
   margin-left: 0;
+  text-align: center;
 }
 
 .par {
