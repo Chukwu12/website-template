@@ -1669,20 +1669,14 @@ line-height: 1.4;
 	}
 }
 
-
-
-.ex-cardsss {
-  margin-top: 100px;
-  margin-bottom: 100px;
-
-}
-
 .ex-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	width: 100%;
-	margin: 20px 0 80px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
 }
 
 .ex-card {
