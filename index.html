@@ -2,35 +2,44 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
 
-  <!--=============== FAVICON ===============-->
-  <link rel="shortcut icon" type="image/x-icon">
+     <!--=============== FAVICON ===============-->
+     <link rel="shortcut icon" href="" type="image/x-icon">
 
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/bb1892d46f.js" crossorigin="anonymous"></script>
-
+         <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bb1892d46f.js" crossorigin="anonymous"></script>
+ 
   <!-- REMIX-ICON -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
 
+  <!-- Font Links  -->
+  <link  rel="preconnect" href="fonts/CelineSans.otf">
+  <link rel=" preconnect" href="fonts/Hafidz Demo.ttf">
 
-  <!--  Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+ 
+     <!--  Swiper's CSS -->
+     <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+   />
 
-  <!-- card Swiper -->
-  <link rel="style" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.4/swiper-bundle.css">
-
-
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
-
-  <!-- CDN JS -->
+   <!-- card Swiper -->
+   <link rel="style" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.4/swiper-bundle.css">
 
 
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+ <!-- CSS -->
+ <link rel="stylesheet" href="style.css">
+    
+        <!-- CDN JS -->
+
+  
 
 
 </head>
@@ -39,412 +48,400 @@
 
   <!--------------------- header ------------------------->
   <header class="header scroll-header" id="header">
-    <nav class="nav container">
-      <a href="index.html" class="nav__logo">
-        <img src="images/DESTINY LOGO FINAL copy.png" alt="logo">
-      </a>
+<nav class="nav container">
+  <a href="#" class="nav__logo">
+    <img src="images/DESTINY LOGO FINAL copy.png" href="index.html" alt="logo"></a>
+  </a>
 
-
-      <div class="nav__menu" id="nav-menu">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a class="nav__link" href="index.html">
-
-              <span>Home</span></a>
-          </li>
+  <div class="nav__menu" id="nav-menu">
+    <ul class="nav__list">
+      <li class="nav__item">
+        <a class="nav__link"  href="index.html">
+        
+          <span>Home</span></a></li>
 
           <li class="nav__item">
             <a href="about.html" class="nav__link ">
+            
+              <span>About</span></a></li>
 
-              <span>About</span></a>
-          </li>
+              <li class="nav__item">
+                <a href="services.html" class="nav__link">
+                
+                  <span>Services</span></a></li>
 
-          <li class="nav__item">
-            <a href="services.html" class="nav__link">
+              <li class="nav__item">
+                <a href="product.html" class="nav__link">
+               
+                  <span>Product</span></a></li>
 
-              <span>Services</span></a>
-          </li>
-
-          <li class="nav__item">
-            <a href="products.html" class="nav__link">
-
-              <span>Product</span></a>
-          </li>
-
-          <li class="nav__item">
-            <a href="contact.html" class="nav__link">
-
-              <span>Contact</span></a>
-          </li>
-        </ul>
-      </div>
-      <!-- Theme change btn -->
-      <i class="ri-moon-line change-theme" id="theme-button"></i>
-    </nav>
+                  <li class="nav__item">
+                    <a href="contact.html" class="nav__link">
+                  
+                      <span>Contact</span></a></li>
+    </ul>
+  </div>
+  <!-- Theme change btn -->
+  <i class="ri-moon-line change-theme" id="theme-button"></i>
+</nav>
   </header>
   <!-- header end -->
-
+  
   <!-- Hero -->
-  <section class="hero" id="hero">
-    <div class="hero-text">
-      <h1><span class="magic">Thriving through anxiety</span></h1>
-
-
-
-    </div>
-
-    <div class="hero-img">
-      <img src="images/new banner photo-PhotoRoom.png-PhotoRoom.png" alt="hero-banner image">
-    </div>
-  </section>
-
-
-  <!-- Hero End -->
-
-  <!--home-sevice-section  -->
-
-  <section class="sub-section">
-    <div class="items">
-      <div class="sub-box">
-        <div class="sub-img"></div>
-        <h3>A is for Anxiety</h3>
-        <p>Everyone has a story. I’ll tell you mine if you’re willing to listen.</p>
-        <p>A few years ago, I passed out while I was driving.</p>
-        <a href="#anxiety" class="btn-link" onclick="readMore()">Read More</a>
-      </div>
-
-      <div class="sub-box">
-        <h3>Our Products</h3>
-        <p>Our Thriving Through Anxiety Affirmation Card Set is carefully crafted to inspire empowerment.</p>
-      </div>
-
-      <div class="sub-box">
-        <h3>Featured Services</h3>
-        <p>Our services include strategic consultation, entrepreneurial coaching, program development, wellness event
-          planning, and individual therapeutic services, available for organizations and individuals alike.</p>
-      </div>
-
-      <div class="sub-box">
-        <h3>Work with Me </h3>
-        <p>Are you seeking a dynamic speaker for your next event, workshop, or podcast? Destiny brings her wealth of
-          experience as a mental health expert that stands to impact any audience.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!--home-sevice-section End  -->
-
-
-
-
-  <!-- Home section -->
-  <main>
-    <div class='home-container'>
-      <div class="container_content">
-        <div class="container_content_inner">
-          <div class="title"> Destiny McCoy
+  <div class="container-fluid">
+    <section>
+      <div class="row"
+      <div class="col">
+        <div class="hero">
+          <div class="hero-text">
+            <h1><span class="magic">Thriving through anxiety</span></h1>
           </div>
-          <div class="par">
-            <p>
-              I created this space with you in mind. What you’re experiencing is real. It’s not in your head. More than
-              1 in 5 people live with a mental illness, and rates have become even more prevalent in BIPOC populations.
-              Among the most common mental health conditions are anxiety disorders, for which nearly 40% of people
-              receive no professional treatment.
-              These conditions are amplified by structures and by-products of systemic oppression that marginalize
-              people, severely impacting their quality of life and often leading to debilitating effects. </p>
-            <hr />
-            <p>
-              There is a need for safe spaces practicing healing-centered approaches that authentically address mental
-              health issues in bold and personable ways. Here, we embody the radical idea that wellness is the
-              foundation and conduit through which you can live your desired life. <br>
-
-              In this space, we redefine wellness. <br>
-              In this space, we hear you. <br>
-              In this space, we see you. <br>
-            </p>
+          <div class="hero-img">
+            <img src="images/new banner photo-PhotoRoom.png-PhotoRoom.png" alt="home-banner image">
+          </div>
+              </div>
+      </div>
+     </section>
+    
+    
+      <!-- Hero End -->
+    
+      <!--home-sevice-section  -->
+        
+    <section class="sub-section"> 
+      <div class="container-fluid">
+      <div class="row">
+      <div class="col-md-3 col-sm-6 d-flex justify-content-evenly">
+        <div class="sub-card">
+        <div class="card-body">
+          <h3>A is for Anxiety</h3>
+          <p>Everyone has a story. I’ll tell you mine if you’re willing to listen.
+          </p>
+         
+          <p>A few years ago, I passed out while I was driving.</p>
+          <a href="#anxiety" class="btn-link" onclick="readMore()">Read More</a>
+        </div>
+        </div>
+      </div>
+    
+        
+      <div class="col-md-3 col-sm-6 d-flex justify-content-evenly">
+      <div class="sub-card">
+      <div class="card-body">
+          <h3>Our Products</h3>
+          <p>Our Thriving Through Anxiety Affirmation Card Set is carefully crafted to inspire empowerment.
+          </p>
+        </div>
+      </div>
+      </div>
+    
+      <div class="col-md-3 col-sm-6 d-flex justify-content-evenly">
+        <div class="sub-card">
+        <div class="card-body">
+          <h3>Featured Services</h3>
+          <p>Our services include strategic consultation, entrepreneurial coaching, program development, wellness event planning, and individual therapeutic services, available for organizations and individuals alike.
+          </p>
           </div>
         </div>
-      </div>
-      <div class="container_outer_img">
-        <div class="img-inner">
-          <img src="images/Home.jpg" alt="home-image" />
         </div>
-      </div>
-    </div>
-    <div class="overlay"></div>
-
-  </main>
-
-  <!-- Home section ending  -->
-
-  <!-- Statement -->
-  <section id="work" class="vh-100 flex py-7">
-    <div class="work-container">
-      <div class="work-content">
-        <div class="title">
-          <h2>A is for Anxiety
-          </h2>
-        </div>
-        <div class="work-top">
-          <article>
-            <div class="Anxiety-statement" id="anxiety">
-              <p>
-                A few years ago, I passed out while I was driving. At the height of the pandemic, I worked a full-time
-                and part-time job while trying to start a business. I remember feeling this intense pressure to excel at
-                a time when there was so much uncertainty as we were all trying to navigate living in a pandemic. No one
-                was saying it was okay to slow down. I didn't hear anyone say it was okay just to be. My body shut down.
-                After that scare, I decided to prioritize my wellness. With my village's support, I was able to bounce
-                back and even have a Real Hot Girl Summer. Ha! But how many people know old habits don't die fast?
-                In 2022, right back under the pressure of doing everything on my own, I experienced anxiety like never
-                before. I couldn't drive. I couldn't stay alone. I had insomnia along with racing thoughts. This time, I
-                leaned into my faith like never before and experienced God like never before. I found God. I found
-                myself. I vowed to never give up on myself, and I didn't. It was honestly the hardest thing I've ever
-                gone through.
-                I share my story because many people, especially women who look like me, struggle with anxiety in
-                silence and shame. I am not ashamed, and you are not alone. I am thriving through anxiety, and so can
-                you.
-              </p>
+        
+    
+            <div class="col-md-3 col-sm-6 d-flex justify-content-evenly">
+              <div class="sub-card">
+              <div class="card-body">
+                <h3>Work with Me </h3>
+                <p>Are you seeking a dynamic speaker for your next event, workshop, or podcast? Destiny brings her wealth of experience as a mental health expert that stands to impact any audience.
+                </p>
+              </div>
+                 </div>
+             </div>
+           </div>
+          </div>
+    </section>
+    
+    <!--home-sevice-section End  -->
+      
+      
+     
+    
+                   <!-- Home section -->
+    
+          <main role="main">
+            <section>
+              <div class= "container" id="home-container">
+                <div class="container_content">
+                <div class="container_content_inner">
+                <div class="title"> Destiny McCoy
+                </div>
+                <div class="par">
+                <p>
+                  I created this space with you in mind. What you’re experiencing is real. It’s not in your head. More than 1 in 5 people live with a mental illness, and rates have become even more prevalent in BIPOC populations.
+                  Among the most common mental health conditions are anxiety disorders, for which nearly 40% of people receive no professional treatment.
+                    These conditions are amplified by structures and by-products of systemic oppression that marginalize people, severely impacting their quality of life and often leading to debilitating effects. </p>
+                    <hr />
+                    <p>
+                  There is a need for safe spaces practicing healing-centered approaches that authentically address mental health issues in bold and personable ways. Here, we embody the radical idea that wellness is the foundation and conduit through which you can live your desired life. <br>
+                  
+                  In this space, we redefine wellness. <br>
+                  In this space, we hear you.  <br>
+                  In this space, we see you. <br>
+                  </p>
+                </div>
+                </div>
+                </div>
+                 <div class="container_outer_img">
+                 <div class="img-inner">
+                 <img src="images/Home.jpg"/>
+                       </div>
+                     </div>
+                  </div>
+                <div class="overlay"></div>
+            </section>
+          
+    
+          </main>
+        
+        <!-- Home section ending  -->
+    
+         <!-- Statement -->
+         <section class="Anxiety" id="work"  >
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="work-content">
+                  <div class="title">
+                    <h2>A is for Anxiety
+                    </h2>
+                  </div>
+                  <div class="work-top">
+                    <article>
+                      <div class="Anxiety-statement" id="anxiety"> 
+                        <p>
+                          A few years ago, I passed out while I was driving. At the height of the pandemic, I worked a full-time and part-time job while trying to start a business. I remember feeling this intense pressure to excel at a time when there was so much uncertainty as we were all trying to navigate living in a pandemic. No one was saying it was okay to slow down. I didn't hear anyone say it was okay just to be. My body shut down.
+          After that scare, I decided to prioritize my wellness. With my village's support, I was able to bounce back and even have a Real Hot Girl Summer. Ha! But how many people know old habits don't die fast? 
+          In 2022, right back under the pressure of doing everything on my own, I experienced anxiety like never before. I couldn't drive. I couldn't stay alone. I had insomnia along with racing thoughts. This time, I leaned into my faith like never before and experienced God like never before. I found God. I found myself. I vowed to never give up on myself, and I didn't. It was honestly the hardest thing I've ever gone through. 
+          I share my story because many people, especially women who look like me, struggle with anxiety in silence and shame. I am not ashamed, and you are not alone. I am thriving through anxiety, and so can you. 
+                        </p>
+                      </div>
+                      
+                    </article>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+        </section>
+        <!-- end of Statement -->
+     
+    <!--  Timeline Stats    -->  
+    
+      
+    <!--  Timeline Stats End    -->
+      
+    
+    
+    
+          <!-- Border Ends -->
+     
 
-          </article>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end of Statement -->
+ 
+ 
 
-  <!--  Timeline Stats    -->
+   
 
-
-  <!--  Timeline Stats End    -->
-
-
-
-
-  <!-- Border Ends -->
-
-
-
-
-
+ 
 
   <!-- Footer  -->
   <footer class="footer section">
-    <div class="footer__container container grid">
-      <div>
-        <img src="images/DESTINY LOGO FINAL copy.png" class="footer__logo" alt="footer logo"></a>
-
-        <p class="footer__description">
-          There is no health without mental health”
-
-        </p>
-      </div>
-
-      <div class="footer__content">
-        <div>
-          <h3 class="footer__title">
-            Company
-          </h3>
-
-          <ul class="footer__links">
-            <li>
-              <a href="" class="footer__link">Shop</a>
-            </li>
-
-            <li>
-              <a href="" class="footer__link">Contact</a>
-            </li>
-
-            <li>
-              <a href="" class="footer__link">About</a>
-            </li>
-          </ul>
+    <div class="footer__container container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <img src="images/DESTINY LOGO FINAL copy.png" class="footer__logo">
+          <p class="footer__description">
+            There is no health without mental health"
+          </p>
         </div>
-
-
-
-
-        <div>
-          <h3 class="footer__title">
-            Contact Us
-          </h3>
-          <ul class="footer__social">
-
-            <a href="https://www.facebook.com/profile.php?id=100068659340371" target="_blank"
-              class="footer__social-link">
-              <i class="fa-brands fa-facebook"></i>
-            </a>
-
-
-
-            <a href="https://www.instagram.com/iamdestinymccoy/" target="_blank" class="footer__social-link">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-          </ul>
-        </div>
-
-        <div>
-          <h3 class="footer__information">
-            <h3 class="footer__title">
-              Information
-            </h3>
-            <ul>
+        <div class="col-lg-3 col-md-6">
+          <h3 class="footer__title">Company</h3>
+          <div class="footer__links-container">
+            <ul class="footer__links">
               <li>
-                <a href="www.destinymccoy.com"><i class="fa-solid fa-globe"></i>www.destinymccoy.com</a>
+                <a href="" class="footer__link">Shop</a>
               </li>
               <li>
-                <a href="contact@destinymccoy.com"><i class="fa-solid fa-envelope"></i>contact: @destinymccoy.com</a>
+                <a href="" class="footer__link">Contact</a>
               </li>
-
+              <li>
+                <a href="" class="footer__link">About</a>
+              </li>
             </ul>
-          </h3>
-
-
-
+          </div>
+          
         </div>
-      </div>
-      <div class="footer__info container">
-        <span class="footer__copy">
-          OE Coders Coperation @ 2023
-          <span>
-
-            <a href="" class="footer__privacy">
-              Terms and conditions
-            </a>
+        <div class="col-lg-3 col-md-6">
+          <h3 class="footer__title">Contact Us</h3>
+          <ul class="footer__social">
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100068659340371" target="_blank" class="footer__social-link">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/iamdestinymccoy/" target="_blank" class="footer__social-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h3 class="footer__title">Information</h3>
+          <ul>
+            <li>
+              <a href="http://www.destinymccoy.com"><i class="fas fa-globe"></i>www.destinymccoy.com</a>
+            </li>
+            <li>
+              <a href="mailto:contact@destinymccoy.com"><i class="fas fa-envelope"></i>contact: @destinymccoy.com</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
+    <div class="footer__info container">
+      <span class="footer__copy">OE Coders Corporation @ 2023</span>
+      <a href="" class="footer__privacy">Terms and conditions</a>
+    </div>
   </footer>
-
   <!-- Footer End  -->
+</div>
+
+   
 
 
 
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 
-
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
-
-  <!-- Initialize Swiper -->
-  <script>
+<!-- Initialize Swiper -->
+    <script>
     var swiper = new Swiper(".mySwiper", {
-      effect: "coverflow",
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        rotate: 0,
-        stretch: 0,
-        depth: 300,
-        modifier: 1,
-        slideShadows: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-      },
-    });
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 300,
+      modifier: 1,
+      slideShadows: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
 
 
 
-  </script>
+</script>
 
 
 
-  <!-- Service End -->
+<!-- Service End -->
 
-  <!-- Products -->
+<!-- Products -->
 
-  <!--Product Ends  -->
+<!--Product Ends  -->
 
+    
+<!--  Footer    -->
+          
 
-  <!--  Footer    -->
-
-
-  <!-- scroll up -->
-
-
-
+                                <!-- scroll up -->
+                                
 
 
 
-  <!--  Card Swiper JS  -->
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      effect: "coverflow",
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        rotate: 0,
-        stretch: 0,
-        depth: 300,
-        modifier: 1,
-        slideShadows: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-      },
-    });
-  </script>
+                     
+<!--  Card Swiper JS  -->
 
-  <script>
-    let swiperProducts = new Swiper(".products-container", {
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 300,
+      modifier: 1,
+      slideShadows: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
+    
+    <script>
+            let swiperProducts = new Swiper(".products-container", {
       spaceBetween: 32,
       grabCursor: true,
       centeredSlides: true,
       slidesPerView: 'auto',
       loop: true,
-
+      
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
       breakpoints: {
         0: {
-          slidesPerView: 1,
-        },
+			slidesPerView:1,
+		},
 
-        600: {
-          slideShadows: 1,
-        },
+		600:{
+			slideShadows: 1,
+		},
 
-        800: {
-          slidesPerView: 3,
-        },
+		800: {
+			slidesPerView: 3,
+		},
 
-        1024: {
-          slidesPerView: 5,
-        },
-      },
-    });
-  </script>
+		1024: {
+			slidesPerView: 5,
+		},
+	},
+});
+    </script>        
+    
+       <!-- Scroll Up  -->
+       <a href="#" class="scroll-up" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+      </a>
 
-  <!-- Scroll Up  -->
-  <a href="#" class="scroll-up" id="scroll-up">
-    <i class="ri-arrow-up-line"></i>
-  </a>
+       <!-- Scroll Reveal  -->
+       <script src=""></script>
 
-  <!-- Scroll Reveal  -->
-  <script src=""></script>
+       <!-- Bootstrap JS -->
 
-  <!-- Swiper JS  -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
-  <!-- Card Swiper -->
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.4/swiper-bundle.min.js"></script>
+        <!-- Swiper JS  -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-  <!-- Ion Icon -->
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ <!-- Card Swiper -->
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.4/swiper-bundle.min.js"></script>
 
-  <!--Main JS    -->
+ <!-- Ion Icon -->
+ <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+      <!--Main JS    -->
   <script src="/js/script.js"></script>
-</body>
-
+    </body>
 </html>
