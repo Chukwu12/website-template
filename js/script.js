@@ -99,11 +99,27 @@ for (let th = 0; th < tab_items.length; th++) {
 
 
 
-
+// About button hide / show //
 function readMore() {
   var expandInfo = document.getElementById("more-info-js");
   var mainHeadings = document.getElementById("main-headings-js");
   
   mainHeadings.style.transform = "scale(0.7)";
   expandInfo.style.height = "350px";
+
+  if (expandInfo.style.display === "none") {
+    expandInfo.display = "block";
+  } else {
+    expandInfo.style.display = "none";
+  }
 } 
+
+
+
+/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
+
+
+
+
+// ===============================Contact page ===================================//
+feather.replace();

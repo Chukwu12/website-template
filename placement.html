@@ -1,4 +1,138 @@
 
+  
+
+ <!-- Quote -->
+ <div class="animated-border-quote">
+  <blockquote>
+    <p>Always known for my way with words, my advocacy work began long before my career ever started. </p>
+    <cite>My Name</cite>
+  </blockquote>
+</div>
+
+<!-- dark theme colors -->
+body.dark-theme{
+  background: var(--bg-color);
+}
+
+.dark-theme .sub-box {
+  background-color: var(--card-color);
+}
+
+.dark-theme .sub-box h3{
+  color: var(--bg-color-lights);
+}
+
+.dark-theme .sub-box p{
+  color: var(--bg-color-lights);
+}
+
+.dark-theme .home-container  {
+  background: var(--bg-color);
+}
+
+.dark-theme .container_content_inner .title  {
+  color: var(--bg-color-lights);
+}
+
+.dark-theme .par  {
+  color: var(--bg-color-lights);
+}
+
+.dark-theme .footer{
+  background-color: var(--bg-color);
+  color: var(--bg-color-lights);
+}
+
+.footer__title h3 .dark-theme{
+  color: var(--bg-color-lights);
+}
+
+.footer__link .dark-theme{
+  color: var(--bg-color-lights);
+}
+
+.footer__title a .dark-theme{
+  color: var(--bg-color-lights);
+}
+
+
+<!-- end -->
+<!-- /* Quotes */
+.animated-border-quote {
+  display:inline-block;
+  margin:1em;
+  max-width:20em;
+  overflow:hidden;
+}
+
+  blockquote {
+    background-color:var(--white-color);
+    border: solid 2px #757575;
+    display: inline-block;
+    margin: 0;
+    padding: 1em;
+    position: relative;
+    &:before {
+      animation:clockwise 30s infinite linear;
+      background-color: var(--hot-pink);
+      bottom:10%;
+      content: "";
+      left: 0;
+      opacity:.5;
+      position: absolute;
+      right: 0;
+      top:10%;
+    }
+    &:after {
+      animation:counter 30s infinite linear;
+      background-color: #fff;
+      bottom:10%;
+      content: "";
+      left: 0;
+      opacity:.5;
+      position: absolute;
+      right: 0;
+      top:10%;
+    }
+    .cite {
+      display: block;
+      font-style: italic;
+      text-align: right;
+      &:before {
+        content: "- ";
+      }
+    }
+    > * {
+      position: relative;
+      z-index: 1;
+    }
+  }
+}
+
+@keyframes clockwise {
+  0% {
+    transform:rotate(0);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
+}
+
+@keyframes counter {
+  0% {
+    transform:rotate(0);
+  }
+  100% {
+    transform:rotate(-360deg);
+  }
+}
+/* Quotes End */ -->
+<!-- Quote End -->
+
+
+
+ 
+
       <!-- Tabs -->
       <section>
         <div class="main-container">
@@ -29,18 +163,21 @@
                   />
                 </div>
                 <div class="tab-content-right">
-                  <h1 class="tab-heading"> ABC’s of Mental Health  </h1>
+                  <h1 class="tab-heading"> I Got 5 on It! </h1>
                   <p class="paragraph">
-                    ABC’s of Mental Health highlights the importance of mental health conversations in our current social climate. We start by centering on the letters and words foundational to our language, word choice, and the context in which we speak about mental health. Digging deep into understanding the power of words, we use this basic concept as a lens to reframe how we see, understand, and ultimately communicate regarding mental health to promote anxiety-free, emotionally safe spaces. 
+                    One won't do, so five will have to! This package of 5 one-hour therapy sessions can be used anytime within a year from payment and is best suited for you if you've recently had increased anxiety or problems and need just a little more navigating through a challenging situation. 
                   </p>
                 </div>
               </div>
               <div class="tab-item web-development">
                 <div class="tab-content-left">
-                  <h1 class="tab-heading">Mental Health in Color 
+                  <h1 class="tab-heading">Double Up
+                    Double Back 
+                    
                   </h1>
                   <p class="paragraph">
-                    Mental Health in Color centers on unique experiences related to mental health for BIPOC populations. In this training, we focus on how people of color must distinctly navigate mental health and wellness issues, access to healthcare, and how social and professional paradigms affect their lives. We emphasize how equity and anti-oppressive perspectives directly promote emotionally safe and anxiety-free spaces for people of color in the United States. 
+                    Sometimes you need to double the dosage. This is the best package for you if you experience pervasive anxiety or mental health concerns. You will receive ten one-hour sessions entirely customized for your needs and the flexibility to use them when you need them most. $1250
+
                   </p>
                   <a href="#!" class="btn-primary">Read More</a>
                 </div>
@@ -69,10 +206,190 @@
           </div>
         </div>
       </section>
+
+
+      <section class="footer">
+        <div class="footer-logo">
+          <img src="images/DESTINY LOGO FINAL copy.png">
+        </div>
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      
+        <ul class="footer-list">
+          <li>
+            <a href="services.html">Services</a>
+          </li>
+          <li>
+            <a href="products.html">Productss</a>
+          </li>
+          <li>
+            <a href="content.html">Content</a>
+          </li>
+        </ul>
+      
+        <div class="contact-list">
+          <ul>
+            <li>
+              <a href="www.destinymccoy.com"><i class="fa-solid fa-globe"></i>www.destinymccoy.com</a>
+            </li>
+            <li>
+              <a href="contact@destinymccoy.com"><i class="fa-solid fa-envelope"></i>contact: @destinymccoy.com</a>
+            </li>
+            <li>
+              <a href="832-699-7921"><i class="fa-solid fa-phone"></i>832-699-7921</a>
+            </li>
+          </ul>
+        </div>
+        <p class="copyright">
+          OE Coders Coperation @ 2023
+        </p>
+       </section>
+       
+<!-- /* Tabs */
+
+#tabs{
+  height: 30vh;
+}
+
+
+.tabs{
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  background: var(--bg-color);
+  padding: 20px 30px;
+  box-shadow: 5px 10px 5px #ccc;
+  color: whitesmoke;
+}
+
+.tabs .tabs-header{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.tabs .tabs-header > div {
+  width: calc(100% / 3);
+  text-align: center;
+  color: var(--white);
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.tabs .tabs-header > div > i {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.tabs .tabs-header > div.active {
+  color: var(--hot-pink);
+}
+
+.tabs .tab-indicator{
+  position: relative;
+  width: calc(100% / 3);
+  height: 5px;
+  background: var(--hot-pink);w
+  left: 0px;
+  border-radius: 5px;
+  transition: all 500ms ease-in-out;
+  margin-bottom: 25px;
+}
+
+.tabs .tab-body{
+  position: relative;
+  height: calc(100% - 60px);
+  padding: 10px 5px;
+}
+
+.tabs .tab-body > div {
+  position: absolute;
+  top: -200%;
+  opacity: 0;
+  margin-top: 5px;
+  transform: scale(0.9);
+  transition: opacity 500ms ease-in-out 0ms, 
+  transform 500ms ease-in-out 0ms;
+}
+
+.tabs .tab-body > div.active {
+  top: 0px;
+  opacity: 1;
+  transform: scale(1);
+  margin-top: 0px;
+}
+
+
+/* Tabs End */
+ -->
+       <!-- .footer{
+  padding: 40px 0;
+  background-color: whitesmoke;
+}
+
+.footer .social{
+  text-align: center;
+padding-bottom: 23px;
+color: var(());
+}
+
+.footer .social a {
+  font-size: 24px;
+  color: inherit;
+  border: 1px solid;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+
+.footer .social a:hover{
+  opacity: 0.9;
+}
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.6;
+  margin-bottom: 0;
+}
+
+.footer ul li{
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer ul li a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer .copyright{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  columns: #aaa;
+}
+
+.footer-logo img{
+  height: 50px;
+  margin-right: 1.25rem;
+  margin-bottom: 2em;
+} -->
+      
       
         <!-- Tabs End -->
-
-
         
 
 
