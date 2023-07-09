@@ -303,7 +303,7 @@ background: var(--light-color);
  }
  
 
-.dark-theme .sub-box {
+.dark-theme .sub-card {
   background-color: var(--bg-color-light);
 }
 
@@ -319,7 +319,7 @@ background: var(--light-color);
   background-color: var(--bg-color-light);
 }
 
-.dark-theme .home-container  {
+.dark-theme #home-container  {
   background: var(--bg-color);
 }
 
@@ -335,8 +335,8 @@ background: var(--light-color);
 
 /* Dark-theme about page */
 
- .dark-theme .ab-container {
-  background-color: var(--bg-color-light);
+ .dark-theme .about-container {
+  background-color: var(--bg-color);
 }
 
 .dark-theme .heading h3{
@@ -394,7 +394,7 @@ background: var(--light-color);
 }
 
 .dark-theme .row {
-  background: var(--bg-color-light);
+  background: var(--bg-color);
 }
 
 .dark-theme .row h3 {
@@ -609,12 +609,13 @@ margin-bottom: 20px;
 }
 
 .sub-card{
-  padding: 20px 20px 20px 20px;
+  padding: 0px 10px 0px 10px;
   transition: ease .50s;
   cursor: pointer;
   border-radius: 25px;
   background: var(--light-color);
-  height: 400px;
+  height: 450px;
+  margin-bottom: 30px;
 }
 
 .sub-img img{
@@ -2192,11 +2193,12 @@ color: var(--title-color);
     cursor: pointer;
     border-radius: 25px;
     background: var(--light-color);
-    height: 300px;
+    height: 350px;
     margin-bottom: 20px;
   }
 
     .sub-card h3 {
+      margin-top: 50px;
       margin-bottom: 20px;
       text-align: center;
       font-weight: 600;
