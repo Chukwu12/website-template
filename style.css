@@ -110,6 +110,7 @@ body {
   line-height: 1.8;
   color: var(--dark-color);
   background-color: var(--white-color);
+  position: absolute;
   transition: .4s; /*For animation dark mode*/
  
   
@@ -475,8 +476,49 @@ background: var(--light-color);
 }
 
 /*------------------- Hero------------------------ */
+.text-brand{
+  color: var(--hot-pink);
+}
+.btn-hero{
+  padding: 10px 24px;
+  border-radius: 0;
+  border-width: 2px;
+  font-weight: 500;
+}
+
+.btn-brand{
+  background-color: var(--hot-pink);
+  color: white;
+  border-color: var(--hot-pink);
+}
+
+.btn-brand:focus{
+  background-color: var(--primary-color);
+}
+
+.btn-brand:hover{
+  background-color: transparent;
+  color: var(--hot-pink);
+  border-color: var(--hot-pink);
+}
 
 
+#hero{
+  background: url(images/background.jpg);
+  background-size: cover;
+  background-position: center;
+ 
+}
+.section-title h2{
+  font-family: 'Mainfont', "Monstserrat";
+}
+
+.section-title .line{
+  width: 60px;
+  height: 2px;
+  background-color: var(--hot-pink);
+  display: inline-block;
+}
 
 .hero{
   min-height: 70vh;
@@ -604,18 +646,12 @@ margin-bottom: 20px;
 
 /* ----------Sub-service section --------------*/
 
-.sub-section{
-   margin: 50px 10px 0px; 
-}
-
 .sub-card{
-  padding: 0px 10px 0px 10px;
   transition: ease .50s;
   cursor: pointer;
   border-radius: 25px;
   background: var(--light-color);
-  height: 450px;
-  margin-bottom: 30px;
+  height: 400px;
 }
 
 .sub-img img{
@@ -651,6 +687,21 @@ margin-bottom: 20px;
   will-change: transform;
   transform: perspective(1000px) rotate(4.80deg) rotateY(10.23deg) scale3d(1.05,1.05,1.05);
 }
+.btn-link{
+  color: var(--hot-pink);
+}
+
+.btn-link span{
+  font-weight: 700;
+}
+
+.btn-link:hover{
+  color: var(--dark-color);
+  transition: 0.5s ease;
+}
+.btn-link:hover i {
+  transform: translateY(10px);
+}
 
 #hero .col {
   justify-content: center; 
@@ -679,7 +730,7 @@ margin-bottom: 20px;
 
 
 
-.home-container {
+/* .home-container {
   display: flex;
   height: 100vh;
   justify-content: space-around;
@@ -694,7 +745,7 @@ margin-bottom: 20px;
   margin: auto;
   padding: 0 15px;
   margin-top: 100px;
-} 
+}  */
 
 #home-container {
   display: flex;
@@ -710,20 +761,20 @@ margin-bottom: 20px;
   max-width: 1024px;
   margin: auto;
   padding: 0 15px;
-  margin-top: 100px;
+ 
 } 
 
 .container_content {
  width: 50%;
+ margin-right: 50px;
 }
 
 .container_content_inner {
   width: 80%;
-  margin-left: 80px;
+
 }
 
 .container_outer_img {
-  margin: 50px;
   width: 50%;
   overflow: hidden;
 }   
@@ -807,7 +858,7 @@ h1 {
 }
 
 
-/* home container */
+/*================== home container====================== */
 
 .home-container .overlay {
   position: absolute;
@@ -836,12 +887,11 @@ h1 {
   font-weight: 700;
   margin-bottom: 50px;
   font-size: var(--fs-3x1);
-  margin-left: 30px;
+  text-align: center;
 }
 
 
 .container_outer_img {
-  margin: 50px;
   width: 50%;
   overflow: hidden;
 }   
@@ -1025,18 +1075,13 @@ text-align: center;
 #work {
   background: linear-gradient(rgba(0,0,0, 0.5),rgba(0, 0, 0, 0.5)
   ), url("images/4P5A9685.jpg") center/cover no-repeat fixed;
-  height: 60vh;
+  height: 90vh;
 width: 100%;
 margin-bottom: 20px;
 }
 
-.work-content{
-  padding-top: 60px;
-}
 
 .work-top{
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
   width: 100%;
     text-align: center;
     line-height: 2;
@@ -1070,6 +1115,16 @@ margin-bottom: 20px;
   width: 50px;
   margin: 0 auto 1.7rem auto;
 }
+
+.work-content .title{
+  font-size: var(--fs-4x1);
+  text-align: center;
+  font-family: 'Secondfont';
+  margin-bottom: 20px;
+  font-weight: 600;
+  margin-top: 80px;
+}
+
 
 
 /* Statement End */
@@ -1126,9 +1181,9 @@ small {
 
 /* Home End */
 
-/* ------------------About Page --------------------*/
+/* --------------------------About Page -----------------------------*/
 
-#about-me{
+/* #about-me{
   margin-top: 150px;
   margin-bottom: 50px;
 }
@@ -1222,7 +1277,7 @@ font-family: 'Mainfonts', var(--primary-font);
     overflow: hidden;
     /* animation: reveal-info 4s ease 3s;
    -webkit-animation: reveal-info 4s ease 3s; */
- }
+ /* }
 
  .image-wrapper {
   flex-basis: 50%; 
@@ -1295,18 +1350,11 @@ font-family: 'Mainfonts', var(--primary-font);
 100% {
   height: 0;
 }
-}
+} */
+ */
 
 
 
-
-.work-content .title{
-  font-size: var(--fs-4x1);
-  text-align: center;
-  font-family: 'Secondfont';
-  margin-bottom: 20px;
-  font-weight: 600;
-}
 
 
 /* About-Mission Statement */
