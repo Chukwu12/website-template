@@ -1407,10 +1407,7 @@ font-family: 'Mainfonts', var(--primary-font);
     .about-main .about-main img{
       margin-bottom: 35px;
     }
-    .all-text h2{
-      font-size: 45px;
-      margin-bottom: 20px;
-    }
+ 
   } 
   
 
@@ -2352,53 +2349,38 @@ padding-top: 0px;
 /* Statement End */
 
 /* About Page */
-.ab-container{
-  background-color: white;
-}
 
-.about-statement{
-  height: auto;
-  margin-bottom: 0;
-  width: 1200px;
+/* Intro */
+.about-container{
+  background-color: white;
 }
 
 .main-content{
   margin-bottom: 100px;
 }
 
-#heading1 h3 {
-  font-size: 8rem;
+/* Intro End*/
+
+
+
+/* About Statement */
+
+about-img img{
+  width: 100!important;
 }
-
-.short-bio{
-  font-size: var(--fs-3x1);
-    font-weight: 700;
-
-}
-
-
 
 .all-text h2 {
   font-size: 5rem!important;
-  margin-top: 150px;
+  max-width: 600px;
 }
 
 .all-text p {
-  font-size: 3rem;
   font-weight: 600;
-  font-size: 3rem!important;
-  margin-left: 60px;
-}
-
-/* About page  */
-
-
-.all-text{
-    max-width: 900px;
-    text-align: center;
-    margin-left: 50px;
+  font-size: 2rem!important;
+  text-align: center;
 
 }
+
 
 /* max-width: 600px End */
 }
@@ -2506,8 +2488,7 @@ font-size: var(--fs-sm);
 
 
  .about-img img{
-   border-radius: inherit;
-   margin-left: 30px;
+   
   }
 
   .about-text p {
