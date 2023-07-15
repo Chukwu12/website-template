@@ -375,8 +375,7 @@ $desktop-breakpoint: 1200px;
       @include vertical-center;
     }
   
-    img {
-      width: 80% !important;
+    .image-container img {
       height: auto !important;
       top: -20px;
       @include horizontal-center;
