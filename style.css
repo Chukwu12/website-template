@@ -3011,12 +3011,12 @@ header {
   overflow-x : hidden;
   border-radius: 45%;
   bottom: 0;
-  height: 350vw;
+  height: 50vw;
   left: 50%;
   margin-left: -175vw;
   position: absolute;
   top: 90vh;
-  width: 350vw
+  width: 100vw
 }
 .wave-front {
   animation: drift 13s infinite cubic-bezier(.4,0,.2,1);
