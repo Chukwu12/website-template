@@ -240,8 +240,7 @@ body {
     top: -100%;
     transform: translateY(-50%);
   }
-  img {
-    width: 80% !important;
+   .about-image img {
     height: auto !important;
     top: -20px;
     margin-left: auto;
@@ -316,8 +315,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  img {
-    width: 80% !important;
+  .about-image img {
     height: auto !important;
     top: -20px;
     margin-left: auto;
