@@ -171,8 +171,7 @@ body {
     animation-name: none !important;
   }
   .about-container {
-    width: 90%;
-    height: 900px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     font-size: 5px;
@@ -187,8 +186,8 @@ body {
   }
   .main-content {
     order: 2 !important;
-    /* outline: 1px solid red; */
-    margin: 0 50px;
+     outline: 1px solid red; 
+    margin: 0 20px;
   }
   .image-wrapper {
     order: 1 !important;
@@ -196,6 +195,7 @@ body {
   .heading {
     text-align: center;
     margin-top: 20px;
+    font-size: 0.8rem;
   }
   #heading1 {
     margin: 0;
@@ -206,11 +206,12 @@ body {
     margin-top: -10px !important;
     text-align: center;
     font-size: 1.5rem;
+    font-weight: 600;
   
   }
 
   #about-me {
-    margin-top: 600px;
+    margin-top: 400px;
   }
   .more-info {
     height: 150px !important;
