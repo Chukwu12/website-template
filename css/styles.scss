@@ -9,7 +9,7 @@ $desktop: 1024px;
 	}
 }
 
-&__thumb {
+.__thumb {
   position: relative;
   max-height: 400px;
   overflow: hidden;
@@ -34,7 +34,7 @@ $desktop: 1024px;
   }
 }
 
-&__caption {
+.__caption {
   position: absolute;
   top: 50%;
   z-index: 1;

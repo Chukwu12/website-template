@@ -459,7 +459,26 @@ body {
   margin-bottom: 35px;
   color: var(--dark-color);
 
+  .separator {
+    margin-top: 25px;
+    margin-bottom: 80px;
+    border: 0;
+  }
   
+  .separator--line {
+    border: 0;
+    border-bottom: 5px solid pink;
+    width: 0;
+    animation: separator-width 1s ease-out forwards;
+  }
+  
+  @keyframes separator-width {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
 
   
 }/*# sourceMappingURL=styles.css.map */
