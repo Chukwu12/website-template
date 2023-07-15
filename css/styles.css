@@ -289,7 +289,9 @@ body {
   }
   .short-bio {
     margin-top: -20px !important;
-    font-size: 2rem!important;
+    font-size: 1.3rem!important;
+    line-height: 1.8;
+    font-weight: 600;
    
   }
   .link {
