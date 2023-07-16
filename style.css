@@ -1602,13 +1602,10 @@ line-height: 28px;
 
 .swiper{
   width: 100%;
-  margin-top: 100px;
+
 }
 
 .swiper .swiper-wrapper {
-  height: auto;
-width: 100%;
-display:flex;
 align-items:center;
 justify-content:center;
 }
@@ -1625,7 +1622,7 @@ justify-content:center;
 }
 
 .card{
-  width: 25em;
+  width: 25em!important;
   height: 90%;
   background-color: #fff;
   border-radius: 2em;
