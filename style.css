@@ -719,8 +719,7 @@ margin-bottom: 20px;
 
 .separator--line{
   border: 0;
-  border-bottom: 5px;
-  color: var(--hot-pink);
+  border-bottom: 5px solid var(--hot-pink);
   width: 0;
   -webkit-animation: separator-width 1s ease-out forwards;
   animation: seperator-width 1s ease-out forwards;
