@@ -734,6 +734,15 @@ margin-bottom: 20px;
   }
 }
 
+.separator--dotter{
+  border: 0;
+  border-bottom: 5px solid var(--light-color);
+  -webkit-animation: separator-width 1s ease-out forwards;
+  /* animation: seperator-width 1s ease-out forwards; */
+}
+
+
+
 /* Hr seperator End */
 
 /* Home Page */
@@ -2304,6 +2313,7 @@ color: var(--title-color);
 .container_outer_img{
   margin: 0;
   width: 100%;
+  padding: 0;
 
 }
 
