@@ -755,10 +755,6 @@ margin-bottom: 20px;
 
 
 #home-container {
-  display: flex;
-  height: 100vh;
-  justify-content: space-around;
-  align-items: center;
   color: var(--dark-color);
   animation: expand 5s ease forwards;
   background-color: var(--white-color);
@@ -771,18 +767,14 @@ margin-bottom: 20px;
 } 
 
 .container_content {
- width: 50%;
- margin-right: 50px;
+ width: 80%;
 }
 
-.container_content_inner {
-  width: 80%;
 
-}
 
 .container_outer_img {
-  width: 50%;
   overflow: hidden;
+  width: 80%;
 }   
     
 .container_img {
@@ -2167,11 +2159,7 @@ color: var(--title-color);
   }
 }
 
-@media only screen and (min-width: 650px) and (max-width: 1000px) {
-  #home-container{
-    flex-direction: column;
-  }
-} 
+
 
 @media (max-width: 800px) {
 
