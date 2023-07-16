@@ -713,6 +713,8 @@ margin-bottom: 20px;
 /* Hr seperator */
 
 .separator--line{
+  opacity: 1;
+  margin: 0;
   border: 0;
   border-bottom: 5px solid var(--hot-pink);
   width: 0;
@@ -1066,9 +1068,8 @@ text-align: center;
 #work {
   background: linear-gradient(rgba(0,0,0, 0.5),rgba(0, 0, 0, 0.5)
   ), url("images/4P5A9685.jpg") center/cover no-repeat fixed;
-  height: 80vh;
+  height: auto;
 width: 100%;
-margin-top: 150px;
 }
 
 
@@ -2313,7 +2314,6 @@ color: var(--title-color);
 
 #work{
   width: 100%;
-  margin-top: 50px;
   height: 100%;
 }
 
