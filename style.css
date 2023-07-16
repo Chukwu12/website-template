@@ -1601,17 +1601,16 @@ line-height: 28px;
 }
 
 .swiper{
-  max-width: 100%;
+  width: 100%;
   margin-top: 100px;
 }
 
 .swiper .swiper-wrapper {
-  height: 35rem;
+  height: auto;
 width: 100%;
 display:flex;
 align-items:center;
 justify-content:center;
-right: 20%;
 }
 
 
