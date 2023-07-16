@@ -888,7 +888,7 @@ h1 {
 .container_content_inner .title{
   overflow: hidden;
   height: auto;
-  font-family: Secondfont;
+  font-family: 'MainFonts';
   color: var(--hot-pink);
   font-weight: 700;
   margin-bottom: 50px;
@@ -1083,8 +1083,9 @@ text-align: center;
 #work {
   background: linear-gradient(rgba(0,0,0, 0.5),rgba(0, 0, 0, 0.5)
   ), url("images/4P5A9685.jpg") center/cover no-repeat fixed;
-  height: 90vh;
+  height: 80vh;
 width: 100%;
+margin-top: 150px;
 }
 
 
@@ -2166,6 +2167,11 @@ color: var(--title-color);
   }
 }
 
+@media only screen and (min-width: 650px) and (max-width: 1000px) {
+  #home-container{
+    flex-direction: column;
+  }
+} 
 
 @media (max-width: 800px) {
 
