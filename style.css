@@ -925,7 +925,7 @@ h1 {
   font-weight: 600;
 }
 
-hr {
+.shapes {
   opacity: 1;
   margin: 1.5em auto;
   position: relative;
