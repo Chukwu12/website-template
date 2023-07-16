@@ -774,7 +774,8 @@ margin-bottom: 20px;
 
 .container_outer_img {
   overflow: hidden;
-  width: 80%;
+  width: 100%;
+  padding: 50px;
 }   
     
 .container_img {
@@ -870,13 +871,6 @@ h1 {
 }
 
 
-
-.container_content {
- width: 50%;
-}
-
-
-
 .container_content_inner .title{
   overflow: hidden;
   height: auto;
@@ -889,10 +883,7 @@ h1 {
 }
 
 
-.container_outer_img {
-  width: 50%;
-  overflow: hidden;
-}   
+
     
 .container_img {
   width: 100%;
