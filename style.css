@@ -736,7 +736,7 @@ margin-bottom: 20px;
 
 .separator--dotter{
   border: 0;
-  border-bottom: 5px solid var(--light-color);
+  border-bottom: 5px dotted var(--light-color);
   -webkit-animation: separator-width 1s ease-out forwards;
   /* animation: seperator-width 1s ease-out forwards; */
 }
