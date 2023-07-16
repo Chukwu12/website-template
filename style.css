@@ -2203,7 +2203,14 @@ color: var(--title-color);
     grid-gap: 0;
   }
   
+  h1 > .magic {
+    font-size: var(--fs-2x1);
+    font-weight: 700;
+  }
 
+  .display-2{
+    font-size: var(--fs-2x1);
+  }
 
   .hero img{
     width: 100%;
