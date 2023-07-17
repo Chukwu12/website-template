@@ -173,7 +173,7 @@ a{
 
 
 
-.btn{
+/* .btn{
    display: inline-block;
    padding: 10px 28px;
    background-color: var(--primary-color);
@@ -190,9 +190,9 @@ a{
    user-select: none;
    transition: all 0.3s ease;
   
-}
+} */
 .btn:hover{
-background-color: transparent;
+background-color: wheat;
 color: var(--dark-color);
 border-color: var(--hot-pink);
 }
@@ -1801,7 +1801,7 @@ line-height: 1.4;
 
 /* Service End  */
 
-/* Products */
+/*================= Products Page=========================*/
 .products-container{
   padding-bottom: 5rem;
 }
@@ -1860,16 +1860,17 @@ line-height: 1.4;
   height: 35rem;
 }
 
-.product-inner-box{
+.product-inner-box .product-icons{
   right: 15px;
   display: flex;
   flex-direction: column;
   gap: 4px;
   top: -3%;
-  transition:  all 0.2 ease-in-out, transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  transition: all 0.2 ease-in-out, transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  -webkit-transition: all 0.2 ease-in-out, transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
 
-.product-inner-box .icons a {
+.product-inner-box .product-icons a {
 width: 40px;
 height: 40px;
 display: flex;
@@ -1880,27 +1881,32 @@ background: #fff;
 }
 
 .product-inner-box img{
-  box-shadow:  0 33px 41px -29px rgb(0, 0, 0 / 26%);
+  box-shadow:  0 33px 61px -29px rgb(0 0 0 / 26%);
   height: 350px;
   width: 100%;
   object-fit: cover;
 }
 
-.product-box .icons:hover{
+.product-box .product-icons:hover{
 transform: rotateY('-3%');
 top: 3%;
 opacity: 1;
 }
 
-.cart-btn{
+.cart-btn  {
   position: absolute;
   bottom: 20px;
+  left: 180px;
   text-align: center;
   width: 100%;
   opacity: 0;
   transition:  all 0.2 ease-in-out, transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  -webkit-transition: all 0.2 ease-in-out, transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
  
+.product-box.is-hover .cart-btn{
+  opacity: 1;
+}
 
 
 /* Products End*/
@@ -2562,23 +2568,21 @@ font-size: var(--fs-sm);
   margin-bottom: 100px;
   margin-top: 100px;
 }
-@media screen and (min-width: 700px) and (max-width: 1200px) {
+
+
+ @media screen and (max-width: 992px) {
   .blog-slider {
-   max-width: 900px;
-   min-width: 650px;
-    height: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 800px;
-}
+    max-width: 640px;
+    height: auto;
+  }
  }
 
 @media screen and (max-width: 768px) {
   .blog-slider {
-    min-width: 700px;
+    min-height: 500px;
     margin-top: 300px;
     margin-left: auto;
-    height: 550px;
+    height: auto;
  }
 }
 @media screen and (max-height: 500px) and (min-width: 992px) {
