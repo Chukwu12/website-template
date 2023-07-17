@@ -239,7 +239,8 @@ body {
     margin-right: auto;
     position: relative;
     top: -100%;
-    transform: translateY(-50%);
+    transform: translateY(0%);
+    margin-bottom: 10px;
   }
    .about-image img {
     height: auto !important;
