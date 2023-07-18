@@ -289,10 +289,18 @@ background: var(--light-color);
 .dark-theme .change-theme {
   color: var(--card-color)
  }
+
+ .dark-theme #hero{
+  background: transparent;
+ }
  
 
 .dark-theme .sub-card {
   background-color: var(--bg-color-light);
+}
+
+.dark-theme .sub-card:hover {
+  background-color: var(--dark-color);
 }
 
 .dark-theme .sub-box h3{
@@ -336,7 +344,7 @@ background: var(--light-color);
 }
 
 .dark-theme .about-statement{
-  background: var(--bg-color-light);
+  background: var(--bg-color);
 }
 
 .dark-theme .all-text h2 {
@@ -381,9 +389,13 @@ background: var(--light-color);
   color: var(--bg-color-lights);
 }
 
-.dark-theme .row {
-  background: var(--bg-color);
+.dark-theme .service-row{
+  background: var(--bg-color-light);
 }
+
+/* .dark-theme .row {
+  background: var(--bg-color);
+} */
 
 .dark-theme .row h3 {
   color: var(--bg-color-lights);
@@ -429,6 +441,10 @@ background: var(--light-color);
 .dark-theme ::-webkit-scrollbar-thumb:hover{
   background-color: hsl(220, 18%, 35%);
 } 
+
+.dark-theme .swiper-pagination-bullet {
+  background:  var(--bg-color-lights);
+}
 
 
 /* Dark theme ends */
@@ -1607,7 +1623,8 @@ line-height: 28px;
 
 .swiper .swiper-wrapper {
 align-items:center;
-justify-content:center;
+justify-content:space-evenly;
+right: 20%;
 }
 
 
@@ -1912,71 +1929,24 @@ opacity: 1;
 /* Products End*/
 
 /* Contact Page  */
-.content-container {
-  margin:0 auto;
-  padding-top:2%;
-  padding-right:35%;
-  padding-bottom:10%;
-  padding-left:15%;
-  max-height:100%;
- background-image: linear-gradient(
-   340deg,
-   hsl(158deg 95% 34%) 1%,
-   hsl(152deg 49% 47%) 43%,
-   hsl(149deg 41% 54%) 50%,
-   hsl(148deg 40% 61%) 51%,
-   hsl(146deg 39% 67%) 51%,
-   hsl(145deg 37% 72%) 49%,
-   hsl(144deg 35% 78%) 49%,
-   hsl(144deg 31% 84%) 50%,
-   hsl(143deg 23% 89%) 57%,
-   hsl(0deg 0% 95%) 99%
- );
- }
+#contact{
+  margin-top: 150px;
+}
+
+#contact .form-control{
+  border-radius: 0;
+}
+
+#contact .form-control:focus{
+  box-shadow: none;
+  border-color: var(--hot-pink);
+}
+
+#contact .input.form-control{
+  height: 44px;
+}
  
  
- 
- 
- /************ BEGIN FORM  ***************/
- input[type=text], select, textarea {
-   width: 100%;
-   padding: 12px;
-   border: 1px solid #ccc;
-   border-radius: 4px;
-   resize: vertical;
- }
- 
- label {
-   padding: 12px 12px 12px 0;
-   display: inline-block;
- }
- 
- input[type=submit] {
-   margin-top:10px;
-   background-color: var(--primary-color);
-   color: white;
-   font-weight:bold;
-   padding: 12px 20px;
-   border: none;
-   border-radius: 4px;
-   cursor: pointer;
-   float: right;
- }
- 
- input[type=submit]:hover {
-   background-color: var(--);
- }
- 
- .form-container {
-  border-radius: 10px;
-  background-color: var(--light-color);
-  padding: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-top: 200px;
-  width: 80%;
-  margin-left: 100px;
-  margin-bottom: 100px;
- }
  
  .col-25 {
    float: left;
@@ -2508,10 +2478,10 @@ font-size: var(--fs-sm);
       white-space:nowrap;
     }
 
-  .btn{
+  /* .btn{
     margin-left: 140px;
     margin-top: 50px;
-  }
+  } */
 
   .home-text{
   font-size: .8rem;
@@ -2789,7 +2759,7 @@ font-size: var(--fs-sm);
   .blog-slider__pagination {
     transform: translateX(-50%);
     left: 50% !important;
-    top: 40%!important;
+    top: 35%!important;
     width: 100% !important;
     display: flex;
     justify-content: center;
