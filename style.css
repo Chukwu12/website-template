@@ -1105,6 +1105,12 @@ text-align: center;
 width: 100%;
 }
 
+@media only screen and (max-device-width: 400px) {
+  #work {
+    background-attachment: scroll;
+  }
+}
+
 
 .work-top{
   width: 100%;
