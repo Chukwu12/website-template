@@ -2758,11 +2758,10 @@ font-size: var(--fs-sm);
   transform: translateY(-50%);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 300px)  and (max-width: 500px) {
   .blog-slider__pagination {
     left: 15%!important;
     top: 25%!important;
-
   }
 }
 
