@@ -2758,7 +2758,7 @@ font-size: var(--fs-sm);
   transform: translateY(-50%);
 }
 
-@madia screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .blog-slider__pagination {
     left: 15%!important;
     top: 25%!important;
