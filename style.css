@@ -550,6 +550,7 @@ background: var(--light-color);
 .hero-img{
   transform: translateX(-20%);
     animation: 3s ease-in;
+    
 }
 
 .hero-text h1{
