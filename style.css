@@ -2757,6 +2757,15 @@ font-size: var(--fs-sm);
   bottom: auto !important;
   transform: translateY(-50%);
 }
+
+@madia screen and (max-width: 500px) {
+  .blog-slider__pagination {
+    left: 15%!important;
+    top: 25%!important;
+
+  }
+}
+
 @media screen and (max-width: 768px) {
   .blog-slider__pagination {
     transform: translateX(-50%);
