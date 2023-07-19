@@ -547,6 +547,11 @@ background: var(--light-color);
   justify-items: center;
 }
 
+.hero-img{
+  transform: translateX(-20%);
+    animation: 3s ease-in;
+}
+
 .hero-text h1{
   margin: 10px 0px 25px;
   font-size: var(--fs-4x1);
