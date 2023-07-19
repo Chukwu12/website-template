@@ -326,6 +326,9 @@ background: var(--light-color);
 .dark-theme .par  {
   color: var(--bg-color-lights);
 }
+.dark-theme .btn-link:hover{
+  color: var(--light-color);
+}
 
 /* End */
 
@@ -369,6 +372,10 @@ background: var(--light-color);
 
 .dark-theme .blog-slider__code {
   color: var(--bg-color-lights);
+}
+
+.dark-theme .image-wrapper {
+  background-color: var(--bg-color);
 }
 
 /* End */
