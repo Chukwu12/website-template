@@ -430,6 +430,10 @@ background: var(--light-color);
   color: var(--card-color);
 } 
 
+.dark-theme li a:hover{
+  color: var(--white-color);
+}
+
 .dark-theme .scroll-header{
   background-color: var(--bg-color);
   box-shadow: 0 2px 8px hlsa(220, 18%, 8%, .3);
@@ -1671,7 +1675,7 @@ right: 20%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 0 2em;
+  
 }
 
 
