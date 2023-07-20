@@ -282,6 +282,7 @@ background: var(--light-color);
 }
 
 /*  dark theme colors for website  */
+/* home page dark-theme */
  body.dark-theme{
   background: var(--bg-color);
 }
@@ -379,6 +380,7 @@ background: var(--light-color);
 }
 
 /* End */
+
 /* Dark theme service page */
  .dark-theme .card {
   background: var(--bg-color-light);
@@ -413,6 +415,8 @@ background: var(--light-color);
 }
 /* End */
 
+/* Footer */
+
  .dark-theme .footer{
   background-color: var(--bg-color);
   color: var(--bg-color-lights);
@@ -439,7 +443,7 @@ background: var(--light-color);
   box-shadow: 0 2px 8px hlsa(220, 18%, 8%, .3);
 } 
 
-
+/* End */
 
 .dark-theme ::-webkit-scrollbar{
   background-color: hsl(220, 18%, 15%);
@@ -457,6 +461,10 @@ background: var(--light-color);
   background:  var(--bg-color-lights);
 }
 
+/* dark-theme product */
+.dark-theme .affimation-price p{
+color: var(--white-color);
+}
 
 /* Dark theme ends */
 
@@ -1551,8 +1559,18 @@ line-height: 28px;
   font-family: 'MainFonts';
   font-size: var(--fs-lg);
   font-weight: 700;
-
 }
+.affimation-price{
+  font-size: var(--fs-2x1);
+  font-family: 'MainFonts';
+color: #a09dab;
+text-align: center;
+} 
+
+.affimation-price span{
+  color: var(--hot-pink);
+}
+
 /* Service package  End */
 
 /* Testimoinal  */
@@ -1675,7 +1693,11 @@ right: 20%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  
+}
+
+.card img{
+  height: 300px;
+  padding: 30px;
 }
 
 
@@ -1958,6 +1980,7 @@ opacity: 1;
 /* Contact Page  */
 #contact{
   margin-top: 150px;
+  height: 70vh;
 }
 
 #contact .form-control{

@@ -85,7 +85,75 @@
 
     <!-- Service Page -->
 <section class="service-section"> 
-  <div class="swiper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+         <!-- Swiper -->
+         <div class="swiper mySwiper" id="services">
+          <div class="heading">
+            <h2>Our Services</h2>
+          </div>
+          <div class="swiper-wrapper">
+            <div class="col-md-4 swiper-slide">
+              <div class="card">
+                   <!-- Card content goes here -->
+                   <img src="/images/Corporate (2).svg" alt="card image" class="card-img-top">
+                   <div class="card__content">
+                     <span class="card__title">Corporate Wellness</span>
+                     <span class="card__name">Consulting & Strategy</span>
+                     <p class="card__text">We’ll provide tools and resources that support long-term sustainable practice, including organizational audits, customized staff training, strategic planning, and optional ongoing coaching & evaluation. We also offer a personalized EAP Program for small businesses. We’ll work with your business or organization to create inclusive wellness spaces where employees feel valued, nurtured, respected, and recognized.</p>
+                     <button class="card__btn btn btn-primary">View More</button>
+                   </div>
+                 </div>
+               </div>
+
+               <div class="col-md-4 swiper-slide">
+                <div class="card">
+                     <!-- Card content goes here -->
+                     <img src="/images/Corporate Wellness.svg" alt="card image" class="card-img-top">
+                     <div class="card__content">
+                       <span class="card__title">Coaching </span>
+                       <span class="card__name">Entrepreneurs</span>
+                       <p class="card__text">We’re well-equipped to provide customized guidance in creating a wellness plan that supports you in building a company, a portfolio, or a brand that yields increased profit. We’ll help you align your goals to a strategic action plan conducive to stabilizing your company and positioning you to scale when you’re ready. We’ll go through every aspect of your business to evaluate where you are and articulate where you want to be.</p>
+                       <button class="card__btn btn btn-primary">View More</button>
+                     </div>
+                   </div>
+                 </div>
+
+                 <div class="col-md-4 swiper-slide">
+                  <div class="card">
+                       <!-- Card content goes here -->
+                       <img src="/images/Mental Health (1).svg" alt="card image" class="card-img-top">
+                       <div class="card__content">
+                         <span class="card__title">Mental Health  Training </span>
+                         <span class="card__name">Program Development</span>
+                         <p class="card__text">We’ll create a customized wellness curriculum and accompanying materials that you can implement to train your audience, staff, or those you serve. Our training materials are easily adapted to highlight organizational climate and include a consultation to ensure efficient implementation.</p>
+                         <button class="card__btn btn btn-primary">View More</button>
+                       </div>
+                     </div>
+                   </div>
+
+              <div class="col-md-4 swiper-slide">
+              <div class="card">
+                    <!-- Card content goes here -->
+                    <img src="/images/Event (3).svg" alt="card image" class="card-img-top">
+                    <div class="card__content">
+                      <span class="card__title">Wellness Event</span>
+                      <span class="card__name">Planning</span>
+                      <p class="card__text">We will plan your wellness-infused event, paying attention to attendee experience and detail that facilitates transformational experiences. We will show up at your events to teach and model wellness best practices that will support the climate and culture of any group and leave attendees feeling empowered and excited about wellness.</p>
+                      <button class="card__btn btn btn-primary">View More</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div> 
+    </div>   
+  </section>
+
+  <!-- <div class="swiper">
     <div class="swiper mySwiper" id="services">
       <div class="heading">
           <h2>Our Services</h2></div>
@@ -152,8 +220,8 @@
        </div>
        <div class="swiper-pagination"></div>
   </div>
-  </div>
-   </section>
+  </div> -->
+  
     <!-- Service Page End -->
 
 
@@ -233,7 +301,7 @@
         <div class="col-lg-3 col-md-6">
           <img src="images/DESTINY LOGO FINAL copy.png" class="footer__logo" alt="footer logo">
           <p class="footer__description">
-            There is no health without mental health"
+            There is no health without mental health.
           </p>
         </div>
         <div class="col-lg-3 col-md-6">
@@ -275,7 +343,7 @@
               <a href="http://www.destinymccoy.com"><i class="fas fa-globe"></i>www.destinymccoy.com</a>
             </li>
             <li>
-              <a href="mailto:contact@destinymccoy.com"><i class="fas fa-envelope"></i>contact: @destinymccoy.com</a>
+              <a href="mailto:contact@destinymccoy.com"><i class="fas fa-envelope"></i>@destinymccoy.com</a>
             </li>
           </ul>
         </div>
@@ -300,7 +368,8 @@
      grabCursor: true,
      centeredSlides: true,
      loop: false,
-     slidesPerView: "1",
+     slidesPerView: 1,
+      spaceBetween: 30,
      coverflowEffect: {
        rotate: 0,
        stretch: 0,
@@ -312,28 +381,21 @@
        el: ".swiper-pagination",
        clickable: true,
      },
-     breakpoints:{
-    0: {
-      slidesPerView: 1,
-    },
-    320: {
-      slidesPerView: 1,
-  
-    },
-    640: {
-          slidesPerView: 1,
-         
-        },
+     breakpoints: {
+
+      400: {
+        slidesPerView: 1,
+      },
+        // For larger devices like tablets and desktops
         768: {
           slidesPerView: 2,
-       
         },
-        1024: {
-          slidesPerView: 4,
-         
+        // For even larger devices like desktops
+        992: {
+          slidesPerView: 3,
         },
       },
-   });
+    });
  </script>
  
            
