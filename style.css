@@ -402,6 +402,10 @@ background: var(--light-color);
   background: var(--bg-color-light);
 }
 
+.dark-theme .card__title{
+  color: var(--white-color);
+}
+
 /* .dark-theme .row {
   background: var(--bg-color);
 } */
@@ -1122,7 +1126,7 @@ width: 100%;
 
 @media only screen and (max-device-width: 320px) {
   #work {
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
 }
 
@@ -1684,8 +1688,7 @@ right: 20%; */
 
 /* Product Card */
 .card{
-  width: 25em!important;
-  height: 90%;
+ width: auto;
   background-color: #fff;
   border-radius: 2em;
   box-shadow: 0 0 2em rgba(0, 0, 0, .2);
@@ -1698,6 +1701,7 @@ right: 20%; */
 .card img{
   height: 300px;
   padding: 30px;
+  object-fit: cover;
 }
 
 
