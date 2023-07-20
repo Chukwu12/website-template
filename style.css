@@ -1980,7 +1980,7 @@ opacity: 1;
 /* Contact Page  */
 #contact{
   margin-top: 150px;
-  height: 70vh;
+  margin-bottom: 100px;
 }
 
 #contact .form-control{
