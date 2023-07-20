@@ -1667,8 +1667,8 @@ text-align: center;
 
 .swiper .swiper-wrapper {
 align-items:center;
-justify-content:space-evenly;
-right: 20%;
+/* justify-content:space-evenly;
+right: 20%; */
 }
 
 
