@@ -122,13 +122,29 @@ function readMore() {
 
 
 // ===============================Product Card ===================================//
-var cards = document.querySelectorAll('.product-box');
+let productImg = document.getElementById("productImg");
+let btn = document.getElementsByClassName("controls-btn");
 
-[...cards].forEach((card)=> {
-  card.addEventListener('mouseover', function(){
-    card.classList.add('is-hover');
-  })
-      card.addEventListener('mouseleave', function(){
-        card.classList.remove('is-hover');
-  })
-})
+btn[0].onclick = function() {
+  productImg.src = "images/4P5A9707.jpg";
+  for(bt of controls-btn) {
+    bt.classList.remove("active");
+  }
+  this.classList.add("active");
+}
+
+btn[1].onclick = function() {
+  productImg.src = "images/4P5A9705.jpg";
+  for(bt of controls-btn) {
+    bt.classList.remove("active");
+  }
+  this.classList.add("active");
+}
+
+btn[2].onclick = function() {
+  productImg.src = "images/Photo Resize.png";
+  for(bt of controls-btn) {
+    bt.classList.remove("active");
+  }
+  this.classList.add("active");
+}
