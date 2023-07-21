@@ -2643,8 +2643,8 @@ font-size: var(--fs-sm);
 
  @media screen and (max-width: 992px) {
   .blog-slider {
-    max-width: 640px;
-    height: auto;
+    max-width: 700px;
+    height: 500px;
   }
  }
 
@@ -2875,7 +2875,7 @@ font-size: var(--fs-sm);
 @media screen and (min-width: 300px)  and (max-width: 500px) {
   .blog-slider__pagination {
     left: 50%!important;
-    top: 35%!important;
+    top: 30%!important;
   }
   .blog-slider__title{
     font-size: var(--fs-2x1);
