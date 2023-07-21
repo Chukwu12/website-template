@@ -570,8 +570,8 @@ color: var(--white-color);
 }
 
 .hero-img{
-  transform: translateX(-20%);
-    animation: 3s ease-in;
+  transform: translateX(-15%);
+  animation: slideIn 3s ease;
     
 }
 
