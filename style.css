@@ -1936,9 +1936,7 @@ line-height: 1.4;
 
 .product-cards-container{
   width: 100%;
-  min-height: 100vh;
-  background: #d0eaff;
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
 }
