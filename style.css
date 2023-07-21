@@ -419,6 +419,12 @@ background: var(--light-color);
 }
 /* End */
 
+/* dark-theme product */
+.dark-theme .details {
+  background-color: var(--white-color);
+}
+
+
 /* Footer */
 
  .dark-theme .footer{
@@ -1962,7 +1968,7 @@ line-height: 1.4;
 
 .details{
   flex-basis: 53%;
-  background: #fff;
+  background: var(--light-color);
   padding: 40px;
   padding-left: 60px;
   box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
@@ -1972,15 +1978,19 @@ line-height: 1.4;
 }
 
 .details h2{
-  color: 30px;
   font-size: 30px;
   font-weight: 600;
+  font-family: 'MainFonts';
 }
 
 .details h3 {
   color: #555;
   font-size: 30px;
   font-weight: 600;
+}
+
+.details p {
+  font-family: 'MainFonts';
 }
 
 .quantiny-select{
