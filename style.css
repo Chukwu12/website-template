@@ -570,9 +570,8 @@ color: var(--white-color);
 }
 
 .hero-img{
-  transform: translateX(-15%);
-  animation: slideIn 3s ease;
-    
+-webkit-animation: slideIn 3s ease;
+animation: slideIn 3s ease;    
 }
 
 .hero-text h1{
@@ -2344,8 +2343,8 @@ color: var(--title-color);
     font-weight: 700;
   }
 
-  .display-2{
-    font-size: var(--fs-2x1);
+  .display-1{
+    font-size: var(--fs-4x1);
   }
 
   .hero img{
