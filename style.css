@@ -2324,7 +2324,7 @@ color: var(--title-color);
 
 @media only screen and (max-width: 320px) {
 
-  .h1 > .magic {
+  h1 >  .magic {
     font-size: var(--fs-xl)!important;
     font-weight: 200;
   }
