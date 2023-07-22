@@ -2325,26 +2325,24 @@ color: var(--title-color);
 @media only screen and (max-width: 320px) {
 
   .h1 > .magic {
-    font-size: var(--fs-xl) ;
+    font-size: var(--fs-xl)!important;
     font-weight: 200;
   }
   .display-1{
-    font-size: var(--fs-2x1);
+    font-size: var(--fs-2x1)!important;
   }
 
-  .nav_menu {
-   width: 95%;
-  .nav__list{
-    padding: 0;
+  .nav__menu {
+   width: 95%!important;
   }
 
-  .nav__list ul {
-    padding: 0;
-    margin-bottom: 0;
-  }
+
+.nav__link span {
+  margin: 10px!important;
+}
 
   .container_content_inner .title {
-    font-family: MainFonts;
+    font-family: MainFonts!important;
   }
 
   .container_content {
@@ -2353,8 +2351,8 @@ color: var(--title-color);
   }
 
   .par p {
-    font-size: var(--fs-lg);
-    line-height: 2;
+    font-size: var(--fs-lg)!important;
+    line-height: 2!important;
   }
 }
 
