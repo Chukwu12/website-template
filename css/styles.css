@@ -166,13 +166,13 @@ body {
   position: relative;
 }
 
-@media only screen and (max-width: 320px) {
+@media  screen and (max-width: 320px) {
 
-    h1 > .magic{
+    .h1 > .magic {
       font-size: var(--fs-xl) ;
       font-weight: 200;
     }
-    .text-brand{
+    .display-1{
       font-size: var(--fs-2x1);
     }
 
@@ -200,8 +200,8 @@ body {
 }
 
 .container-inner{
-  display: none;
-  position: relative;
+  display: flex;
+  flex-direction: column;
   animation: fade-in 1.5s ease, slide-in 1.2s ease;
   -webkit-animation: fade-in 1.5s ease, slide-in 1.2s ease;
 }
@@ -216,13 +216,17 @@ body {
   margin-top: 0;
 }
 
+#heading1{
+  margin-top: 100px;
+}
+
 .short-bio{
   font-weight: 600;
 }
 
 .all-text p {
 font-size: var(--fs-lg)!important;
-line-height: 2;
+line-height: 2!important;
 }
 
 }
