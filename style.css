@@ -2319,7 +2319,48 @@ color: var(--title-color);
 
 
 
+
 /* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 320px) {
+
+  .h1 > .magic {
+    font-size: var(--fs-xl) ;
+    font-weight: 200;
+  }
+  .display-1{
+    font-size: var(--fs-2x1);
+  }
+
+  .nav_menu {
+   width: 95%;
+  .nav__list{
+    padding: 0;
+  }
+
+  .nav__list ul {
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .container_content_inner .title {
+    font-family: MainFonts;
+  }
+
+  .container_content {
+    margin-right: 0!important;
+    margin-left: 0!important;
+  }
+
+  .par p {
+    font-size: var(--fs-lg);
+    line-height: 2;
+  }
+}
+
+
+
+
 
 @media only screen  and (max-width: 600px){
   .nav__logo img{
