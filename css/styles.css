@@ -166,6 +166,68 @@ body {
   position: relative;
 }
 
+@media only screen and (max-width: 320px) {
+
+    h1 > .magic{
+      font-size: var(--fs-xl) ;
+      font-weight: 200;
+    }
+    .text-brand{
+      font-size: var(--fs-2x1);
+    }
+
+    .container_content_inner .title {
+      font-family: MainFonts;
+    }
+
+    .container_content {
+      margin-right: 0!important;
+      margin-left: 0!important;
+    }
+
+    .par p {
+      font-size: var(--fs-lg);
+      line-height: 2;
+    }
+
+
+
+
+  .about-container{
+  height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-inner{
+  display: none;
+  position: relative;
+  animation: fade-in 1.5s ease, slide-in 1.2s ease;
+  -webkit-animation: fade-in 1.5s ease, slide-in 1.2s ease;
+}
+
+.main-content{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.heading1 h3{
+  letter-spacing: 0;
+  margin-top: 0;
+}
+
+.short-bio{
+  font-weight: 600;
+}
+
+.all-text p {
+font-size: var(--fs-lg)!important;
+line-height: 2;
+}
+
+}
+
+
 @media (min-width: 350px) and (max-width: 529px) {
   * {
     animation-name: none !important;
