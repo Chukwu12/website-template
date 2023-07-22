@@ -443,6 +443,10 @@ background: var(--light-color);
   color: var(--card-color);
 }
 
+.dark-theme .footer__link:hover{
+  color: var(--white-color);
+}
+
 .dark-theme li a {
   color: var(--card-color);
 } 
@@ -1557,7 +1561,7 @@ line-height: 28px;
 .service-row h3{
   font-size: 2.1rem;
   font-weight: 500;
-  margin-bottom: 2px;
+  margin-bottom: 5px;
   text-align: center;
 }
 
@@ -2159,7 +2163,7 @@ line-height: 1.4;
 
 .footer__link:hover{
 text-decoration: underline;
-color: var(--title-color);
+color: var(--hot-pink);
 }
 
 
@@ -2342,7 +2346,7 @@ color: var(--title-color);
 }
 
   .container_content_inner .title {
-    font-family: MainFonts!important;
+    font-family: MainFonts;
   }
 
   .container_content {
@@ -2463,7 +2467,7 @@ color: var(--title-color);
 .container_content_inner .title{
   overflow: hidden;
   height: auto;
-  font-family: Secondfont;
+  font-family: MainFonts;
   color: var(--hot-pink);
   font-weight: 700;
   margin-bottom: 20px;
@@ -2478,8 +2482,8 @@ color: var(--title-color);
   text-align: center;
 }
 .par p {
-  font-size: 1.3rem;
-  line-height: 1.2;
+  font-size: var(--fs-lg);
+  line-height: 2;
   transform: translateY(300px);
   animation: slideUp .8s ease-in-out forwards .8s;
   font-weight: 600;
