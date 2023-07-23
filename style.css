@@ -1897,6 +1897,7 @@ line-height: 1.4;
 /* Regesitration Form  */
 .page-content {
 	width: 100%;
+  max-width: 1200px;
 	margin:  0 auto;
 	background: var(--white-color);
 	display: flex;
@@ -1930,6 +1931,9 @@ line-height: 1.4;
 .form-images-1 img{
   overflow-clip-margin: content-box;
   overflow: clip;
+  object-fit: cover;
+  height: auto;
+  width: 600px;
 }
 
 .form-images-2 img{
