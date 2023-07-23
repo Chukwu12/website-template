@@ -115,6 +115,7 @@ body {
   width: 100%;
   font-size: var(--fs-lg);
   line-height: 2;
+  font-weight: 600;
 }
 
 .link a {

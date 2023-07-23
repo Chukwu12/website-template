@@ -519,6 +519,8 @@ color: var(--white-color);
   color: var(--hot-pink);
   font-family: 'MainFonts';
   text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 5px;
 }
 .btn-hero{
   padding: 10px 24px;
@@ -590,6 +592,8 @@ animation: slideIn 3s ease;
   text-align: center;
 }
 
+
+
 h1 >  .magic {
   animation: background-pan 3s linear infinite;
  background: linear-gradient(to right,
@@ -605,6 +609,9 @@ h1 >  .magic {
  white-space: nowrap;
  font-family: 'MainFonts';
  text-transform: uppercase;
+ font-weight: 600;
+ letter-spacing: 5px;
+
 }
 
 @keyframes background-pan {
@@ -1459,6 +1466,7 @@ font-family: 'Mainfonts', var(--primary-font);
   line-height: 1.5;
   margin-bottom: 35px;
   color: var(--dark-color);
+  font-weight: 600;
 }
 
 /* @media screen and (max-width: 1250px){
@@ -2612,29 +2620,7 @@ padding-top: 0px;
 .footer__content{
 font-size: var(--fs-sm);
 }
-  h1 >  .magic {
-    animation: background-pan 3s linear infinite;
-   background: linear-gradient(to right,
-   var(--purple),
-   var(--violet),
-   var(--pink),
-   var(--purple)
-   );
-   background-size: 200%; 
-   -webkit-background-clip: text;
-   background-clip: text;
-   -webkit-text-fill-color: transparent;
-   white-space: nowrap;
-  }
 
-  @keyframes background-pan {
-    from{
-    background-position: 0% center;
-  }
-  to {
-    background-position: -200% center;
-  }
-}
 
     .hero-text h2{
       font-size: 1.2rem;
