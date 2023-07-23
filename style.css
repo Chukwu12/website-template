@@ -427,7 +427,7 @@ background: var(--light-color);
 }
 
 .dark-theme .page-content{
-  background: var((--bg-color));
+  background: var(--bg-color);
 }
 /* End */
 
