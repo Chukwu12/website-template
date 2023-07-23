@@ -294,6 +294,11 @@ background: var(--light-color);
   color: var(--card-color)
  }
 
+ .dark-theme .scroll-up{
+  color: white;
+    background-color: var(--hot-pink);
+ }
+
  .dark-theme #hero{
   background: transparent;
  }
@@ -2149,6 +2154,7 @@ line-height: 1.4;
   margin-bottom: 1.25rem;
   font-family: 'MainFonts';
   text-align: center;
+  font-weight: 600;
 }
 
 .footer__links-container{
