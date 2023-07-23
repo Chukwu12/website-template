@@ -2197,7 +2197,7 @@ color: var(--hot-pink);
 }
 
 .footer__social-link:hover{
-  background-color: var(--light-color);
+  background-color: var(--pink-color);
 }
 
 .footer__information{
