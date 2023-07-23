@@ -425,6 +425,10 @@ background: var(--light-color);
 .dark-theme .row p {
   color: var(--bg-color-lights);
 }
+
+.dark-theme .page-content{
+  background: var((--bg-color));
+}
 /* End */
 
 /* dark-theme product */
@@ -1959,7 +1963,7 @@ line-height: 1.4;
 }
 .form-v3-content .form-detail h2::before {
 	position: absolute;
-	background: #385cb9;
+	background: var(--hot-pink);
 	content: "";
 	width: 30px;
 	height: 2px;
