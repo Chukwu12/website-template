@@ -1926,6 +1926,18 @@ line-height: 1.4;
 	display: -webkit-flex;
 	font-family: 'Raleway', sans-serif;
 }
+
+.form-images-1 img{
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.form-images-2 img{
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+
 .form-v3-content .form-right {
 	position: relative;
 	margin-bottom: -5px;
