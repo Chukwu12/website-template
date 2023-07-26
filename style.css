@@ -2050,15 +2050,16 @@ border-bottom: 1px solid #999; */
   -moz-overflow-clip-margin:content-box;
   -webkit-overflow-clip-margin:content-box;
   overflow-clip-margin: content-box;
-  overflow: clip;
+  overflow: content-box ;
+  overflow: hidden;
   object-fit: cover;
-  height: auto;
-  width: 450px;
+  height: 600px;
+  width: 500px;
 }
 
 .form-images-2 img{
   overflow-clip-margin: content-box;
-  overflow: clip;
+  overflow: hidden;
 }
 
 
@@ -3161,6 +3162,7 @@ font-size: var(--fs-sm);
 }
 
 
+
  @media screen and (max-width: 992px) {
   .blog-slider {
     max-width: 700px;
@@ -3318,6 +3320,7 @@ font-size: var(--fs-sm);
   font-family: 'MainFonts';
   font-weight: 600;
   font-size: 10px;
+  list-style: none;
 }
 .blog-slider__title {
   font-size: var(--fs-3x1);
