@@ -50,7 +50,7 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-// About Card //
+//=================================== About Card ==================================//
 var swiper = new Swiper('.blog-slider', {
 	spaceBetween: 30,
 	effect: 'fade',
@@ -66,7 +66,7 @@ var swiper = new Swiper('.blog-slider', {
   });
 
 
-//   Tabs //
+// ========================================Tabs================================= //
 
 
 
@@ -99,24 +99,7 @@ for (let th = 0; th < tab_items.length; th++) {
 
 
 
-// About button hide / show //
-function readMore() {
-  var expandInfo = document.getElementById("more-info-js");
-  var mainHeadings = document.getElementById("main-headings-js");
-  
-  mainHeadings.style.transform = "scale(0.7)";
-  expandInfo.style.height = "350px";
 
-  if (expandInfo.style.display === "none") {
-    expandInfo.display = "block";
-  } else {
-    expandInfo.style.display = "none";
-  }
-} 
-
-
-
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
 
 
