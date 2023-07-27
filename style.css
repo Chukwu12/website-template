@@ -1984,6 +1984,17 @@ border-bottom: 1px solid #999; */
     user-select: none;
 }
 
+@media only screen and (max-width:500px) {
+  .test-card .face.back-face{
+    position: absolute;
+    transform: rotateY(180deg);
+    padding: 20px 30px;
+    text-align: center;
+    -webkit-user-select: none; /* Safari */
+    user-select: none;
+  }
+}
+
 .test-card .face.back-face .fa-quote-left {
     position: absolute;
     top: 25px;
