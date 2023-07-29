@@ -572,7 +572,7 @@ color: var(--white-color);
 /*------------------- Hero------------------------ */
 .text-brand{
   color: var(--hot-pink);
-  font-family: 'MainFonts';
+  font-family: 'remixicon';
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 5px;
@@ -662,7 +662,7 @@ h1 >  .magic {
  background-clip: text;
  -webkit-text-fill-color: transparent;
  white-space: nowrap;
- font-family: 'MainFonts';
+ font-family:'remixicon';
  text-transform: uppercase;
  font-weight: 600;
  letter-spacing: 5px;
