@@ -272,6 +272,13 @@ align-items: center;
   color: var(--hot-pink)
 }
 
+.nav-item:active {
+  color: var(--hot-pink);
+}
+
+
+
+
 .section {
   padding: 4.5rem 0 2rem;
   background: var(--light-color);
@@ -1604,6 +1611,10 @@ line-height: 28px;
   margin: 10px;
   transition: ease .45s;
   cursor:pointer;
+}
+
+.service-row span{
+  color: var(--hot-pink);
 }
 
 .s img{
