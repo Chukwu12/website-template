@@ -218,12 +218,12 @@ border-color: var(--hot-pink);
 .page-wrapper{
   overflow: hidden;
 }
-/* .nav{
+ .nav{
 height: var(--header-height);
 display: flex;
 justify-content: space-between;
 align-items: center;
-} */
+} 
 
 .nav__list{
   display: flex;
@@ -266,7 +266,7 @@ align-items: center;
 .nav-link span{
   font-size: .688rem;
   margin: 15px;
-  color: var(--dark-color);
+ 
 }
 
 .nav-link span:hover{
@@ -663,7 +663,7 @@ h1 >  .magic {
  background-clip: text;
  -webkit-text-fill-color: transparent;
  white-space: nowrap;
- font-family:'MainFonts';
+ font-family: 'MainFonts';
  text-transform: uppercase;
  font-weight: 600;
  letter-spacing: 5px;
