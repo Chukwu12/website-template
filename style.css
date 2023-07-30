@@ -2841,7 +2841,7 @@ color: var(--hot-pink);
   .nav__menu{
     position: fixed;
     bottom: 1.5rem;
-    background-color: var(--light-color);
+    background-color: var(--bg-color-light);
     box-shadow: 0 4px 12px hsla(220, 18%, 40%, .15);
     width: 90%;
     left: 0;
