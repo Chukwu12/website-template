@@ -338,13 +338,10 @@ background: var(--light-color);
   background: transparent;
  }
 
- .dark-theme .nav-link span{
-  color: var(--white-color);
- }
 
- .dark-theme .nav-link span:hover{
-  color: var(--hot-pink);
- }
+ .dark-theme .nav__link span:hover{
+  color: var(--bg-color);
+}
  
 
 .dark-theme .sub-card {
