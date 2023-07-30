@@ -369,10 +369,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
  	<script src="js/jquery-ui.min.js"></script>
 	<script type="text/javascript">
-		$( "#date" ).datepicker({
-	        dateFormat: "MM - DD - yy",
-	        showOn: "both",
-	        buttonText : '<i class="zmdi zmdi-calendar-alt"></i>',
+		$( function() {
+	       $('#datapicker').datapicker();
 	    });
 	</script>
 
