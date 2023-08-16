@@ -342,7 +342,7 @@ background: var(--light-color);
 
 
  .dark-theme .nav__link span:hover{
-  color: var(--bg-color);
+  color: var(--white-color);
 }
  
 
