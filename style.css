@@ -126,8 +126,8 @@ h1 {
     font-size: 40px;
     color: var(--contrast-color);
     margin-bottom: 20px;
-    transform: translateY(100px);
-    animation: slideUp .8s ease forwards .5s;
+    /* transform: translateY(100px);
+    animation: slideUp .8s ease forwards .5s; */
 }
 
 h2{
@@ -617,21 +617,19 @@ color: var(--white-color);
   display: inline-block;
 }
 
-#hero{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+video {
   position: relative;
-  height: 80vh;
-  overflow: hidden;
-}
-
-.video-bg{
+  top: 0px;
+  left: 0;
+  right: 0;
   min-width: 100%;
   min-height: 100%;
- 
-
+  width: auto;
+  z-index: 0;
+  height: 80vh;
+  object-fit: cover;
 }
+
 
 
 
@@ -654,6 +652,8 @@ h1 >  .magic {
  font-weight: 600;
  letter-spacing: 5px;
 font-size: 15px;
+transform: translateY(100px);
+animation: slideUp .8s ease forwards .5s;
 }
 
 @keyframes background-pan {
@@ -936,13 +936,12 @@ margin-bottom: 20px;
   height: auto;
 }
 
-h1 {
+/* h1 .magic {
     font-size: 40px;
     color: var(--contrast-color);
     margin-bottom: 20px;
-    transform: translateY(100px);
-    animation: slideUp .8s ease forwards .5s;
-}
+   
+} */
 
 @keyframes slideIn {
   0% {
