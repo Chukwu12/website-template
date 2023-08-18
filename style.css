@@ -3371,7 +3371,7 @@ font-size: var(--fs-sm);
 }
 .blog-slider__title {
   font-size: var(--fs-3x1);
-  font-weight: 700;
+  font-weight: 500;
   color: #0d0925;
   margin-bottom: 5px;
   text-align: center;
