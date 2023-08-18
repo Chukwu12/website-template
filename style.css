@@ -631,7 +631,7 @@ video {
 }
 
 .caption{
-  
+
 }
 
 
@@ -2971,7 +2971,7 @@ color: var(--hot-pink);
       margin-top: 50px;
       margin-bottom: 20px;
       text-align: center;
-      font-weight: 600;
+      font-weight: 500;
       font-size: var(--fs-3x1);
       font-family: 'Secondfont';
       color: var(--dark-color);
