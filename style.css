@@ -637,7 +637,7 @@ color: var(--white-color);
   object-fit: cover;
 }
 
-video .overlay{
+#video-bg .overlay{
   position: absolute;
   top: 0;
   left: 0;  
