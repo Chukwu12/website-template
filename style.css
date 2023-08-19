@@ -2960,9 +2960,7 @@ color: var(--hot-pink);
   }
   
   /* Home page  */
-  .hero{
-    grid-gap: 0;
-  }
+
   
   h1 > .magic {
     font-size: var(--fs-2x1);
@@ -2973,17 +2971,10 @@ color: var(--hot-pink);
     font-size: var(--fs-4x1);
   }
 
-  .hero img{
-    width: 100%;
+  .video-title h2 {
+    font-size: var(--fs-2x1);
   }
 
-  .hero-text h1 {
-    font-size: 1rem;
-    font-weight: 600;
-    margin-left: 2rem;
-    line-height: 1.5;
-    font-family: 'MainFonts'; 
-  }
 
   /* Hero End */
 
