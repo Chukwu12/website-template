@@ -2838,6 +2838,11 @@ color: var(--hot-pink);
   }
 }
 
+@media screen  and (min-width: 768px) and (max-width: 976px) {
+  .sub-card {
+    height:500px;
+  }
+}
 
 
 @media (max-width: 800px) {
