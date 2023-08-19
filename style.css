@@ -636,6 +636,17 @@ color: var(--white-color);
   object-fit: cover;
 }
 
+.video-title{
+  z-index: 2;
+  padding: 0 2rem;
+}
+
+.video-title h2{
+  color: var(--white-color);
+  font-size:  5rem;
+  margin: 1rem 0;
+}
+
 
 
 
