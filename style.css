@@ -617,18 +617,25 @@ color: var(--white-color);
   display: inline-block;
 }
 
-video {
+#video-bg{
+  width: 100%;
+  height: 80vh;
   position: relative;
-  top: 0px;
+  display: flex;
+  align-items: center;
+}
+
+#video-bg video{
+  position: absolute;
+  top: 0;
   left: 0;
   right: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
+  width: 100%;
+  height: 100%;
   z-index: 0;
-  height: 80vh;
   object-fit: cover;
 }
+
 
 
 
