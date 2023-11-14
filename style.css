@@ -2830,6 +2830,15 @@ color: var(--hot-pink);
   color: var(--text-color-light);
 }
 
+.footer__privacy{
+  color:var(--hot-pink);
+  text-decoration: underline;
+}
+
+.footer__privacy::hover{
+  color: white;
+}
+
 
 /*  */
 
