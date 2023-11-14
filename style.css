@@ -1316,7 +1316,51 @@ small {
   line-height: 60px;
   margin: 25px 0;
 }
+#terms{
+  background-image:url("images/TermsAndConditions-stair-runners.jpg");
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.term-box{
+  max-width: 460px;
+  background-color: #111;
+  color: white;
+  font-family: var(--second-font);
+  padding: 60px 30px;
+}
+
+.term-text{
+  padding: 0 20px;
+  height: 400px;
+  overflow-y: auto;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+.term-text::--webkit-scrollbar{
+  width: 2px;
+  background-color: #282828;
+}
+
+.term-text::--webkit-scrollbar-thumb{
+  background-color: #d13639;
+}
+
+.term-text h2 {
+  text-transform: uppercase;
+}
+
+.terms-box h4 {
+  font-size: 13px;
+  text-align: center;
+  padding: 0 40px;
+}
 
 
 
