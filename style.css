@@ -2835,8 +2835,8 @@ color: var(--hot-pink);
   text-decoration: underline;
 }
 
-.footer__privacy::hover{
-  background-color: white;
+.footer__privacy:hover{
+ color: white;
 }
 
 
