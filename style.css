@@ -1341,7 +1341,7 @@ small {
   padding: 0 20px;
   height: 400px;
   overflow-y: auto;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
   color: white;
 }
@@ -1357,6 +1357,7 @@ small {
 
 .term-text h2 {
   text-transform: uppercase;
+  color: wheat;
 }
 
 .terms-box h4 {
