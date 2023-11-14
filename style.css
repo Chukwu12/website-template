@@ -1317,13 +1317,16 @@ small {
   margin: 25px 0;
 }
 #terms{
-  background-image:url("images/TermsAndConditions-stair-runners.jpg");
+  background-image:url("images/shortstack-blog-terms-conditions.jpg");
   margin: 0;
   padding: 0;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .terms-box{
