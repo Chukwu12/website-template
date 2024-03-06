@@ -4,6 +4,7 @@
 
   ## How It's Made:
   Tech used: HTML, CSS, JavaScript, Bootstrap, Node.js, WordPress
+  
   At the heart of this project lies a meticulously designed front end, where HTML, CSS, and JavaScript converge to create an immersive user experience. From captivating landing pages that introduce visitors to the client's story and values to intuitive product galleries that highlight the beauty and functionality of each item, every element of the website is crafted with precision and attention to detail.
   On the backend, I implemented a robust architecture using languages like Node.js and frameworks like WordPress to power the website's functionality. From managing user accounts and processing secure payments to handling inventory management and order fulfillment, the backend infrastructure ensures smooth operations and optimal performance at every step of the customer journey.
   Beyond its technical prowess, this project is a testament to the collaborative spirit and shared vision between myself and the client. Through open communication, iterative feedback, and a relentless commitment to excellence, we were able to deliver a website that not only meets but exceeds the client's expectations, empowering them to connect with their audience and grow their business in the digital landscape.
