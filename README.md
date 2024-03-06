@@ -14,4 +14,8 @@
   in the face of challenges, as well as the necessity of embracing feedback as a catalyst for continuous improvement.
 
   ## Examples:
-  Take a look at these couple examples that I have in my own portfolio:
+  Take a look at these couple examples that I have in my own portfolio (still in the works):
+  
+  [Content-Creator website](https://mansaleafproduction.netlify.app/)
+  
+  [Amor-Hairsyle website](https://amourhairstyles.netlify.app/)
